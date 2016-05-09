@@ -35,7 +35,11 @@ int main(void)
 		#endif
 	#endif
 
-	fft(); //Prueba fft
+	fft_in fftInput;
+	fft_out fftOutput;
+
+	seno(fftInput, FFT_IN_LENGTH, 0x00000010);
+	fft(fftOutput, fftInput);
 
     while(1)
     {
