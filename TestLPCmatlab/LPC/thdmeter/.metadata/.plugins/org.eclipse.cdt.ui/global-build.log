@@ -1,0 +1,17 @@
+15:11:48 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+15:11:49 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+15:11:51 **** Incremental Build of configuration Debug for project cfft_cmsis ****
+make -r all 
+Building file: ../src/cfft_cmsis.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__USE_CMSIS_DSPLIB=CMSIS_DSPLIB_CM3 -D__LPC17XX__ -D__REDLIB__ -I"B:\Dropbox\TestLPCmatlab\LPC\thdmeter\CMSIS_DSPLIB_SRC\inc_cmsis" -I"B:\Dropbox\TestLPCmatlab\LPC\thdmeter\lpc_board_nxp_lpcxpresso_1769\inc" -I"B:\Dropbox\TestLPCmatlab\LPC\thdmeter\CMSIS_DSPLIB_SRC\inc" -I"B:\Dropbox\TestLPCmatlab\LPC\thdmeter\lpc_chip_175x_6x\inc" -I"B:\Dropbox\TestLPCmatlab\LPC\thdmeter\CMSIS_DSPLIB_CM3\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cfft_cmsis.d" -MT"src/cfft_cmsis.o" -MT"src/cfft_cmsis.d" -o "src/cfft_cmsis.o" "../src/cfft_cmsis.c"
+In file included from ../src/cfft_cmsis.c:20:0:
+B:\Dropbox\TestLPCmatlab\LPC\thdmeter\CMSIS_DSPLIB_SRC\inc/arm_math.h:280:20: fatal error: ARMCM4.h: No such file or directory
+ #include "ARMCM4.h"
+                    ^
+compilation terminated.
+make: *** [src/cfft_cmsis.o] Error 1

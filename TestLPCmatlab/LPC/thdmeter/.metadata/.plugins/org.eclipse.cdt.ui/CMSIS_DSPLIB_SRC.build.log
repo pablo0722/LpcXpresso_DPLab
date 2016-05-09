@@ -1,0 +1,6 @@
+15:11:44 **** Incremental Build of configuration CMSIS_DSPLIB_CM4 for project CMSIS_DSPLIB_SRC ****
+make -r all 
+make: Nothing to be done for `all'.
+
+15:11:45 Build Finished (took 953ms)
+

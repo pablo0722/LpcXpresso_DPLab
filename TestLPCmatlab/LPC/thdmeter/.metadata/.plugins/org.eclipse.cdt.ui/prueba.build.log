@@ -1,0 +1,22 @@
+17:26:38 **** Build of configuration Debug for project prueba ****
+make -r all 
+Building file: ../src/cr_startup_lpc175x_6x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__USE_CMSIS_DSPLIB=CMSIS_DSPLIB_CM3 -D__LPC17XX__ -D__REDLIB__ -I"/home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/inc" -I"/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/inc" -I"/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__USE_CMSIS_DSPLIB=CMSIS_DSPLIB_CM3 -D__LPC17XX__ -D__REDLIB__ -I"/home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/inc" -I"/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/inc" -I"/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/prueba.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__USE_CMSIS_DSPLIB=CMSIS_DSPLIB_CM3 -D__LPC17XX__ -D__REDLIB__ -I"/home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/inc" -I"/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/inc" -I"/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/prueba.d" -MT"src/prueba.o" -MT"src/prueba.d" -o "src/prueba.o" "../src/prueba.c"
+../src/prueba.c:42:31: fatal error: arm_const_structs.h: No such file or directory
+compilation terminated.
+src/subdir.mk:27: recipe for target 'src/prueba.o' failed
+make: *** [src/prueba.o] Error 1
+
+17:26:38 Build Finished (took 158ms)
+

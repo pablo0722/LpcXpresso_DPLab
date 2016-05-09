@@ -1,0 +1,1822 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                              ./src/testfft.o (Board_LED_Set)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                              ./src/sysinit.o (Board_SystemInit)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                              ./src/testfft.o (SystemCoreClockUpdate)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o) (Chip_Clock_EnablePLL)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o) (Chip_I2S_Init)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o) (Chip_IOCON_PinMux)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o) (Chip_SetupXtalClocking)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o) (Chip_UART_Init)
+/home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o) (RingBuffer_Insert)
+/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+                              ./src/testfft.o (arm_float_to_q31)
+/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+                              ./src/testfft.o (arm_q31_to_float)
+/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+                              ./src/testfft.o (arm_max_q31)
+/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+                              ./src/testfft.o (arm_mean_q31)
+/home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+                              ./src/testfft.o (arm_sin_q31)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o) (memcpy)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+                              /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o) (__aeabi_ldivmod)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o) (__aeabi_idiv0)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                              ./src/testfft.o (__aeabi_fmul)
+/usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+                              /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+SystemCoreClock     0x4               /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0x892 ./src/crp.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/sysinit.o
+ .text          0x00000000        0x0 ./src/sysinit.o
+ .data          0x00000000        0x0 ./src/sysinit.o
+ .bss           0x00000000        0x0 ./src/sysinit.o
+ .debug_macro   0x00000000      0x892 ./src/sysinit.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .group         0x00000000        0x8 ./src/testfft.o
+ .text          0x00000000        0x0 ./src/testfft.o
+ .data          0x00000000        0x0 ./src/testfft.o
+ .bss           0x00000000        0x0 ./src/testfft.o
+ .data.indtrig  0x00000000     0x2000 ./src/testfft.o
+ .debug_macro   0x00000000      0x892 ./src/testfft.o
+ .debug_macro   0x00000000       0x10 ./src/testfft.o
+ .debug_macro   0x00000000      0x12d ./src/testfft.o
+ .debug_macro   0x00000000      0x5b2 ./src/testfft.o
+ .debug_macro   0x00000000       0x22 ./src/testfft.o
+ .debug_macro   0x00000000       0x7b ./src/testfft.o
+ .debug_macro   0x00000000       0x10 ./src/testfft.o
+ .debug_macro   0x00000000       0x2d ./src/testfft.o
+ .debug_macro   0x00000000       0x3a ./src/testfft.o
+ .debug_macro   0x00000000       0x2d ./src/testfft.o
+ .debug_macro   0x00000000      0xbb1 ./src/testfft.o
+ .debug_macro   0x00000000      0x22c ./src/testfft.o
+ .debug_macro   0x00000000       0x42 ./src/testfft.o
+ .debug_macro   0x00000000       0x52 ./src/testfft.o
+ .debug_macro   0x00000000       0x78 ./src/testfft.o
+ .debug_macro   0x00000000       0x82 ./src/testfft.o
+ .debug_macro   0x00000000      0x48c ./src/testfft.o
+ .debug_macro   0x00000000       0x34 ./src/testfft.o
+ .debug_macro   0x00000000      0x4c5 ./src/testfft.o
+ .debug_macro   0x00000000      0x1b7 ./src/testfft.o
+ .debug_macro   0x00000000       0x10 ./src/testfft.o
+ .debug_macro   0x00000000      0x21b ./src/testfft.o
+ .debug_macro   0x00000000      0x1b9 ./src/testfft.o
+ .debug_macro   0x00000000       0x40 ./src/testfft.o
+ .debug_macro   0x00000000       0x22 ./src/testfft.o
+ .debug_macro   0x00000000      0x162 ./src/testfft.o
+ .debug_macro   0x00000000       0x94 ./src/testfft.o
+ .debug_macro   0x00000000       0xb8 ./src/testfft.o
+ .debug_macro   0x00000000       0x4c ./src/testfft.o
+ .debug_macro   0x00000000       0x16 ./src/testfft.o
+ .debug_macro   0x00000000      0x328 ./src/testfft.o
+ .debug_macro   0x00000000       0x49 ./src/testfft.o
+ .debug_macro   0x00000000       0x16 ./src/testfft.o
+ .debug_macro   0x00000000       0xca ./src/testfft.o
+ .debug_macro   0x00000000       0x18 ./src/testfft.o
+ .debug_macro   0x00000000       0x70 ./src/testfft.o
+ .debug_macro   0x00000000       0x9a ./src/testfft.o
+ .debug_macro   0x00000000       0x20 ./src/testfft.o
+ .debug_macro   0x00000000       0x28 ./src/testfft.o
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_IOCON_EnableOD
+                0x00000000       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_IOCON_SetI2CPad
+                0x00000000       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_GetPinState
+                0x00000000       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_ReadPortBit
+                0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_UART_SendByte
+                0x00000000       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_UART_ReadByte
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_UART_ReadLineStatus
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.__sys_write
+                0x00000000       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.__sys_readc
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_UARTPutChar
+                0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_UARTGetChar
+                0x00000000       0x2c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_UARTPutSTR
+                0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_LED_Test
+                0x00000000       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_LED_Toggle
+                0x00000000       0x44 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .rodata        0x00000000        0x6 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_ENET_GetMacADDR
+                0x00000000       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_SSP_Init
+                0x00000000       0xa4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_SPI_Init
+                0x00000000       0x84 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_SPI_AssertSSEL
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_SPI_DeassertSSEL
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_Audio_Init
+                0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_I2C_Init
+                0x00000000       0xbc /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_Buttons_Init
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Buttons_GetStatus
+                0x00000000       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .rodata.portButton
+                0x00000000        0x5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .rodata.pinButton
+                0x00000000        0x5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .rodata.stateButton
+                0x00000000        0x5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_Joystick_Init
+                0x00000000       0x44 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Joystick_GetStatus
+                0x00000000       0x64 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Serial_CreateStream
+                0x00000000       0x14 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_USBD_Init
+                0x00000000       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x70 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x9a /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x70 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x9a /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .text.Chip_Clock_IsUSBPLLLocked
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .text.Chip_Clock_IsUSBPLLConnected
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .text.Chip_USB_Init
+                0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsUSBPLLEnabled
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsUSBPLLConnected
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBPLLInClockRate
+                0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsPeripheralClockEnabled
+                0x00000000       0x3c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetCPUClockSource
+                0x00000000       0x2c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetUSBClockDiv
+                0x00000000       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBClockDiv
+                0x00000000       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetPCLKDiv
+                0x00000000       0x64 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_SetCLKOUTSource
+                0x00000000       0x44 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBPLLOutClockRate
+                0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetUSBClockRate
+                0x00000000       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.getClkDiv
+                0x00000000      0x1f8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_Init
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_DeInit
+                0x00000000       0x44 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_TxConfig
+                0x00000000       0xb4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_RxConfig
+                0x00000000       0xb4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_Int_TxCmd
+                0x00000000       0x5c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_Int_RxCmd
+                0x00000000       0x5c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_DMA_TxCmd
+                0x00000000       0xa0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .text.Chip_I2S_DMA_RxCmd
+                0x00000000       0xa0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_info    0x00000000      0x774 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_abbrev  0x00000000      0x18e /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_aranges
+                0x00000000       0x60 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_ranges  0x00000000       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1cd /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_line    0x00000000      0x563 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_str     0x00000000    0x10c5b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .comment       0x00000000       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .debug_frame   0x00000000      0x17c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .ARM.attributes
+                0x00000000       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(i2s_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SetupIrcClocking
+                0x00000000       0x6c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SystemInit
+                0x00000000        0xc /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_SendByte
+                0x00000000       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ReadByte
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_IntEnable
+                0x00000000       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_IntDisable
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ReadIntIDReg
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ReadLineStatus
+                0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_SetAutoBaudReg
+                0x00000000       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .bss.ABsyncSts
+                0x00000000        0x1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ABIntHandler
+                0x00000000       0x6c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_DeInit
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_Send
+                0x00000000       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_CheckBusy
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_SendBlocking
+                0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_Read
+                0x00000000       0x54 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ReadBlocking
+                0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_RXIntHandlerRB
+                0x00000000       0x3c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_TXIntHandlerRB
+                0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_SendRB
+                0x00000000       0x60 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ReadRB
+                0x00000000       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_IRQRBHandler
+                0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_SetBaudFDR
+                0x00000000      0x1e8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_GetABEOStatus
+                0x00000000       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ABCmd
+                0x00000000       0x80 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x7b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x3a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x2d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0xbb1 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x22c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x42 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x52 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x82 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x48c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x4c5 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b7 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x21b /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x1b9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x40 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x162 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0xb8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x4c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000      0x328 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x49 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x16 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0xca /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_macro   0x00000000       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .group         0x00000000        0x8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_GetCount
+                0x00000000       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_GetFree
+                0x00000000       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_IsFull
+                0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_IsEmpty
+                0x00000000       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_Init
+                0x00000000       0x3c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_Insert
+                0x00000000       0x5c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_InsertMult
+                0x00000000      0x124 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_Pop
+                0x00000000       0x5c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text.RingBuffer_PopMult
+                0x00000000      0x124 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_info    0x00000000      0x344 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_abbrev  0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_aranges
+                0x00000000       0x60 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_ranges  0x00000000       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x83 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x12d /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000      0x5b2 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x22 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x74 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_macro   0x00000000       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_line    0x00000000      0x251 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_str     0x00000000     0x4029 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .comment       0x00000000       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .debug_frame   0x00000000      0x164 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .ARM.attributes
+                0x00000000       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(ring_buffer.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .text          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+ .data          0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+ .bss           0x00000000        0x0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x33 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fdiv
+                0x00000000       0xc0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_frsub
+                0x00000000        0xc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fneg
+                0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2uiz
+                0x00000000       0x28 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2ulz
+                0x00000000       0x40 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__bhs_ui2f
+                0x00000000        0xc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__bhs_ul2f
+                0x00000000       0x48 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ui2f
+                0x00000000       0x10 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_l2f
+                0x00000000       0x24 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_ul2f
+                0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_f2d
+                0x00000000       0x3c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpeq
+                0x00000000       0x20 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpgt
+                0x00000000       0x3c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmple
+                0x00000000       0x40 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpge
+                0x00000000       0x40 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fcmpun
+                0x00000000       0x1c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_cfcmple
+                0x00000000       0x6c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_cfrcmple
+                0x00000000        0xc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x34 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset_lowlevel
+                0x00000000       0x32 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x8 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0xa /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD ./src/sysinit.o
+LOAD ./src/testfft.o
+LOAD /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a
+LOAD /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a
+LOAD /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a
+START GROUP
+LOAD /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a
+LOAD /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000     0x2044
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x2044 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x2044 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x8 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x144 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000138                bss_init
+                0x00000170                ResetISR
+                0x000001e8                NMI_Handler
+                0x000001f0                HardFault_Handler
+                0x000001f8                MemManage_Handler
+                0x00000200                BusFault_Handler
+                0x00000208                UsageFault_Handler
+                0x00000210                SVC_Handler
+                0x00000218                DebugMon_Handler
+                0x00000220                PendSV_Handler
+                0x00000228                SysTick_Handler
+                0x00000230                TIMER2_IRQHandler
+                0x00000230                RIT_IRQHandler
+                0x00000230                I2C0_IRQHandler
+                0x00000230                USBActivity_IRQHandler
+                0x00000230                PWM1_IRQHandler
+                0x00000230                I2C1_IRQHandler
+                0x00000230                EINT2_IRQHandler
+                0x00000230                UART1_IRQHandler
+                0x00000230                EINT3_IRQHandler
+                0x00000230                CANActivity_IRQHandler
+                0x00000230                TIMER3_IRQHandler
+                0x00000230                UART0_IRQHandler
+                0x00000230                IntDefaultHandler
+                0x00000230                PLL0_IRQHandler
+                0x00000230                CAN_IRQHandler
+                0x00000230                PLL1_IRQHandler
+                0x00000230                SSP0_IRQHandler
+                0x00000230                I2S_IRQHandler
+                0x00000230                I2C2_IRQHandler
+                0x00000230                RTC_IRQHandler
+                0x00000230                TIMER0_IRQHandler
+                0x00000230                SPI_IRQHandler
+                0x00000230                EINT1_IRQHandler
+                0x00000230                TIMER1_IRQHandler
+                0x00000230                UART2_IRQHandler
+                0x00000230                ADC_IRQHandler
+                0x00000230                SSP1_IRQHandler
+                0x00000230                USB_IRQHandler
+                0x00000230                BOD_IRQHandler
+                0x00000230                WDT_IRQHandler
+                0x00000230                QEI_IRQHandler
+                0x00000230                EINT0_IRQHandler
+                0x00000230                ETH_IRQHandler
+                0x00000230                DMA_IRQHandler
+                0x00000230                UART3_IRQHandler
+                0x00000230                MCPWM_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000238       0xc4 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.SystemInit
+                0x00000300       0x24 ./src/sysinit.o
+                0x00000300                SystemInit
+ .text.main     0x00000324      0x140 ./src/testfft.o
+                0x00000324                main
+ .text.Chip_IOCON_Init
+                0x00000464       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_Init
+                0x0000047c       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinState
+                0x00000494       0x68 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_WritePortBit
+                0x000004fc       0x2c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000528       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x00000560       0x3c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x0000059c       0x44 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_WriteDirBit
+                0x000005e0       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_UART_ConfigData
+                0x00000610       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_LED_Init
+                0x0000062c       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Board_UART_Init
+                0x00000644       0x14 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000644                Board_UART_Init
+ .text.Board_Debug_Init
+                0x00000658       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000658                Board_Debug_Init
+ .text.Board_LED_Set
+                0x00000688       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000688                Board_LED_Set
+ .text.Board_Init
+                0x000006b8       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000006b8                Board_Init
+ .text.Chip_SYSCTL_SetFLASHAccess
+                0x000006dc       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .text.Board_SetupMuxing
+                0x0000070c       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x0000070c                Board_SetupMuxing
+ .text.Board_SetupClocking
+                0x00000728       0x14 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00000728                Board_SetupClocking
+ .text.Board_SystemInit
+                0x0000073c       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x0000073c                Board_SystemInit
+ .text.SystemCoreClockUpdate
+                0x0000074c       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x0000074c                SystemCoreClockUpdate
+ .text.Chip_Clock_IsMainPLLEnabled
+                0x00000764       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_IsMainPLLConnected
+                0x00000788       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_FeedPLL
+                0x000007ac       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetMainPLLSource
+                0x000007e0       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetMainOscRate
+                0x00000800       0x14 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x00000814       0x14 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetRTCOscRate
+                0x00000828       0x14 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_GetMainPLLInClockRate
+                0x0000083c       0x10 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x0000084c       0x44 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000084c                Chip_Clock_EnablePLL
+ .text.Chip_Clock_DisablePLL
+                0x00000890       0x48 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000890                Chip_Clock_DisablePLL
+ .text.Chip_Clock_SetupPLL
+                0x000008d8       0x5c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000008d8                Chip_Clock_SetupPLL
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000934       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000934                Chip_Clock_EnablePeriphClock
+ .text.Chip_Clock_GetCPUClockSource
+                0x00000968       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000968                Chip_Clock_GetCPUClockSource
+ .text.Chip_Clock_SetCPUClockDiv
+                0x0000098c       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000098c                Chip_Clock_SetCPUClockDiv
+ .text.Chip_Clock_GetCPUClockDiv
+                0x000009ac       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009ac                Chip_Clock_GetCPUClockDiv
+ .text.Chip_Clock_GetPCLKDiv
+                0x000009c8       0x8c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009c8                Chip_Clock_GetPCLKDiv
+ .text.Chip_Clock_GetSYSCLKRate
+                0x00000a54       0x34 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a54                Chip_Clock_GetSYSCLKRate
+ .text.Chip_Clock_GetMainPLLOutClockRate
+                0x00000a88       0x54 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a88                Chip_Clock_GetMainPLLOutClockRate
+ .text.Chip_Clock_GetMainClockRate
+                0x00000adc       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000adc                Chip_Clock_GetMainClockRate
+ .text.Chip_Clock_GetSystemClockRate
+                0x00000b04       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b04                Chip_Clock_GetSystemClockRate
+ .text.Chip_Clock_GetPeripheralClockRate
+                0x00000b1c       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b1c                Chip_Clock_GetPeripheralClockRate
+ .text.Chip_IOCON_PinMuxSet
+                0x00000b44       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000b44                Chip_IOCON_PinMuxSet
+ .text.Chip_IOCON_PinMux
+                0x00000b7c       0x94 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000b7c                Chip_IOCON_PinMux
+ .text.Chip_IOCON_SetPinMuxing
+                0x00000c10       0x64 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000c10                Chip_IOCON_SetPinMuxing
+ .text.Chip_Clock_IsMainPLLEnabled
+                0x00000c74       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsMainPLLLocked
+                0x00000c98       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsMainPLLConnected
+                0x00000cbc       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x00000ce0       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_IsCrystalEnabled
+                0x00000d00       0x24 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_Clock_SetMainPLLSource
+                0x00000d24       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000d44       0x90 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000d44                Chip_SetupXtalClocking
+ .text.Chip_UART_SetupFIFOS
+                0x00000dd4       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_ConfigData
+                0x00000df0       0x1c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_EnableDivisorAccess
+                0x00000e0c       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_DisableDivisorAccess
+                0x00000e2c       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_SetDivisorLatches
+                0x00000e4c       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_GetClockIndex
+                0x00000e74       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_GetClkIndex
+                0x00000ec4       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .text.Chip_UART_Init
+                0x00000f14       0x78 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000f14                Chip_UART_Init
+ .text.Chip_UART_TXEnable
+                0x00000f8c       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000f8c                Chip_UART_TXEnable
+ .text.Chip_UART_TXDisable
+                0x00000fa4       0x18 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000fa4                Chip_UART_TXDisable
+ .text.Chip_UART_SetBaud
+                0x00000fbc       0x64 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000fbc                Chip_UART_SetBaud
+ .text.arm_float_to_q31
+                0x00001020      0x148 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+                0x00001020                arm_float_to_q31
+ .text.arm_q31_to_float
+                0x00001168      0x1cc /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+                0x00001168                arm_q31_to_float
+ .text.arm_max_q31
+                0x00001334      0x174 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+                0x00001334                arm_max_q31
+ .text.arm_mean_q31
+                0x000014a8      0x128 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+                0x000014a8                arm_mean_q31
+ .text.arm_sin_q31
+                0x000015d0       0xcc /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+                0x000015d0                arm_sin_q31
+ .text.__weak_main
+                0x0000169c        0x4 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+                0x0000169c                __main
+                0x0000169c                __weak_main
+ .text.__aeabi_division_ldivmod
+                0x000016a0       0x26 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+                0x000016a0                __aeabi_ldivmod
+ .text.__aeabi_division_uldivmod
+                0x000016c6      0x174 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+                0x000016c6                __aeabi_uldivmod
+                0x000016ca                __bhs_ldivmod1
+ .text.__aeabi_division_idiv0
+                0x0000183a        0x2 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+                0x0000183a                __aeabi_idiv0
+ .text.__bhs_ui2f.part.0
+                0x0000183c       0x20 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+ .text.__aeabi_fmul
+                0x0000185c       0xc0 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x0000185c                __aeabi_fmul
+ .text.__aeabi_fsub
+                0x0000191c       0xec /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x0000191c                __aeabi_fsub
+ .text.__aeabi_fadd
+                0x00001a08       0xbc /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x00001a08                __aeabi_fadd
+ .text.__aeabi_f2iz
+                0x00001ac4       0x34 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x00001ac4                __aeabi_f2iz
+ .text.__aeabi_f2lz
+                0x00001af8       0x5c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x00001af8                __aeabi_f2lz
+ .text.__aeabi_i2f
+                0x00001b54       0x20 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x00001b54                __aeabi_i2f
+ .text.__aeabi_fcmplt
+                0x00001b74       0x3c /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+                0x00001b74                __aeabi_fcmplt
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata        0x00001bb0       0x24 ./src/testfft.o
+ .rodata.OscRateIn
+                0x00001bd4        0x4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001bd4                OscRateIn
+ .rodata.RTCOscRateIn
+                0x00001bd8        0x4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001bd8                RTCOscRateIn
+ .rodata.pinmuxing
+                0x00001bdc       0x5c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .rodata.sinTableQ31
+                0x00001c38      0x40c /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+                0x00002044                . = ALIGN (0x4)
+
+.glue_7         0x00002044        0x0
+ .glue_7        0x00002044        0x0 linker stubs
+
+.glue_7t        0x00002044        0x0
+ .glue_7t       0x00002044        0x0 linker stubs
+
+.vfp11_veneer   0x00002044        0x0
+ .vfp11_veneer  0x00002044        0x0 linker stubs
+
+.v4_bx          0x00002044        0x0
+ .v4_bx         0x00002044        0x0 linker stubs
+
+.iplt           0x00002044        0x0
+ .iplt          0x00002044        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.rel.dyn        0x00002044        0x0
+ .rel.iplt      0x00002044        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00002044                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002044                __exidx_end = .
+                0x00002044                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00002044
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x00002044
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x00002044
+ .igot.plt      0x10000000        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000000        0x8
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.i.9797    0x10000000        0x4 ./src/testfft.o
+ *(COMMON)
+ COMMON         0x10000004        0x4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x10000004                SystemCoreClock
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000008        0x0
+                0x10000008                _noinit = .
+ *(.noinit*)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74b2                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+OUTPUT(testfft.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4e0b
+ .debug_info    0x00000000      0x24e ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x0000024e       0x3f ./src/crp.o
+ .debug_info    0x0000028d      0x110 ./src/sysinit.o
+ .debug_info    0x0000039d      0x2b1 ./src/testfft.o
+ .debug_info    0x0000064e     0x13ae /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_info    0x000019fc      0x56c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_info    0x00001f68      0x51e /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_info    0x00002486      0xb62 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_info    0x00002fe8      0x2d9 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_info    0x000032c1      0x439 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_info    0x000036fa      0xeda /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_info    0x000045d4      0x1d7 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_info    0x000047ab      0x116 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_info    0x000048c1      0x159 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_info    0x00004a1a      0x157 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_info    0x00004b71      0x29a /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_abbrev   0x00000000     0x150f
+ .debug_abbrev  0x00000000       0xf5 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000000f5       0x36 ./src/crp.o
+ .debug_abbrev  0x0000012b       0xa3 ./src/sysinit.o
+ .debug_abbrev  0x000001ce       0xf5 ./src/testfft.o
+ .debug_abbrev  0x000002c3      0x379 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_abbrev  0x0000063c      0x15c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_abbrev  0x00000798      0x13c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_abbrev  0x000008d4      0x2ec /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_abbrev  0x00000bc0      0x126 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_abbrev  0x00000ce6      0x175 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_abbrev  0x00000e5b      0x2e8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_abbrev  0x00001143       0xed /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_abbrev  0x00001230       0x93 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_abbrev  0x000012c3       0x95 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_abbrev  0x00001358       0x93 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_abbrev  0x000013eb      0x124 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_aranges  0x00000000      0x620
+ .debug_aranges
+                0x00000000       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x00000080       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000098       0x20 ./src/sysinit.o
+ .debug_aranges
+                0x000000b8       0x20 ./src/testfft.o
+ .debug_aranges
+                0x000000d8      0x160 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_aranges
+                0x00000238       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_aranges
+                0x00000270       0x38 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_aranges
+                0x000002a8      0x120 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_aranges
+                0x000003c8       0x30 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_aranges
+                0x000003f8       0x60 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_aranges
+                0x00000458      0x128 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_aranges
+                0x00000580       0x20 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_aranges
+                0x000005a0       0x20 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_aranges
+                0x000005c0       0x20 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_aranges
+                0x000005e0       0x20 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_aranges
+                0x00000600       0x20 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_ranges   0x00000000      0x558
+ .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000070       0x10 ./src/sysinit.o
+ .debug_ranges  0x00000080       0x10 ./src/testfft.o
+ .debug_ranges  0x00000090      0x150 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_ranges  0x000001e0       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_ranges  0x00000208       0x28 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_ranges  0x00000230      0x110 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_ranges  0x00000340       0x20 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_ranges  0x00000360       0x50 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_ranges  0x000003b0      0x118 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_ranges  0x000004c8       0x50 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_ranges  0x00000518       0x10 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_ranges  0x00000528       0x10 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_ranges  0x00000538       0x10 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_ranges  0x00000548       0x10 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_macro    0x00000000     0x55f0
+ .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x0000001d      0x892 ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x000008af       0x1a ./src/crp.o
+ .debug_macro   0x000008c9       0x34 ./src/crp.o
+ .debug_macro   0x000008fd      0x217 ./src/sysinit.o
+ .debug_macro   0x00000b14       0x10 ./src/sysinit.o
+ .debug_macro   0x00000b24      0x12d ./src/sysinit.o
+ .debug_macro   0x00000c51      0x5b2 ./src/sysinit.o
+ .debug_macro   0x00001203       0x22 ./src/sysinit.o
+ .debug_macro   0x00001225       0x7b ./src/sysinit.o
+ .debug_macro   0x000012a0       0x10 ./src/sysinit.o
+ .debug_macro   0x000012b0       0x2d ./src/sysinit.o
+ .debug_macro   0x000012dd       0x3a ./src/sysinit.o
+ .debug_macro   0x00001317       0x2d ./src/sysinit.o
+ .debug_macro   0x00001344      0xbb1 ./src/sysinit.o
+ .debug_macro   0x00001ef5      0x22c ./src/sysinit.o
+ .debug_macro   0x00002121       0x42 ./src/sysinit.o
+ .debug_macro   0x00002163       0x52 ./src/sysinit.o
+ .debug_macro   0x000021b5       0x78 ./src/sysinit.o
+ .debug_macro   0x0000222d       0x82 ./src/sysinit.o
+ .debug_macro   0x000022af      0x48c ./src/sysinit.o
+ .debug_macro   0x0000273b       0x34 ./src/sysinit.o
+ .debug_macro   0x0000276f      0x4c5 ./src/sysinit.o
+ .debug_macro   0x00002c34      0x1b7 ./src/sysinit.o
+ .debug_macro   0x00002deb       0x10 ./src/sysinit.o
+ .debug_macro   0x00002dfb      0x21b ./src/sysinit.o
+ .debug_macro   0x00003016      0x1b9 ./src/sysinit.o
+ .debug_macro   0x000031cf       0x40 ./src/sysinit.o
+ .debug_macro   0x0000320f       0x22 ./src/sysinit.o
+ .debug_macro   0x00003231      0x162 ./src/sysinit.o
+ .debug_macro   0x00003393       0x94 ./src/sysinit.o
+ .debug_macro   0x00003427       0xb8 ./src/sysinit.o
+ .debug_macro   0x000034df       0x4c ./src/sysinit.o
+ .debug_macro   0x0000352b       0x16 ./src/sysinit.o
+ .debug_macro   0x00003541      0x328 ./src/sysinit.o
+ .debug_macro   0x00003869       0x49 ./src/sysinit.o
+ .debug_macro   0x000038b2       0x16 ./src/sysinit.o
+ .debug_macro   0x000038c8       0xca ./src/sysinit.o
+ .debug_macro   0x00003992       0x18 ./src/sysinit.o
+ .debug_macro   0x000039aa       0x70 ./src/sysinit.o
+ .debug_macro   0x00003a1a       0x9a ./src/sysinit.o
+ .debug_macro   0x00003ab4       0x20 ./src/sysinit.o
+ .debug_macro   0x00003ad4       0x28 ./src/sysinit.o
+ .debug_macro   0x00003afc      0x270 ./src/testfft.o
+ .debug_macro   0x00003d6c       0x82 ./src/testfft.o
+ .debug_macro   0x00003dee       0x12 ./src/testfft.o
+ .debug_macro   0x00003e00       0xc4 ./src/testfft.o
+ .debug_macro   0x00003ec4       0xb3 ./src/testfft.o
+ .debug_macro   0x00003f77       0x40 ./src/testfft.o
+ .debug_macro   0x00003fb7      0x289 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00004240      0x886 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00004ac6       0x12 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00004ad8      0x217 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00004cef      0x1cd /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x00004ebc      0x1cd /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x00005089      0x1cd /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00005256      0x1cd /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00005423      0x1cd /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+
+.debug_line     0x00000000     0x4991
+ .debug_line    0x00000000       0xd5 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000000d5       0x7c ./src/crp.o
+ .debug_line    0x00000151      0x4c3 ./src/sysinit.o
+ .debug_line    0x00000614      0x5d4 ./src/testfft.o
+ .debug_line    0x00000be8      0x83a /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_line    0x00001422      0x4bf /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_line    0x000018e1      0x452 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_line    0x00001d33      0x6ce /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_line    0x00002401      0x43e /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_line    0x0000283f      0x4c8 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_line    0x00002d07      0x77a /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_line    0x00003481      0x46b /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_line    0x000038ec      0x40d /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_line    0x00003cf9      0x474 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_line    0x0000416d      0x421 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_line    0x0000458e      0x403 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_str      0x00000000    0x13ee2
+ .debug_str     0x00000000     0x26ae ./src/cr_startup_lpc175x_6x.o
+                               0x26c1 (size before relaxing)
+ .debug_str     0x000026ae       0xe9 ./src/crp.o
+                               0x25d9 (size before relaxing)
+ .debug_str     0x00002797     0xe492 ./src/sysinit.o
+                              0x10a74 (size before relaxing)
+ .debug_str     0x00010c29     0x1224 ./src/testfft.o
+                              0x11c82 (size before relaxing)
+ .debug_str     0x00011e4d      0xdd4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                              0x1191a (size before relaxing)
+ .debug_str     0x00012c21      0x22d /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                              0x10e54 (size before relaxing)
+ .debug_str     0x00012e4e       0xc3 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                              0x10b4b (size before relaxing)
+ .debug_str     0x00012f11      0x857 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                              0x111b9 (size before relaxing)
+ .debug_str     0x00013768       0x79 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                              0x10636 (size before relaxing)
+ .debug_str     0x000137e1       0xc4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                              0x1081e (size before relaxing)
+ .debug_str     0x000138a5      0x3c0 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                              0x1108e (size before relaxing)
+ .debug_str     0x00013c65      0x107 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+                                0x1af (size before relaxing)
+ .debug_str     0x00013d6c       0x44 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+                                0x191 (size before relaxing)
+ .debug_str     0x00013db0       0x65 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+                                0x1a9 (size before relaxing)
+ .debug_str     0x00013e15       0x3f /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+                                0x193 (size before relaxing)
+ .debug_str     0x00013e54       0x8e /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+                                0x1df (size before relaxing)
+
+.comment        0x00000000       0xde
+ .comment       0x00000000       0x6e ./src/cr_startup_lpc175x_6x.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/crp.o
+ .comment       0x0000006e       0x6f ./src/sysinit.o
+ .comment       0x0000006e       0x6f ./src/testfft.o
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .comment       0x0000006e       0x6f /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .comment       0x0000006e       0x70 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+                                 0x71 (size before relaxing)
+ .comment       0x000000de       0x71 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .comment       0x000000de       0x71 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .comment       0x000000de       0x71 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .comment       0x000000de       0x71 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+ .comment       0x000000de       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .comment       0x000000de       0x6f /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/crp.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/sysinit.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/testfft.o
+ .ARM.attributes
+                0x000000cc       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .ARM.attributes
+                0x000000ff       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .ARM.attributes
+                0x00000132       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .ARM.attributes
+                0x00000165       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .ARM.attributes
+                0x00000198       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .ARM.attributes
+                0x000001cb       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .ARM.attributes
+                0x000001fe       0x33 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .ARM.attributes
+                0x00000231       0x33 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .ARM.attributes
+                0x00000264       0x33 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .ARM.attributes
+                0x00000297       0x33 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .ARM.attributes
+                0x000002ca       0x33 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .ARM.attributes
+                0x000002fd       0x33 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+ .ARM.attributes
+                0x00000330       0x33 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7-m/libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000363       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_64.o)
+ .ARM.attributes
+                0x00000384       0x21 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x000003a5       0x33 /usr/local/lpcxpresso_8.1.4_606/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.2.1/armv7-m/libcr_eabihelpers.a(float.o)
+
+.debug_frame    0x00000000     0x1548
+ .debug_frame   0x00000000      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000170       0x34 ./src/sysinit.o
+ .debug_frame   0x000001a4       0x38 ./src/testfft.o
+ .debug_frame   0x000001dc      0x5d4 /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_frame   0x000007b0       0x8c /home/agus/LPCXpresso/workspace/thdmeter/lpc_board_nxp_lpcxpresso_1769/Debug/liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_frame   0x0000083c       0x88 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_frame   0x000008c4      0x490 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_frame   0x00000d54       0x80 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_frame   0x00000dd4      0x12c /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_frame   0x00000f00      0x538 /home/agus/LPCXpresso/workspace/thdmeter/lpc_chip_175x_6x/Debug/liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_frame   0x00001438       0x38 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_frame   0x00001470       0x34 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_frame   0x000014a4       0x38 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_frame   0x000014dc       0x34 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_frame   0x00001510       0x38 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_loc      0x00000000      0xb8b
+ .debug_loc     0x00000000      0x21e /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_loc     0x0000021e      0x180 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_loc     0x0000039e      0x3d2 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_loc     0x00000770      0x1d0 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_loc     0x00000940      0x24b /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
+
+.debug_macinfo  0x00000000    0x173a9
+ .debug_macinfo
+                0x00000000     0x4a55 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_float_to_q31.o)
+ .debug_macinfo
+                0x00004a55     0x4a55 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_q31_to_float.o)
+ .debug_macinfo
+                0x000094aa     0x4a55 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_max_q31.o)
+ .debug_macinfo
+                0x0000deff     0x4a55 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_mean_q31.o)
+ .debug_macinfo
+                0x00012954     0x4a55 /home/agus/LPCXpresso/workspace/thdmeter/CMSIS_DSPLIB_CM3/lib/libCMSIS_DSPLIB_CM3.a(arm_sin_q31.o)
