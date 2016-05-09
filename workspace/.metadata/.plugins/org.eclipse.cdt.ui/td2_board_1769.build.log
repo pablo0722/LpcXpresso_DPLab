@@ -1,0 +1,6 @@
+12:02:07 **** Incremental Build of configuration Debug for project td2_board_1769 ****
+make -r all 
+make: No se hace nada para «all».
+
+12:02:07 Build Finished (took 71ms)
+
