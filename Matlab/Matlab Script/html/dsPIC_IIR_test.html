@@ -1,0 +1,380 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>dsPIC_IIR_test</title><meta name="generator" content="MATLAB 7.12"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2014-04-14"><meta name="DC.source" content="dsPIC_IIR_test.m"><style type="text/css">
+
+body {
+  background-color: white;
+  margin:10px;
+}
+
+h1 {
+  color: #990000; 
+  font-size: x-large;
+}
+
+h2 {
+  color: #990000;
+  font-size: medium;
+}
+
+/* Make the text shrink to fit narrow windows, but not stretch too far in 
+wide windows. */ 
+p,h1,h2,div.content div {
+  max-width: 600px;
+  /* Hack for IE6 */
+  width: auto !important; width: 600px;
+}
+
+pre.codeinput {
+  background: #EEEEEE;
+  padding: 10px;
+}
+@media print {
+  pre.codeinput {word-wrap:break-word; width:100%;}
+} 
+
+span.keyword {color: #0000FF}
+span.comment {color: #228B22}
+span.string {color: #A020F0}
+span.untermstring {color: #B20000}
+span.syscmd {color: #B28C00}
+
+pre.codeoutput {
+  color: #666666;
+  padding: 10px;
+}
+
+pre.error {
+  color: red;
+}
+
+p.footer {
+  text-align: right;
+  font-size: xx-small;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">Se&ntilde;al de prueba</a></li><li><a href="#3">Simulo Conversi&oacute;n Anal&oacute;gico a Digital &amp; punto fijo</a></li><li><a href="#4">Dise&ntilde;o del filtro IIR</a></li><li><a href="#5">Funci&oacute;n de procesamiento - Filtrado</a></li><li><a href="#6">&gt;&gt; MPLAB X ( Poner un Breackpoint en esta linea antes de procesar )</a></li><li><a href="#7">Comparaci&oacute;n de salida Matlab vs dsPIC</a></li><li><a href="#8">Ploteos - Gr&aacute;ficos - Resultados</a></li></ul></div><pre class="codeinput"><span class="comment">% -----------------------------------------------------------------------------------------</span>
+<span class="comment">% dsPIC_IIR_test</span>
+<span class="comment">%</span>
+<span class="comment">% Ultima modificaci&oacute;n: 11/2013</span>
+<span class="comment">%</span>
+<span class="comment">% Autor: Ing. C&eacute;sar Angel Fuoco</span>
+<span class="comment">%</span>
+<span class="comment">% Descripci&oacute;n:</span>
+<span class="comment">% Dise&ntilde;ado para comparar los resultados del filtrado IIR en un dsPIC con los resultados de</span>
+<span class="comment">% un filtrado de en MATLAB.      Se   genera una se&ntilde;al de prueba y se exporta a un archivo</span>
+<span class="comment">% mch. Tambien se exporta la informacion del filtro en un archivo. Cada muestra de la se&ntilde;al</span>
+<span class="comment">% se codifica en Q15. El procesamiento es puramento Offline. Se debe hacer un breackpoint</span>
+<span class="comment">% donde indica el script e ir al MPLABX para obtener los resultados del dsPIC.</span>
+<span class="comment">% -----------------------------------------------------------------------------------------</span>
+
+clear <span class="string">all</span>;                                                      <span class="comment">% Limpia el worksapace</span>
+close <span class="string">all</span>;                                                      <span class="comment">% Cierra todas las ventanas</span>
+clc;
+
+addpath <span class="string">./funciones</span>;                                            <span class="comment">% Path relativo de funciones</span>
+addpath <span class="string">./filtros</span>;                                              <span class="comment">% Path relativo de funciones</span>
+</pre><h2>Se&ntilde;al de prueba<a name="2"></a></h2><pre class="codeinput">A = 1; f0 = 1500;N = 256;fs = 8038;ph = 0;NBits = 16;d=0.5;
+[tAxis signal] = func_mySin (A, f0, N, ph, fs);
+<span class="comment">%[tAxis signal] = func_mySquare (A, f0, N, d, fs)</span>
+</pre><h2>Simulo Conversi&oacute;n Anal&oacute;gico a Digital &amp; punto fijo<a name="3"></a></h2><pre class="codeinput">WordLength  = 16 ;                                              <span class="comment">% Simulo conversor de 16 bits signado - ( signed fractional Q15 )</span>
+FractLength = 15 ;
+q = quantizer( <span class="string">'Mode'</span>, <span class="string">'fixed'</span>,<span class="string">'Format'</span> ,[WordLength FractLength],<span class="string">'OverflowMode'</span>, <span class="string">'Saturate'</span>,<span class="string">'RoundMode'</span>,<span class="string">'floor'</span>);
+
+signal_q = quantize( q , signal);                               <span class="comment">% Cuantifico las se&ntilde;ales en 16 bits el tipo de dato retornado por la</span>
+                                                                <span class="comment">% funcion quantize sigue siendo double pero con precision de 16 bits</span>
+
+FileName_signal=<span class="string">'./Archivos Import Export/signal2.mch'</span>;         <span class="comment">% ruta destino para la se&ntilde;al de prueba</span>
+FileName_coeficientes=<span class="string">'./Archivos Import Export/coef_iir.h'</span>;    <span class="comment">% ruta destino para los coeficientes</span>
+FileName_NumSOS=<span class="string">'./Archivos Import Export/NumSOS.h'</span>;            <span class="comment">% ruta destino para los coeficientes</span>
+
+func_Signal2fileCSV_hex_fixed(FileName_signal,signal_q);        <span class="comment">% Esta funcion pone la se&ntilde;al en punto fijo, antes de guardarla</span>
+</pre><h2>Dise&ntilde;o del filtro IIR<a name="4"></a></h2><pre class="codeinput"><span class="comment">%Hd=lowpass_iirfilter_df2transposed_1sos;</span>
+<span class="comment">%Hd=highpass_iirfilter_df2transposed_3sos;</span>
+<span class="comment">%Hd=highpass_iirfilter_df2transposed_3sos_B;</span>
+Hd=highpass_iirfilter_df2transposed_3sos_indouble;
+
+Numberofbiquads = length( Hd.ScaleValues ) - 1;                 <span class="comment">% Number of SOS</span>
+
+
+func_iircoef2file_hex_fixed(FileName_coeficientes,Hd);          <span class="comment">% Guardo los coeficientes a un archivo</span>
+
+func_NumSOS(FileName_NumSOS,Hd);                                <span class="comment">% Guardo el Numero de Taps a un archivo</span>
+</pre><pre class="codeoutput"> 
+coeficiente =
+ 
+    0.1177
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+   -0.1751
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+   -0.0891
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.1177
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.2609
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.1411
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+   -0.2700
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.1557
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.1411
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.0610
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.2065
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+   -0.2501
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+   -0.2586
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.2065
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+ 
+coeficiente =
+ 
+    0.4295
+
+          DataTypeMode: Fixed-point: binary point scaling
+            Signedness: Signed
+            WordLength: 16
+        FractionLength: 15
+</pre><h2>Funci&oacute;n de procesamiento - Filtrado<a name="5"></a></h2><pre class="codeinput">y=filter(Hd,signal_q);
+
+<span class="comment">%Corrigo la ganancia, la ganancia deberia tratarse dentro del dsPIC ver...</span>
+gain = Hd.ScaleValues(1);                                       <span class="comment">%</span>
+<span class="comment">%y = y.*gain;</span>
+y = y.*1;
+</pre><h2>&gt;&gt; MPLAB X ( Poner un Breackpoint en esta linea antes de procesar )<a name="6"></a></h2><p>Dentro de MPLAB X, realizar los siguientes pasos para no equivocarse: 1. Clean and Build Proyect 2. Make &amp; Program Device 3. Debug Proyect 4. Poner un breackpoint antes de llamar a la funcion FIR. 5. Abrir la ventana de Memory view &gt; FSR Registers 6. Seleccionar el sector de memoria correspondiente al "Buffer in" 7. Hacer "import table" de la se&ntilde;al generada por matlab. 8. Poner un breackpoint a la salida de la funcion FIR. 9. Seleccionar el sector de memoria correspondiente al "Buffer out" 10. Hacer un "export table" a un archivo mch 11. Volver a Matlab y darle F5 ( Continue ) Nota: Es muy importante verificar que los import y export se realizan correctamente, para esto comparar los arhivos de texto con el memory view</p><h2>Comparaci&oacute;n de salida Matlab vs dsPIC<a name="7"></a></h2><pre class="codeinput"><span class="comment">%fid = fopen('./Archivos Import Export/dump.mch');               % Abro el archivo de texto exportado por MPLABX</span>
+fid = fopen(<span class="string">'./Archivos Import Export/dump_iir.mch'</span>);            <span class="comment">% Abro el archivo de texto exportado por MPLABX</span>
+
+DSP_output = fscanf( fid, <span class="string">'%4x'</span>, inf);                           <span class="comment">% Leo las muestras en Q15 y las copio a un vector integer unsigned</span>
+DSP_output=dec2hex(DSP_output);
+DSP_output=hex2num(q,DSP_output);
+</pre><h2>Ploteos - Gr&aacute;ficos - Resultados<a name="8"></a></h2><pre class="codeinput">figure;
+subplot(411);plot(signal,<span class="string">'Linewidth'</span>,2);title(<span class="string">'Se&ntilde;al de Excitaci&oacute;n'</span>);
+subplot(412);plot(y,<span class="string">'m'</span>,<span class="string">'Linewidth'</span>,2);title(<span class="string">'Se&ntilde;al procesada en matlab en punto fijo'</span>);
+subplot(413);plot(DSP_output,<span class="string">'r'</span>,<span class="string">'Linewidth'</span>,2);title(<span class="string">'se&ntilde;al procesada en dsPIC en punto fijo'</span>);
+
+clc;
+Error = DSP_output - y;
+MSE = mse(Error);
+disp(sprintf(<span class="string">'MSE Matlab Vs dsPIC: %e'</span>,MSE));
+subplot(414);plot(Error,<span class="string">'gr'</span>,<span class="string">'Linewidth'</span>,2);title(<span class="string">'Error entre dsPIC y Matlab en punto fijo'</span>);
+</pre><pre class="codeoutput">MSE Matlab Vs dsPIC: 1.613497e-02
+</pre><img vspace="5" hspace="5" src="dsPIC_IIR_test_01.png" alt=""> <p class="footer"><br>
+      Published with MATLAB&reg; 7.12<br></p></div><!--
+##### SOURCE BEGIN #####
+% REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH-
+% dsPIC_IIR_test 
+% 
+% Ultima modificación: 11/2013
+% 
+% Autor: Ing. César Angel Fuoco
+%
+% Descripción:
+% Diseñado para comparar los resultados del filtrado IIR en un dsPIC con los resultados de 
+% un filtrado de en MATLAB.      Se   genera una señal de prueba y se exporta a un archivo
+% mch. Tambien se exporta la informacion del filtro en un archivo. Cada muestra de la señal 
+% se codifica en Q15. El procesamiento es puramento Offline. Se debe hacer un breackpoint 
+% donde indica el script e ir al MPLABX para obtener los resultados del dsPIC.
+% REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH-
+
+clear all;                                                      % Limpia el worksapace
+close all;                                                      % Cierra todas las ventanas
+clc;
+
+addpath ./funciones;                                            % Path relativo de funciones
+addpath ./filtros;                                              % Path relativo de funciones
+
+
+%% Señal de prueba
+A = 1; f0 = 1500;N = 256;fs = 8038;ph = 0;NBits = 16;d=0.5;   
+[tAxis signal] = func_mySin (A, f0, N, ph, fs);
+%[tAxis signal] = func_mySquare (A, f0, N, d, fs)
+
+%% Simulo Conversión Analógico a Digital & punto fijo
+                                                     
+WordLength  = 16 ;                                              % Simulo conversor de 16 bits signado - ( signed fractional Q15 )
+FractLength = 15 ;
+q = quantizer( 'Mode', 'fixed','Format' ,[WordLength FractLength],'OverflowMode', 'Saturate','RoundMode','floor');
+                                                          
+signal_q = quantize( q , signal);                               % Cuantifico las señales en 16 bits el tipo de dato retornado por la 
+                                                                % funcion quantize sigue siendo double pero con precision de 16 bits
+
+FileName_signal='./Archivos Import Export/signal2.mch';         % ruta destino para la señal de prueba
+FileName_coeficientes='./Archivos Import Export/coef_iir.h';    % ruta destino para los coeficientes
+FileName_NumSOS='./Archivos Import Export/NumSOS.h';            % ruta destino para los coeficientes
+
+func_Signal2fileCSV_hex_fixed(FileName_signal,signal_q);        % Esta funcion pone la señal en punto fijo, antes de guardarla
+
+%% Diseño del filtro IIR
+%Hd=lowpass_iirfilter_df2transposed_1sos;
+%Hd=highpass_iirfilter_df2transposed_3sos;
+%Hd=highpass_iirfilter_df2transposed_3sos_B;
+Hd=highpass_iirfilter_df2transposed_3sos_indouble;
+
+Numberofbiquads = length( Hd.ScaleValues ) - 1;                 % Number of SOS
+
+
+func_iircoef2file_hex_fixed(FileName_coeficientes,Hd);          % Guardo los coeficientes a un archivo
+
+func_NumSOS(FileName_NumSOS,Hd);                                % Guardo el Numero de Taps a un archivo
+
+
+%% Función de procesamiento - Filtrado 
+y=filter(Hd,signal_q);                                         
+
+%Corrigo la ganancia, la ganancia deberia tratarse dentro del dsPIC ver...
+gain = Hd.ScaleValues(1);                                       % 
+%y = y.*gain;
+y = y.*1;
+
+
+%% >> MPLAB X ( Poner un Breackpoint en esta linea antes de procesar )
+% Dentro de MPLAB X, realizar los siguientes pasos para no equivocarse: 
+% 1. Clean and Build Proyect
+% 2. Make & Program Device
+% 3. Debug Proyect
+% 4. Poner un breackpoint antes de llamar a la funcion FIR.
+% 5. Abrir la ventana de Memory view > FSR Registers
+% 6. Seleccionar el sector de memoria correspondiente al "Buffer in"
+% 7. Hacer "import table" de la señal generada por matlab.
+% 8. Poner un breackpoint a la salida de la funcion FIR.
+% 9. Seleccionar el sector de memoria correspondiente al "Buffer out"
+% 10. Hacer un "export table" a un archivo mch
+% 11. Volver a Matlab y darle F5 ( Continue )
+% Nota: Es muy importante verificar que los import y export se realizan
+% correctamente, para esto comparar los arhivos de texto con el memory view 
+
+
+%% Comparación de salida Matlab vs dsPIC
+%fid = fopen('./Archivos Import Export/dump.mch');               % Abro el archivo de texto exportado por MPLABX
+fid = fopen('./Archivos Import Export/dump_iir.mch');            % Abro el archivo de texto exportado por MPLABX
+
+DSP_output = fscanf( fid, '%4x', inf);                           % Leo las muestras en Q15 y las copio a un vector integer unsigned
+DSP_output=dec2hex(DSP_output);
+DSP_output=hex2num(q,DSP_output);
+
+%% Ploteos - Gráficos - Resultados
+figure;
+subplot(411);plot(signal,'Linewidth',2);title('Señal de Excitación');
+subplot(412);plot(y,'m','Linewidth',2);title('Señal procesada en matlab en punto fijo');
+subplot(413);plot(DSP_output,'r','Linewidth',2);title('señal procesada en dsPIC en punto fijo');
+
+clc;
+Error = DSP_output - y;
+MSE = mse(Error);
+disp(sprintf('MSE Matlab Vs dsPIC: %e',MSE));
+subplot(414);plot(Error,'gr','Linewidth',2);title('Error entre dsPIC y Matlab en punto fijo');
+
+
+
+
+##### SOURCE END #####
+--></body></html>
