@@ -29,14 +29,14 @@ all: THD_Analyser.axf
 THD_Analyser.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_CM3/lib" -L"/home/dplab/git/LpcXpresso_DPLab/workspace/lpc_chip_175x_6x/Debug" -L"/home/dplab/git/LpcXpresso_DPLab/workspace/td2_board_1769/Debug" -Xlinker -Map="THD_Analyser.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "THD_Analyser_Debug.ld" -o "THD_Analyser.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/Debug" -L"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/Debug" -L"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_CM3/lib" -Xlinker -Map="THD_Analyser.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "THD_Analyser_Debug.ld" -o "THD_Analyser.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) THD_Analyser.axf
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) THD_Analyser.axf
 	-@echo ' '
 
 post-build:

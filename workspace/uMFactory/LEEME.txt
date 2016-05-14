@@ -1,0 +1,39 @@
+ACTUALIZACIONES (04/2016):
+
+
+
+MODIFICABLES:
+	Los datos que el usuario debe modificar de acuerdo a cada aplicacion y periféricos utilizados:
+	
+	
+	- /inc/Startup.h:
+				> definir el MICRO que se va a utilizar (MICRO_LPC1769/MICRO_8051).
+	
+	
+	- /inc/header.h:
+				> definir los PERIFERICOS que se van a utilizar
+						(PERIF_LEDS/PERIF_TECLADO/PERIF_SEG7).
+	
+	
+	- /inc/Devices/Utiles/Primitivas/Utiles_PR.h:
+	
+				> definir en 'enum e_LED' la cantidad de LEDS
+						(y un nombre "comodo" para cada uno).
+						El ultimo elemento debe ser 'MAX_LEDS', no se debe cambiar.
+						
+				> definir en 'enum e_KEY' la cantidad de TECLAS del teclado
+						(y un nombre "comodo" para cada una).
+						El ultimo elemento debe ser 'MAX_KEYS', no se debe cambiar.
+						
+				> definir en 'enum e_SEG7' la cantidad de DÍGITOS del display 7-degmentos
+						(y un nombre "comodo" para cada uno).
+						El ultimo elemento debe ser 'MAX_KEYS', no se debe cambiar.
+	
+	
+	- /inc/Devices/LEDs/Primitivas/leds_PR.h:
+	
+				> definir en 'TIEMPO_LED' el tiempo entre cada interrupcion de led, siendo:
+						tiempo_entre_interrupcion_leds = TIEMPO_LED * tiempo_systick[ms]
+						
+						
+						

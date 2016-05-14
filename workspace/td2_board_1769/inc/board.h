@@ -33,6 +33,7 @@
 #define __BOARD_H_
 
 #include "chip.h"
+#include "mis_funciones.h"
 
 #ifdef __cplusplus
 extern "C" {

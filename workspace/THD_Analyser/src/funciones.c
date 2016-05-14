@@ -7,60 +7,48 @@
 
 #include "funciones.h"
 
+#define TEST_LENGTH_SAMPLES 2048
 
+
+/* ------------------------------------------------------------------
+* Global variables for FFT Bin Example
+* ------------------------------------------------------------------- */
+uint16_t fftSize = TEST_LENGTH_SAMPLES/2;
+uint8_t ifftFlag = 0;
+uint8_t doBitReverse = 1;
 
 /* Reference index at which max energy of bin ocuurs */
 uint32_t testIndex = 0;
 
 
-void seno(q31_t *sin_out, uint16_t length, q31_t frecuencia)
+void fft()
 {
-	uint32_t t;
-	q31_t angulo;
+	q15_t testInput_f32_10khz[TEST_LENGTH_SAMPLES];
+	q15_t testOutput[TEST_LENGTH_SAMPLES/2];
 
-	for(t=0; t<length; t++)
-	{
-		if(t == 1030)
-		{
-			t = 1030;
-		}
-		if(t == 1040)
-		{
-			t = 1040;
-		}
-		angulo = frecuencia*((q31_t) t)*TS;
-		// input de 0 a 0.9999 para punto fijo y de 0 a 2Pi para f32
-		sin_out[t]=arm_sin_q31(angulo);
-	}
-}
-
-
-uint8_t fft(fft_out fftOutput, fft_in fftInput)
-{
-	arm_status status;
-    arm_cfft_radix4_instance_q15 S = {FFT_OUT_LENGTH, IFFT_FLAG, DO_BIT_REVERSE_FLAG};
+    arm_status status;
+    arm_cfft_radix4_instance_f32 S = {fftSize, ifftFlag, doBitReverse};
     q15_t maxValue;
+    int i;
+
+    for(i=0; i<TEST_LENGTH_SAMPLES; i++)
+    {
+    	testInput_f32_10khz[i] = i;
+    }
 
     status = ARM_MATH_SUCCESS;
 
     /* Initialize the CFFT/CIFFT module */
-    status = arm_cfft_radix4_init_q15(&S, FFT_OUT_LENGTH, IFFT_FLAG, DO_BIT_REVERSE_FLAG);
-
-    if(status != ARM_MATH_SUCCESS)
-    {
-    	return -1; // Error: largo no permitido
-    }
+    status = arm_cfft_radix4_init_f32(&S, fftSize, ifftFlag, doBitReverse);
 
     /* Process the data through the CFFT/CIFFT module */
-    arm_cfft_radix4_q15(&S, fftInput);
+    arm_cfft_radix4_q15(&S, testInput_f32_10khz);
 
 
     /* Process the data through the Complex Magnitude Module for
     calculating the magnitude at each bin */
-    arm_cmplx_mag_q15(fftInput, fftOutput, FFT_OUT_LENGTH);
+    arm_cmplx_mag_q15(testInput_f32_10khz, testOutput, fftSize);
 
     /* Calculates maxValue and returns corresponding BIN value */
-    arm_max_q15(fftOutput, FFT_OUT_LENGTH, &maxValue, &testIndex);
-
-    return 0;
+    arm_max_q15(testOutput, fftSize, &maxValue, &testIndex);
 }

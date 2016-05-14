@@ -1,22 +1,22 @@
 src/funciones.o src/funciones.d: ../src/funciones.c \
- /home/dplab/git/LpcXpresso_DPLab/workspace/THD_Analyser/inc/funciones.h \
- /home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h \
- /home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cm3.h \
- /home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h \
- /home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h \
- /home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc/arm_common_tables.h \
- /home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/funciones.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cm3.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_common_tables.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/THD_Analyser/inc/funciones.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/funciones.h:
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h:
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cm3.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cm3.h:
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h:
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h:
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc/arm_common_tables.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_common_tables.h:
 
-/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h:

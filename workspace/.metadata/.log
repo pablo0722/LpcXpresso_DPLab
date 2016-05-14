@@ -1,120 +1,472 @@
-!SESSION 2016-05-09 11:24:49.618 -----------------------------------------------
+!SESSION 2016-04-15 15:40:35.780 -----------------------------------------------
 eclipse.buildId=unknown
-java.version=1.7.0_75
+java.version=1.8.0_65
 java.vendor=Oracle Corporation
-BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
 Command-line arguments:  -os linux -ws gtk -arch x86
 
-!ENTRY org.eclipse.ui 4 4 2016-05-09 11:25:27.198
+!ENTRY org.eclipse.ui 4 4 2016-04-15 15:41:03.279
 !MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
 
-!ENTRY org.eclipse.ui 4 4 2016-05-09 11:25:27.202
+!ENTRY org.eclipse.ui 4 4 2016-04-15 15:41:03.284
 !MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
 
-!ENTRY org.eclipse.ui.browser 2 0 2016-05-09 11:25:27.888
+!ENTRY org.eclipse.ui.browser 2 0 2016-04-15 15:41:03.677
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2016-04-15 15:44:58.334 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-04-15 15:45:03.664
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-04-15 15:45:03.666
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-04-15 15:45:03.794
 !MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:32:06.516
-!MESSAGE Indexed 'CMSIS_CORE_LPC17xx' (1 sources, 9 headers) in 1,15 sec: 1.265 declarations; 2.237 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 15:46:01.667
+!MESSAGE Indexed 'THD_Analyser' (3 sources, 2 headers) in 0,454 sec: 149 declarations; 153 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:36.885
-!MESSAGE Indexed 'freertos_blinky' (9 sources, 24 headers) in 0,779 sec: 1.588 declarations; 4.250 references; 4 unresolved inclusions; 8 syntax errors; 37 unresolved names (0,63%)
+!ENTRY org.eclipse.help.base 4 4 2016-04-15 16:11:52.083
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2016-04-15 16:11:52.083
+!MESSAGE Help document /com.nxp.gnudocs/standards.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2016-04-15 16:11:52.083
+!MESSAGE Help document /com.nxp.gnudocs/gdbint/index.html cannot be opened.
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:37.352
-!MESSAGE Indexed 'lpc_board_nxp_lpcxpresso_1769' (3 sources, 28 headers) in 0,465 sec: 1.257 declarations; 2.040 references; 4 unresolved inclusions; 3 syntax errors; 253 unresolved names (7,1%)
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 16:17:08.878
+!MESSAGE Indexed 'THD_Analyser_2' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:37.490
-!MESSAGE Indexed 'periph_adc' (3 sources, 7 headers) in 0,117 sec: 573 declarations; 485 references; 3 unresolved inclusions; 2 syntax errors; 109 unresolved names (9,3%)
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 16:19:47.034
+!MESSAGE Indexed 'THD_Analyser_2' (19 sources, 21 headers) in 0,29 sec: 595 declarations; 1.285 references; 0 unresolved inclusions; 0 syntax errors; 10 unresolved names (0,53 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:37.623
-!MESSAGE Indexed 'periph_clkout' (3 sources, 7 headers) in 0,114 sec: 549 declarations; 322 references; 3 unresolved inclusions; 2 syntax errors; 29 unresolved names (3,2%)
+!ENTRY com.crt.log 1 0 2016-04-15 16:36:41.286
+!MESSAGE Drivers loaded in 1371 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:37.745
-!MESSAGE Indexed 'periph_dac' (3 sources, 7 headers) in 0,101 sec: 568 declarations; 408 references; 3 unresolved inclusions; 2 syntax errors; 61 unresolved names (5,9%)
+!ENTRY com.crt.log 1 0 2016-04-15 17:16:52.930
+!MESSAGE Drivers loaded in 1350 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:37.887
-!MESSAGE Indexed 'periph_i2c' (3 sources, 9 headers) in 0,124 sec: 798 declarations; 730 references; 3 unresolved inclusions; 2 syntax errors; 133 unresolved names (8%)
+!ENTRY com.crt.log 1 0 2016-04-15 17:26:13.639
+!MESSAGE Drivers loaded in 1336 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:38.008
-!MESSAGE Indexed 'periph_spi' (3 sources, 7 headers) in 0,103 sec: 572 declarations; 439 references; 3 unresolved inclusions; 2 syntax errors; 101 unresolved names (9,1%)
+!ENTRY com.crt.log 1 0 2016-04-15 17:35:22.575
+!MESSAGE Drivers loaded in 1367 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:38.134
-!MESSAGE Indexed 'periph_ssp' (3 sources, 7 headers) in 0,108 sec: 586 declarations; 547 references; 3 unresolved inclusions; 2 syntax errors; 119 unresolved names (9,5%)
+!ENTRY com.crt.log 1 0 2016-04-15 18:02:17.329
+!MESSAGE Drivers loaded in 1367 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:38.245
-!MESSAGE Indexed 'periph_systick' (3 sources, 7 headers) in 0,094 sec: 547 declarations; 309 references; 3 unresolved inclusions; 2 syntax errors; 25 unresolved names (2,8%)
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-04-15 18:02:23.745
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.etmetb.redlink.RedlinkClient$3@10f95c6): Status ERROR: com.crt.etmetb code=0 Problem obtaining SWO buffer content. java.io.IOException: Client unable to receive full packet from server' resulted in an error.
+!SUBENTRY 1 com.crt.etmetb 4 0 2016-04-15 18:02:23.745
+!MESSAGE Problem obtaining SWO buffer content.
+!STACK 0
+java.io.IOException: Client unable to receive full packet from server
+	at com.crt.etmetb.redlink.RedlinkClient$2.run(RedlinkClient.java:141)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:38.357
-!MESSAGE Indexed 'periph_timer' (3 sources, 7 headers) in 0,094 sec: 548 declarations; 321 references; 3 unresolved inclusions; 2 syntax errors; 35 unresolved names (3,9%)
+!ENTRY com.crt.log 1 0 2016-04-15 18:05:44.237
+!MESSAGE Drivers loaded in 1355 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:38.488
-!MESSAGE Indexed 'periph_uart_rb' (3 sources, 8 headers) in 0,104 sec: 635 declarations; 403 references; 4 unresolved inclusions; 3 syntax errors; 56 unresolved names (5,1%)
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-04-15 18:08:43.859
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.etmetb.redlink.RedlinkClient$3@bc676a): Status ERROR: com.crt.etmetb code=0 Problem obtaining SWO buffer content. java.io.IOException: Client unable to receive full packet from server' resulted in an error.
+!SUBENTRY 1 com.crt.etmetb 4 0 2016-04-15 18:08:43.859
+!MESSAGE Problem obtaining SWO buffer content.
+!STACK 0
+java.io.IOException: Client unable to receive full packet from server
+	at com.crt.etmetb.redlink.RedlinkClient$2.run(RedlinkClient.java:141)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:35:38.667
-!MESSAGE Indexed 'usbd_lib_hid_generic' (5 sources, 12 headers) in 0,161 sec: 713 declarations; 503 references; 10 unresolved inclusions; 4 syntax errors; 174 unresolved names (13%)
+!ENTRY com.crt.log 1 0 2016-04-15 18:09:41.695
+!MESSAGE Drivers loaded in 1363 milliseconds
 
-!ENTRY org.eclipse.core.resources 2 2 2016-05-09 11:38:10.497
-!MESSAGE Save operation warnings.
-!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-05-09 11:38:10.497
-!MESSAGE The project description file (.project) for 'lpc_board_nxp_lpcxpresso_1769' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!ENTRY com.crt.log 1 0 2016-04-15 18:12:55.752
+!MESSAGE Drivers loaded in 1363 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:38:10.576
-!MESSAGE Indexed 'lpc_chip_175x_6x_2' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-04-15 18:13:00.570
+!MESSAGE Request for monitor: 'RequestMonitor (com.crt.etmetb.redlink.RedlinkClient$3@be125a): Status ERROR: com.crt.etmetb code=0 Problem obtaining SWO buffer content. java.io.IOException: Client unable to receive full packet from server' resulted in an error.
+!SUBENTRY 1 com.crt.etmetb 4 0 2016-04-15 18:13:00.571
+!MESSAGE Problem obtaining SWO buffer content.
+!STACK 0
+java.io.IOException: Client unable to receive full packet from server
+	at com.crt.etmetb.redlink.RedlinkClient$2.run(RedlinkClient.java:141)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.ui.ide 4 4 2016-05-09 11:39:53.084
-!MESSAGE Problems occurred refreshing the selected resources.
-!SUBENTRY 1 org.eclipse.core.resources 4 567 2016-05-09 11:39:53.084
-!MESSAGE The project description file (.project) for 'lpc_chip_175x_6x_2' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!ENTRY com.crt.log 1 0 2016-04-15 18:15:19.310
+!MESSAGE Drivers loaded in 1365 milliseconds
 
-!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2016-05-09 11:40:02.808
-!MESSAGE Internal Error
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
-	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1648)
-	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Resource already exists on disk: '/home/dplab/git/LpcXpresso_DPLab/workspace/lpc_chip_175x_6x'.
-!SUBENTRY 1 org.eclipse.core.resources 1 4 2016-05-09 11:40:02.841
-!MESSAGE Problems encountered while moving resources.
-!SUBENTRY 2 org.eclipse.core.resources 1 4 2016-05-09 11:40:02.841
-!MESSAGE Resource already exists on disk: '/home/dplab/git/LpcXpresso_DPLab/workspace/lpc_chip_175x_6x'.
+!ENTRY com.crt.log 1 0 2016-04-15 18:18:00.614
+!MESSAGE Drivers loaded in 1370 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:40:29.112
-!MESSAGE Indexed 'lpc_chip_175x_6x' (32 sources, 62 headers) in 1,15 sec: 4.907 declarations; 9.917 references; 8 unresolved inclusions; 47 syntax errors; 2.207 unresolved names (13%)
+!ENTRY com.crt.log 1 0 2016-04-15 18:37:09.171
+!MESSAGE Drivers loaded in 1342 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:41:42.220
-!MESSAGE Indexed 'td2_board_1769_2' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 18:46:50.333
+!MESSAGE Indexed 'prueba' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:42:10.707
-!MESSAGE Indexed 'td2_board_1769' (3 sources, 9 headers) in 0,137 sec: 573 declarations; 466 references; 4 unresolved inclusions; 3 syntax errors; 253 unresolved names (20%)
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 18:48:16.045
+!MESSAGE Indexed 'THD_Analyser_2' (18 sources, 21 headers) in 0,226 sec: 451 declarations; 1.152 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:47:12.002
-!MESSAGE Indexed 'CMSIS_DSPLIB_SRC' (261 sources, 13 headers) in 6 sec: 9.158 declarations; 45.802 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY com.crt.log 1 0 2016-04-15 18:51:04.559
+!MESSAGE Drivers loaded in 1346 milliseconds
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:47:25.570
-!MESSAGE Indexed 'THD_Analyser_2' (0 sources, 0 headers) in 0,008 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 4 0 2016-04-15 19:07:27.223
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:76)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:69)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocation(WorkspaceRoot.java:64)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildFullPath(ManagedBuildManager.java:3893)
+	at org.eclipse.cdt.managedbuilder.internal.core.Builder.getDefaultOutputSettings(Builder.java:2763)
+	at org.eclipse.cdt.managedbuilder.internal.core.Builder.getOutputEntries(Builder.java:2748)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildBuildData.getOutputDirectories(BuildBuildData.java:54)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultBuildData.copySettingsFrom(CDefaultBuildData.java:56)
+	at org.eclipse.cdt.internal.core.settings.model.CBuildSettingCache.<init>(CBuildSettingCache.java:43)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyBuildData(CConfigurationDescriptionCache.java:240)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:106)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:150)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1424)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getLanguage(TranslationUnit.java:769)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getLanguages(ProjectIndexerInputAdapter.java:231)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getLanguage(AbstractIndexerTask.java:1127)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:898)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:94)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:48:20.234
-!MESSAGE Indexed 'THD_Analyser' (5 sources, 54 headers) in 1 sec: 5.832 declarations; 8.004 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-15 19:07:27.224
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:76)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:69)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocation(WorkspaceRoot.java:64)
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuildManager.getBuildFullPath(ManagedBuildManager.java:3893)
+	at org.eclipse.cdt.managedbuilder.internal.core.Builder.getDefaultOutputSettings(Builder.java:2763)
+	at org.eclipse.cdt.managedbuilder.internal.core.Builder.getOutputEntries(Builder.java:2748)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildBuildData.getOutputDirectories(BuildBuildData.java:54)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultBuildData.copySettingsFrom(CDefaultBuildData.java:56)
+	at org.eclipse.cdt.internal.core.settings.model.CBuildSettingCache.<init>(CBuildSettingCache.java:43)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyBuildData(CConfigurationDescriptionCache.java:240)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:106)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:150)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:196)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:500)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:237)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:437)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:419)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:413)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:406)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1424)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getLanguage(TranslationUnit.java:769)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getLanguages(ProjectIndexerInputAdapter.java:231)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getLanguage(AbstractIndexerTask.java:1127)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:898)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:94)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-04-15 19:15:32.205 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /home/pablo/LPCXpresso/workspace
 
-!ENTRY com.crt.dsfdebug 2 0 2016-05-09 11:50:59.265
+!ENTRY org.eclipse.ui 4 4 2016-04-15 19:15:36.157
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-04-15 19:15:36.160
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-04-15 19:15:36.333
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY com.crt.log 1 0 2016-04-15 19:16:08.672
+!MESSAGE Drivers loaded in 1390 milliseconds
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 19:31:23.879
+!MESSAGE Indexed 'clase1_td2' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2016-04-15 19:47:44.730 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-04-15 19:47:52.212
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-04-15 19:47:52.215
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-04-15 19:47:52.389
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:00:51.465
+!MESSAGE Indexed 'lpc_board_nxp_lpcxpresso_1769' (3 sources, 76 headers) in 1,03 sec: 4.282 declarations; 7.382 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:00:52.646
+!MESSAGE Indexed 'lpc_chip_175x_6x' (32 sources, 85 headers) in 1,16 sec: 5.542 declarations; 13.622 references; 4 unresolved inclusions; 4 syntax errors; 8 unresolved names (0,042 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:05:16.560
+!MESSAGE Indexed 'clase1_td_2' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:30:44.609
+!MESSAGE Indexed 'periph_dac' (3 sources, 46 headers) in 0,684 sec: 3.503 declarations; 5.122 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:31:02.063
+!MESSAGE Indexed 'lala' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:35:31.162
+!MESSAGE Indexed 'lpc_TD2_board_nxp_lpcxpresso_1769' (3 sources, 41 headers) in 0,491 sec: 2.964 declarations; 3.801 references; 5 unresolved inclusions; 18 syntax errors; 1.281 unresolved names (16 %)
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:41:35.299
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:46:31.770
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:46:56.625
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:47:13.662
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:47:57.700
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:49:56.356
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:50:12.067
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:50:23.954
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:51:20.336
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 20:52:01.878
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY com.crt.log 1 0 2016-04-15 20:57:41.192
+!MESSAGE Drivers loaded in 1327 milliseconds
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-15 20:58:41.145
+!MESSAGE Indexed 'td2_1769' (3 sources, 41 headers) in 0,513 sec: 2.964 declarations; 3.801 references; 5 unresolved inclusions; 18 syntax errors; 1.281 unresolved names (16 %)
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 21:04:07.074
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 21:04:33.161
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 21:05:30.736
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY org.eclipse.core.resources 4 372 2016-04-15 21:15:16.230
+!MESSAGE Resource '/lpc_board_nxp_lpcxpresso_1769' is not open.
+
+!ENTRY com.crt.log 1 0 2016-04-15 21:17:20.270
+!MESSAGE Drivers loaded in 1177 milliseconds
+
+!ENTRY com.crt.dsfdebug 2 0 2016-04-15 21:21:07.884
 !MESSAGE Termi&nate/Disconnect All is not enabled.
 
 To terminate debug sessions, first select a debug session in the Debug View and then select Terminate again.
+!SESSION 2016-04-23 10:13:35.866 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:59:29.200
-!MESSAGE Indexed 'lpc_board_nxp_lpcxpresso_1769' (3 sources, 70 headers) in 1,03 sec: 4.192 declarations; 7.133 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.ui 4 4 2016-04-23 10:14:35.221
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:59:31.004
-!MESSAGE Indexed 'lpc_chip_175x_6x' (32 sources, 84 headers) in 1,78 sec: 5.525 declarations; 13.477 references; 4 unresolved inclusions; 4 syntax errors; 8 unresolved names (0,042%)
+!ENTRY org.eclipse.ui 4 4 2016-04-23 10:14:35.255
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
 
-!ENTRY org.eclipse.cdt.core 1 0 2016-05-09 11:59:48.925
-!MESSAGE Indexed 'td2_board_1769' (3 sources, 70 headers) in 0,868 sec: 4.192 declarations; 7.133 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.ui.browser 2 0 2016-04-23 10:14:36.330
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-23 12:03:56.089
+!MESSAGE Indexed 'td2_board_1769' (3 sources, 41 headers) in 1,01 sec: 2.964 declarations; 3.801 references; 5 unresolved inclusions; 18 syntax errors; 1.281 unresolved names (16 %)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2016-04-23 12:04:52.677
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1542)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:123)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Resource already exists on disk: '/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser'.
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2016-04-23 12:04:52.679
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2016-04-23 12:04:52.679
+!MESSAGE Resource already exists on disk: '/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-23 12:05:27.927
+!MESSAGE Indexed 'THD_Analyser' (19 sources, 21 headers) in 0,284 sec: 455 declarations; 1.172 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0,37 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-23 16:18:33.068
+!MESSAGE Indexed 'uMFactory' (18 sources, 23 headers) in 0,428 sec: 448 declarations; 1.142 references; 0 unresolved inclusions; 0 syntax errors; 10 unresolved names (0,62 %)
+!SESSION 2016-04-27 15:30:51.882 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-04-27 15:31:04.068
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-04-27 15:31:04.099
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-04-27 15:31:04.368
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-27 15:50:04.789
+!MESSAGE Indexed 'CMSIS_DSPLIB_SRC' (261 sources, 13 headers) in 4,17 sec: 9.158 declarations; 45.802 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-27 15:50:25.299
+!MESSAGE Indexed 'THD_Analyser' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+!SESSION 2016-05-04 16:37:57.484 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-05-04 16:38:21.342
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-05-04 16:38:21.366
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-05-04 16:38:22.428
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY com.crt.log 1 0 2016-05-04 17:42:01.184
+!MESSAGE Drivers loaded in 1372 milliseconds
+
+!ENTRY com.crt.log 1 0 2016-05-04 18:23:08.530
+!MESSAGE Drivers loaded in 1321 milliseconds
+!SESSION 2016-05-06 20:41:30.845 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-05-06 20:42:25.609
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-05-06 20:42:25.635
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-05-06 20:42:26.643
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2016-05-13 21:03:51.029 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/
+
+!ENTRY org.eclipse.ui 4 4 2016-05-13 21:03:55.868
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-05-13 21:03:55.879
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-05-13 21:03:56.179
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2016-05-14 13:56:44.527 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-05-14 13:57:27.976
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-05-14 13:57:28.000
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-05-14 13:57:29.049
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY com.crt.log 1 0 2016-05-14 14:49:44.910
+!MESSAGE Drivers loaded in 1379 milliseconds
+!SESSION 2016-05-14 15:17:44.705 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2016-05-14 15:17:54.712
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2016-05-14 15:17:54.716
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY org.eclipse.ui.browser 2 0 2016-05-14 15:17:54.906
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY com.crt.log 1 0 2016-05-14 15:18:22.938
+!MESSAGE Drivers loaded in 1344 milliseconds
+
+!ENTRY com.crt.dsfdebug 4 0 2016-05-14 16:32:47.696
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2016-05-14 16:32:47.696
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2016-05-14 16:32:47.696
+!MESSAGE Hardware Transfer Error
+
+!ENTRY com.crt.dsfdebug 4 0 2016-05-14 16:36:16.058
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2016-05-14 16:36:16.059
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.crt.dsfdebug 4 0 2016-05-14 16:36:16.059
+!MESSAGE Invalid Parameter
