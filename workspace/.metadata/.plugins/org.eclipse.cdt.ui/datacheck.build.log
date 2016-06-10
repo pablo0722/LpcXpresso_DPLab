@@ -1,0 +1,6 @@
+20:15:41 **** Incremental Build of configuration Debug for project datacheck ****
+make -r all 
+make: No se hace nada para 'all'.
+
+20:15:41 Build Finished (took 65ms)
+

@@ -1,16 +1,7 @@
-12:02:07 **** Incremental Build of configuration Debug for project THD_Analyser ****
-make -r all 
-Building target: THD_Analyser.axf
-Invoking: MCU Linker
-arm-none-eabi-gcc -nostdlib -L"/home/dplab/git/LpcXpresso_DPLab/workspace/CMSIS_DSPLIB_CM3/lib" -L"/home/dplab/git/LpcXpresso_DPLab/workspace/lpc_chip_175x_6x/Debug" -L"/home/dplab/git/LpcXpresso_DPLab/workspace/td2_board_1769/Debug" -Xlinker -Map="THD_Analyser.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "THD_Analyser_Debug.ld" -o "THD_Analyser.axf"  ./src/THD_Analyser.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/funciones.o ./src/sysinit.o   -lCMSIS_DSPLIB_CM3 -ltd2_board_1769 -llpc_chip_175x_6x
-Finished building target: THD_Analyser.axf
- 
-make --no-print-directory post-build
-Performing post-build steps
-arm-none-eabi-size "THD_Analyser.axf"; # arm-none-eabi-objcopy -v -O binary "THD_Analyser.axf" "THD_Analyser.bin" ; # checksum -p LPC1769 -d "THD_Analyser.bin";
-   text	   data	    bss	    dec	    hex	filename
-  44188	      4	     12	  44204	   acac	THD_Analyser.axf
+16:58:32 **** Clean-only build of configuration Debug for project THD_Analyser ****
+make -r clean 
+rm -rf  ./src/THD_Analyser.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/funciones.o ./src/sysinit.o  ./src/THD_Analyser.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d ./src/funciones.d ./src/sysinit.d  THD_Analyser.axf
  
 
-12:02:07 Build Finished (took 116ms)
+16:58:32 Build Finished (took 75ms)
 

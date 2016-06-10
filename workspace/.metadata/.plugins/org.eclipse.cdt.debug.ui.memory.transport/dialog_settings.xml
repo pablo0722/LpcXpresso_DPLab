@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item value="0x10006fd4" key="Start"/>
+		<item value="0x100071d4" key="End"/>
+		<item value="/home/aortiz/LPCXpresso/GIT/LpcXpresso_DPLab/TestLPCmatlab/Matlab/sen.txt" key="File"/>
+		<item value="PlainTextExporter" key="SELECTED_EXPORTER"/>
+		<item value="0x10006fd4" key="Initial address"/>
+	</section>
+</section>

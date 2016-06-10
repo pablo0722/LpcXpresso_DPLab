@@ -4,7 +4,7 @@
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
 			<provider id="com.crt.advproject.GCCBuildCommandParser">
 				<language id="org.eclipse.cdt.core.gcc">
-					<resource project-relative-path="src/sysinit.c">
+					<resource project-relative-path="src/cr_startup_lpc175x_6x.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -31,7 +31,7 @@
 						<entry kind="macro" name="__USE_CMSIS_DSPLIB" value="CMSIS_DSPLIB_CM3"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/cr_startup_lpc175x_6x.c">
+					<resource project-relative-path="src/crp.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
@@ -112,7 +112,7 @@
 						<entry kind="macro" name="__USE_CMSIS_DSPLIB" value="CMSIS_DSPLIB_CM3"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
-					<resource project-relative-path="src/crp.c">
+					<resource project-relative-path="src/sysinit.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>
