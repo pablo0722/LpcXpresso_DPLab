@@ -58,6 +58,8 @@ extern "C" {
 extern void SystemInit(void);
 #endif
 
+#include "board_api.h" // Para prender el led P0.22
+
 //*****************************************************************************
 //
 // Forward declaration of the default handlers. These are aliased.
@@ -328,7 +330,9 @@ void NMI_Handler(void)
 
 __attribute__ ((section(".after_vectors")))
 void HardFault_Handler(void)
-{ while(1) {}
+{
+	Board_LED_Set(0, 1);
+	while(1) {}
 }
 
 __attribute__ ((section(".after_vectors")))
@@ -374,5 +378,7 @@ void SysTick_Handler(void)
 //*****************************************************************************
 __attribute__ ((section(".after_vectors")))
 void IntDefaultHandler(void)
-{ while(1) {}
+{
+	Board_LED_Set(0, 1);
+	while(1) {}
 }

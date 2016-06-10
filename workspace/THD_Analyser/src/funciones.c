@@ -1,54 +1,29 @@
 /*
  * funciones.c
  *
- *  Created on: 4 de may. de 2016
+ *  Created on: 10 de jun. de 2016
  *      Author: pablo
  */
 
-#include "funciones.h"
 
-#define TEST_LENGTH_SAMPLES 2048
-
-
-/* ------------------------------------------------------------------
-* Global variables for FFT Bin Example
-* ------------------------------------------------------------------- */
-uint16_t fftSize = TEST_LENGTH_SAMPLES/2;
-uint8_t ifftFlag = 0;
-uint8_t doBitReverse = 1;
-
-/* Reference index at which max energy of bin ocuurs */
-uint32_t testIndex = 0;
-
-
-void fft()
+void fft(q31_t Output_q31[FFT_LENGTH], q31_t Input_q31[WINDOW_LENGTH])
 {
-	q15_t testInput_f32_10khz[TEST_LENGTH_SAMPLES];
-	q15_t testOutput[TEST_LENGTH_SAMPLES/2];
+    arm_cfft_radix4_instance_q31 S = {FFT_LENGTH, IFFT, BIT_REVERSE};
 
-    arm_status status;
-    arm_cfft_radix4_instance_f32 S = {fftSize, ifftFlag, doBitReverse};
-    q15_t maxValue;
-    int i;
-
-    for(i=0; i<TEST_LENGTH_SAMPLES; i++)
-    {
-    	testInput_f32_10khz[i] = i;
-    }
-
-    status = ARM_MATH_SUCCESS;
+    //status = ARM_MATH_SUCCESS;
 
     /* Initialize the CFFT/CIFFT module */
-    status = arm_cfft_radix4_init_f32(&S, fftSize, ifftFlag, doBitReverse);
+    //status =
+    arm_cfft_radix4_init_q31(&S, FFT_LENGTH, IFFT, BIT_REVERSE);
 
     /* Process the data through the CFFT/CIFFT module */
-    arm_cfft_radix4_q15(&S, testInput_f32_10khz);
+    arm_cfft_radix4_q31(&S, Input_q31);
 
 
     /* Process the data through the Complex Magnitude Module for
     calculating the magnitude at each bin */
-    arm_cmplx_mag_q15(testInput_f32_10khz, testOutput, fftSize);
+    arm_cmplx_mag_q31(Input_q31, Output_q31, FFT_LENGTH);
 
     /* Calculates maxValue and returns corresponding BIN value */
-    arm_max_q15(testOutput, fftSize, &maxValue, &testIndex);
+    //arm_max_q31(Output_q31, FFT_LENGTH, &maxValue, &testIndex);
 }
