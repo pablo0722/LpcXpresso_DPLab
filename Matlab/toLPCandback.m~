@@ -22,22 +22,17 @@ for h=1:size(signal,2)
     fwrite(srl,int32(signal(h)),'int32','sync');
     h
 end
-% plot(signal);
+plot(signal);
 %  fclose(srl);
 %  delete(srl);
 %  clear srl;
 % plot(signal);
 
 %% interpretacion de datos
-WordLength  = 32 ;                                              % Simulo conversor de 16 bits signado - ( signed fractional Q15 )
-FractLength = 31 ;
-q = quantizer( 'Mode', 'fixed','Format' ,[WordLength FractLength],'OverflowMode', 'Saturate','RoundMode','floor');
-    
 display('ahi vienen los indios')
 resultados=fread(srl);
 Y = typecast(resultados, 'int32'); % agrupo de a 4 bytes
-Ym= dec2hex(Y);
-Ym= hex2num(q,Ym);
+Ym= dec2hex(Y)
 figure('name','resultados');
 plot(Y);
 
