@@ -1,0 +1,709 @@
+Archive member included because of file (symbol)
+
+c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc176x.o (__main)
+
+Allocating common symbols
+Common symbol       size              file
+
+B_temp_led_opcion   0x8               ./src/Devices/LEDs/leds_buffer.o
+B_temp_led          0x10              ./src/Devices/LEDs/leds_buffer.o
+B_temp_led_fin      0x10              ./src/Devices/LEDs/leds_buffer.o
+F_temp_leds         0x1               ./src/Devices/Temporizador/temporizador_buffer.o
+B_estado_teclado    0x1               ./src/Devices/Teclado/Teclado_buffer.o
+B_valor_Seg7        0x6               ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+F_temp_7Seg         0x1               ./src/Devices/Temporizador/temporizador_buffer.o
+F_temp_teclado      0x1               ./src/Devices/Temporizador/temporizador_buffer.o
+B_estado_led        0x8               ./src/Devices/LEDs/leds_buffer.o
+B_accion_led        0x9               ./src/Devices/LEDs/leds_buffer.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .data          0x00000000        0x0 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .bss           0x00000000        0x0 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .text.SetPinModeIn
+                0x00000000       0xa4 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .text.SetPinModeOut
+                0x00000000       0x88 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .text.SetPinMask
+                0x00000000       0x90 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .text          0x00000000        0x0 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .data          0x00000000        0x0 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .bss           0x00000000        0x0 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .text          0x00000000        0x0 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .data          0x00000000        0x0 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .bss           0x00000000        0x0 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .text.SetReloadSysTick
+                0x00000000       0x40 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .text.SetIntSysTick
+                0x00000000       0x2c ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .text.CloseSysTick
+                0x00000000       0x28 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .text          0x00000000        0x0 ./src/Devices/Temporizador/temporizador_buffer.o
+ .data          0x00000000        0x0 ./src/Devices/Temporizador/temporizador_buffer.o
+ .bss           0x00000000        0x0 ./src/Devices/Temporizador/temporizador_buffer.o
+ .text          0x00000000        0x0 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .data          0x00000000        0x0 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .bss           0x00000000        0x0 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .text          0x00000000        0x0 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .data          0x00000000        0x0 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .bss           0x00000000        0x0 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .text          0x00000000        0x0 ./src/Devices/Teclado/Teclado_buffer.o
+ .data          0x00000000        0x0 ./src/Devices/Teclado/Teclado_buffer.o
+ .bss           0x00000000        0x0 ./src/Devices/Teclado/Teclado_buffer.o
+ .text          0x00000000        0x0 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .data          0x00000000        0x0 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .bss           0x00000000        0x0 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .text.set_7Segmentos
+                0x00000000       0x20 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .text          0x00000000        0x0 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .data          0x00000000        0x0 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .bss           0x00000000        0x0 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .text.fw_set_7Segmentos
+                0x00000000       0x94 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .text          0x00000000        0x0 ./src/Devices/Seg7/Seg7_buffer.o
+ .data          0x00000000        0x0 ./src/Devices/Seg7/Seg7_buffer.o
+ .bss           0x00000000        0x0 ./src/Devices/Seg7/Seg7_buffer.o
+ .text          0x00000000        0x0 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .data          0x00000000        0x0 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .bss           0x00000000        0x0 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .text          0x00000000        0x0 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .data          0x00000000        0x0 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .bss           0x00000000        0x0 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .text          0x00000000        0x0 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .data          0x00000000        0x0 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .bss           0x00000000        0x0 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .text          0x00000000        0x0 ./src/Devices/LEDs/leds_buffer.o
+ .data          0x00000000        0x0 ./src/Devices/LEDs/leds_buffer.o
+ .bss           0x00000000        0x0 ./src/Devices/LEDs/leds_buffer.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./src/funciones.o
+ .data          0x00000000        0x0 ./src/funciones.o
+ .bss           0x00000000        0x0 ./src/funciones.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .text          0x00000000        0x0 ./src/maquina_de_estados.o
+ .data          0x00000000        0x0 ./src/maquina_de_estados.o
+ .bss           0x00000000        0x0 ./src/maquina_de_estados.o
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+LOAD ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+LOAD ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+LOAD ./src/Devices/Temporizador/temporizador_buffer.o
+LOAD ./src/Devices/Teclado/Primitivas/teclado_PR.o
+LOAD ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+LOAD ./src/Devices/Teclado/Teclado_buffer.o
+LOAD ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+LOAD ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+LOAD ./src/Devices/Seg7/Seg7_buffer.o
+LOAD ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+LOAD ./src/Devices/LEDs/Primitivas/leds_PR.o
+LOAD ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+LOAD ./src/Devices/LEDs/leds_buffer.o
+LOAD ./src/cr_startup_lpc176x.o
+LOAD ./src/funciones.o
+LOAD ./src/main.o
+LOAD ./src/maquina_de_estados.o
+START GROUP
+LOAD c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a
+END GROUP
+                0x00080000                __top_MFlash512 = 0x80000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x20084000                __top_RamAHB32 = 0x20084000
+
+.text           0x00000000     0x156c
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x156c LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x156c LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x54 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x170 ./src/cr_startup_lpc176x.o
+                0x000000f4                data_init
+                0x00000144                bss_init
+                0x00000184                ResetISR
+                0x00000214                NMI_Handler
+                0x0000021c                HardFault_Handler
+                0x00000224                MemManage_Handler
+                0x0000022c                BusFault_Handler
+                0x00000234                UsageFault_Handler
+                0x0000023c                SVC_Handler
+                0x00000244                DebugMon_Handler
+                0x0000024c                PendSV_Handler
+                0x0000025c                UART1_IRQHandler
+                0x0000025c                EINT3_IRQHandler
+                0x0000025c                CANActivity_IRQHandler
+                0x0000025c                TIMER3_IRQHandler
+                0x0000025c                UART0_IRQHandler
+                0x0000025c                USBActivity_IRQHandler
+                0x0000025c                EINT2_IRQHandler
+                0x0000025c                IntDefaultHandler
+                0x0000025c                PLL0_IRQHandler
+                0x0000025c                CAN_IRQHandler
+                0x0000025c                I2C0_IRQHandler
+                0x0000025c                SSP0_IRQHandler
+                0x0000025c                I2C1_IRQHandler
+                0x0000025c                I2C2_IRQHandler
+                0x0000025c                RTC_IRQHandler
+                0x0000025c                TIMER0_IRQHandler
+                0x0000025c                SPI_IRQHandler
+                0x0000025c                RIT_IRQHandler
+                0x0000025c                EINT1_IRQHandler
+                0x0000025c                TIMER1_IRQHandler
+                0x0000025c                UART2_IRQHandler
+                0x0000025c                ADC_IRQHandler
+                0x0000025c                SSP1_IRQHandler
+                0x0000025c                USB_IRQHandler
+                0x0000025c                BOD_IRQHandler
+                0x0000025c                PWM1_IRQHandler
+                0x0000025c                WDT_IRQHandler
+                0x0000025c                I2S_IRQHandler
+                0x0000025c                QEI_IRQHandler
+                0x0000025c                EINT0_IRQHandler
+                0x0000025c                PLL1_IRQHandler
+                0x0000025c                DMA_IRQHandler
+                0x0000025c                TIMER2_IRQHandler
+                0x0000025c                UART3_IRQHandler
+                0x0000025c                MCPWM_IRQHandler
+                0x0000025c                ENET_IRQHandler
+ *(.text*)
+ .text.SetPinSel
+                0x00000264       0x9c ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+                0x00000264                SetPinSel
+ .text.SetPinDir
+                0x00000300       0x88 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+                0x00000300                SetPinDir
+ .text.SetPin   0x00000388       0x90 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+                0x00000388                SetPin
+ .text.GetPin   0x00000418       0x54 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+                0x00000418                GetPin
+ .text.Temporizador_start
+                0x0000046c       0x18 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+                0x0000046c                Temporizador_start
+ .text.Interrupt_Temporizador
+                0x00000484       0xf4 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+                0x00000484                Interrupt_Temporizador
+ .text.InitSysTick
+                0x00000578       0x98 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+                0x00000578                InitSysTick
+ .text.Systick_start
+                0x00000610       0x24 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+                0x00000610                Systick_start
+ .text.SysTick_Handler
+                0x00000634        0xc ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+                0x00000634                SysTick_Handler
+ .text.teclado_init
+                0x00000640        0xc ./src/Devices/Teclado/Primitivas/teclado_PR.o
+                0x00000640                teclado_init
+ .text.teclado_get
+                0x0000064c       0x44 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+                0x0000064c                teclado_get
+ .text.interrupt_teclado
+                0x00000690      0x114 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+                0x00000690                interrupt_teclado
+ .text.fw_teclado_init
+                0x000007a4       0x6c ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+                0x000007a4                fw_teclado_init
+ .text.fw_teclado_get
+                0x00000810       0x48 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+                0x00000810                fw_teclado_get
+ .text.Disp_7seg_init
+                0x00000858        0xc ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+                0x00000858                Disp_7seg_init
+ .text.interrupt_7Segmentos
+                0x00000864        0xc ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+                0x00000864                interrupt_7Segmentos
+ .text.fw_Set_Disp7Seg_Digito
+                0x00000870       0x44 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x00000870                fw_Set_Disp7Seg_Digito
+ .text.fw_Set_Disp7Seg_segmento
+                0x000008b4       0x44 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x000008b4                fw_Set_Disp7Seg_segmento
+ .text.fw_Disp7Seg_init
+                0x000008f8       0x6c ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x000008f8                fw_Disp7Seg_init
+ .text.fw_interrupt_7Segmentos
+                0x00000964      0x164 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x00000964                fw_interrupt_7Segmentos
+ .text.InitPLL  0x00000ac8      0x214 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+                0x00000ac8                InitPLL
+ .text.leds_init
+                0x00000cdc       0x5c ./src/Devices/LEDs/Primitivas/leds_PR.o
+                0x00000cdc                leds_init
+ .text.led_accion
+                0x00000d38       0x6c ./src/Devices/LEDs/Primitivas/leds_PR.o
+                0x00000d38                led_accion
+ .text.interrupt_led
+                0x00000da4      0x1f8 ./src/Devices/LEDs/Primitivas/leds_PR.o
+                0x00000da4                interrupt_led
+ .text.buscar_pin
+                0x00000f9c       0x4c ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x00000f9c                buscar_pin
+ .text.fw_init_buzzer
+                0x00000fe8       0x38 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x00000fe8                fw_init_buzzer
+ .text.fw_init_led
+                0x00001020       0x60 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x00001020                fw_init_led
+ .text.fw_init_leds
+                0x00001080       0x2c ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x00001080                fw_init_leds
+ .text.fw_led_on
+                0x000010ac       0x4c ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x000010ac                fw_led_on
+ .text.fw_led_off
+                0x000010f8       0x4c ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x000010f8                fw_led_off
+ .text.init     0x00001144       0x1c ./src/funciones.o
+                0x00001144                init
+ .text.main     0x00001160       0x10 ./src/main.o
+                0x00001160                main
+ .text.Maquina_de_estados
+                0x00001170       0xb0 ./src/maquina_de_estados.o
+                0x00001170                Maquina_de_estados
+ .text.Maquina_de_estados_leds
+                0x00001220      0x188 ./src/maquina_de_estados.o
+                0x00001220                Maquina_de_estados_leds
+ .text.Maquina_de_estados_teclado
+                0x000013a8      0x180 ./src/maquina_de_estados.o
+                0x000013a8                Maquina_de_estados_teclado
+ .text.__weak_main
+                0x00001528        0x4 c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00001528                __weak_main
+                0x00001528                __main
+ *(.rodata .rodata.*)
+ .rodata.KEY_PUERTO
+                0x0000152c        0x8 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+                0x0000152c                KEY_PUERTO
+ .rodata.KEY_PIN
+                0x00001534        0x8 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+                0x00001534                KEY_PIN
+ .rodata.Seg7_Digito_PUERTO
+                0x0000153c        0x8 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x0000153c                Seg7_Digito_PUERTO
+ .rodata.Seg7_Digito_PIN
+                0x00001544        0x8 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x00001544                Seg7_Digito_PIN
+ .rodata.Seg7_Segmento_PUERTO
+                0x0000154c        0x8 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x0000154c                Seg7_Segmento_PUERTO
+ .rodata.Seg7_Segmento_PIN
+                0x00001554        0x8 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                0x00001554                Seg7_Segmento_PIN
+ .rodata.LED_PUERTO
+                0x0000155c        0x8 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x0000155c                LED_PUERTO
+ .rodata.LED_PIN
+                0x00001564        0x8 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                0x00001564                LED_PIN
+                0x0000156c                . = ALIGN (0x4)
+
+.glue_7         0x0000156c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0000156c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000156c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000156c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000156c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000156c                __exidx_end = .
+                0x0000156c                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x0000156c
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x0000156c
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.first.3548
+                0x10000000        0x1 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+                0x10000004                . = ALIGN (0x4)
+ *fill*         0x10000001        0x3 ff
+                0x10000004                _edata = .
+
+.bss_RAM2       0x2007c000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.bss            0x10000004       0x54
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.Cont_Estado.3553
+                0x10000004        0x8 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .bss.digito.3581
+                0x1000000c        0x1 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .bss.Estado.3591
+                0x1000000d        0x1 ./src/maquina_de_estados.o
+ .bss.Estado_led.3592
+                0x1000000e        0x1 ./src/maquina_de_estados.o
+ .bss.Estado_teclado.3593
+                0x1000000f        0x1 ./src/maquina_de_estados.o
+ *(COMMON)
+ COMMON         0x10000010        0x3 ./src/Devices/Temporizador/temporizador_buffer.o
+                0x10000010                F_temp_leds
+                0x10000011                F_temp_7Seg
+                0x10000012                F_temp_teclado
+ COMMON         0x10000013        0x1 ./src/Devices/Teclado/Teclado_buffer.o
+                0x10000013                B_estado_teclado
+ COMMON         0x10000014        0x6 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+                0x10000014                B_valor_Seg7
+ *fill*         0x1000001a        0x2 00
+ COMMON         0x1000001c       0x39 ./src/Devices/LEDs/leds_buffer.o
+                0x1000001c                B_temp_led_opcion
+                0x10000024                B_temp_led
+                0x10000034                B_temp_led_fin
+                0x10000044                B_estado_led
+                0x1000004c                B_accion_led
+                0x10000058                . = ALIGN (0x4)
+ *fill*         0x10000055        0x3 00
+                0x10000058                _ebss = .
+                0x10000058                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10000058        0x0
+                0x10000058                _noinit = .
+ *(.noinit*)
+                0x10000058                . = ALIGN (0x4)
+                0x10000058                _end_noinit = .
+                0x10000058                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(uMFactory_05_15.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x18cf
+ .debug_info    0x00000000      0x235 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_info    0x00000235       0xe7 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_info    0x0000031c      0x24d ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_info    0x00000569       0x85 ./src/Devices/Temporizador/temporizador_buffer.o
+ .debug_info    0x000005ee      0x140 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_info    0x0000072e      0x132 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_info    0x00000860       0x61 ./src/Devices/Teclado/Teclado_buffer.o
+ .debug_info    0x000008c1      0x115 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_info    0x000009d6      0x289 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_info    0x00000c5f       0x3f ./src/Devices/Seg7/Seg7_buffer.o
+ .debug_info    0x00000c9e       0x80 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_info    0x00000d1e      0x27c ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_info    0x00000f9a      0x246 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_info    0x000011e0      0x17e ./src/Devices/LEDs/leds_buffer.o
+ .debug_info    0x0000135e      0x2ab ./src/cr_startup_lpc176x.o
+ .debug_info    0x00001609       0x57 ./src/funciones.o
+ .debug_info    0x00001660       0x63 ./src/main.o
+ .debug_info    0x000016c3      0x20c ./src/maquina_de_estados.o
+
+.debug_abbrev   0x00000000      0xab1
+ .debug_abbrev  0x00000000       0x7c ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_abbrev  0x0000007c       0x81 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_abbrev  0x000000fd      0x107 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_abbrev  0x00000204       0x46 ./src/Devices/Temporizador/temporizador_buffer.o
+ .debug_abbrev  0x0000024a       0xe0 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_abbrev  0x0000032a       0xcf ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_abbrev  0x000003f9       0x46 ./src/Devices/Teclado/Teclado_buffer.o
+ .debug_abbrev  0x0000043f       0xba ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_abbrev  0x000004f9       0xf2 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_abbrev  0x000005eb       0x21 ./src/Devices/Seg7/Seg7_buffer.o
+ .debug_abbrev  0x0000060c       0x54 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_abbrev  0x00000660       0xcb ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_abbrev  0x0000072b      0x120 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_abbrev  0x0000084b       0x70 ./src/Devices/LEDs/leds_buffer.o
+ .debug_abbrev  0x000008bb       0xed ./src/cr_startup_lpc176x.o
+ .debug_abbrev  0x000009a8       0x36 ./src/funciones.o
+ .debug_abbrev  0x000009de       0x45 ./src/main.o
+ .debug_abbrev  0x00000a23       0x8e ./src/maquina_de_estados.o
+
+.debug_loc      0x00000000      0xb44
+ .debug_loc     0x00000000      0x188 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_loc     0x00000188       0x64 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_loc     0x000001ec      0x138 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_loc     0x00000324       0x9c ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_loc     0x000003c0       0x70 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_loc     0x00000430       0x90 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_loc     0x000004c0      0x118 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_loc     0x000005d8       0x2c ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_loc     0x00000604       0xa8 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_loc     0x000006ac      0x144 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_loc     0x000007f0      0x260 ./src/cr_startup_lpc176x.o
+ .debug_loc     0x00000a50       0x2c ./src/funciones.o
+ .debug_loc     0x00000a7c       0x2c ./src/main.o
+ .debug_loc     0x00000aa8       0x9c ./src/maquina_de_estados.o
+
+.debug_aranges  0x00000000      0x310
+ .debug_aranges
+                0x00000000       0x50 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_aranges
+                0x00000050       0x28 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_aranges
+                0x00000078       0x48 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_aranges
+                0x000000c0       0x30 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_aranges
+                0x000000f0       0x28 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_aranges
+                0x00000118       0x30 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_aranges
+                0x00000148       0x40 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_aranges
+                0x00000188       0x20 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_aranges
+                0x000001a8       0x30 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_aranges
+                0x000001d8       0x48 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_aranges
+                0x00000220       0x80 ./src/cr_startup_lpc176x.o
+ .debug_aranges
+                0x000002a0       0x20 ./src/funciones.o
+ .debug_aranges
+                0x000002c0       0x20 ./src/main.o
+ .debug_aranges
+                0x000002e0       0x30 ./src/maquina_de_estados.o
+
+.debug_ranges   0x00000000      0x230
+ .debug_ranges  0x00000000       0x40 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_ranges  0x00000040       0x18 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_ranges  0x00000058       0x38 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_ranges  0x00000090       0x20 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_ranges  0x000000b0       0x18 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_ranges  0x000000c8       0x20 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_ranges  0x000000e8       0x30 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_ranges  0x00000118       0x10 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_ranges  0x00000128       0x20 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_ranges  0x00000148       0x38 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_ranges  0x00000180       0x70 ./src/cr_startup_lpc176x.o
+ .debug_ranges  0x000001f0       0x10 ./src/funciones.o
+ .debug_ranges  0x00000200       0x10 ./src/main.o
+ .debug_ranges  0x00000210       0x20 ./src/maquina_de_estados.o
+
+.debug_line     0x00000000     0x26ce
+ .debug_line    0x00000000      0x216 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_line    0x00000216      0x40c ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_line    0x00000622      0x344 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_line    0x00000966       0xb5 ./src/Devices/Temporizador/temporizador_buffer.o
+ .debug_line    0x00000a1b      0x241 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_line    0x00000c5c      0x1b6 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_line    0x00000e12       0xab ./src/Devices/Teclado/Teclado_buffer.o
+ .debug_line    0x00000ebd      0x212 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_line    0x000010cf      0x2a3 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_line    0x00001372       0xaf ./src/Devices/Seg7/Seg7_buffer.o
+ .debug_line    0x00001421      0x232 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_line    0x00001653      0x23f ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_line    0x00001892      0x26d ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_line    0x00001aff       0xfd ./src/Devices/LEDs/leds_buffer.o
+ .debug_line    0x00001bfc       0xd9 ./src/cr_startup_lpc176x.o
+ .debug_line    0x00001cd5      0x32d ./src/funciones.o
+ .debug_line    0x00002002      0x300 ./src/main.o
+ .debug_line    0x00002302      0x3cc ./src/maquina_de_estados.o
+
+.debug_macinfo  0x00000000    0x2bbae
+ .debug_macinfo
+                0x00000000     0x2c87 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_macinfo
+                0x00002c87     0x242d ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_macinfo
+                0x000050b4     0x2e68 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_macinfo
+                0x00007f1c     0x22eb ./src/Devices/Temporizador/temporizador_buffer.o
+ .debug_macinfo
+                0x0000a207     0x2353 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_macinfo
+                0x0000c55a     0x2c87 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_macinfo
+                0x0000f1e1     0x22eb ./src/Devices/Teclado/Teclado_buffer.o
+ .debug_macinfo
+                0x000114cc     0x234e ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_macinfo
+                0x0001381a     0x2cb1 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_macinfo
+                0x000164cb     0x22eb ./src/Devices/Seg7/Seg7_buffer.o
+ .debug_macinfo
+                0x000187b6     0x31d4 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_macinfo
+                0x0001b98a     0x233e ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_macinfo
+                0x0001dcc8     0x2cfd ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_macinfo
+                0x000209c5     0x2301 ./src/Devices/LEDs/leds_buffer.o
+ .debug_macinfo
+                0x00022cc6     0x22f0 ./src/cr_startup_lpc176x.o
+ .debug_macinfo
+                0x00024fb6     0x23ea ./src/funciones.o
+ .debug_macinfo
+                0x000273a0     0x2407 ./src/main.o
+ .debug_macinfo
+                0x000297a7     0x2407 ./src/maquina_de_estados.o
+
+.debug_str      0x00000000      0xcb3
+ .debug_str     0x00000000      0x158 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+                                0x165 (size before relaxing)
+ .debug_str     0x00000158       0x8a ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+                                0x14e (size before relaxing)
+ .debug_str     0x000001e2      0x19d ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+                                0x261 (size before relaxing)
+ .debug_str     0x0000037f       0x32 ./src/Devices/Temporizador/temporizador_buffer.o
+                                0x114 (size before relaxing)
+ .debug_str     0x000003b1       0xa1 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+                                0x175 (size before relaxing)
+ .debug_str     0x00000452       0x6e ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+                                0x157 (size before relaxing)
+ .debug_str     0x000004c0       0x28 ./src/Devices/Teclado/Teclado_buffer.o
+                                 0xf4 (size before relaxing)
+ .debug_str     0x000004e8       0xda ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+                                0x186 (size before relaxing)
+ .debug_str     0x000005c2       0xf2 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+                                0x22c (size before relaxing)
+ .debug_str     0x000006b4       0x22 ./src/Devices/Seg7/Seg7_buffer.o
+                                 0xdf (size before relaxing)
+ .debug_str     0x000006d6       0x42 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+                                0x106 (size before relaxing)
+ .debug_str     0x00000718      0x169 ./src/Devices/LEDs/Primitivas/leds_PR.o
+                                0x232 (size before relaxing)
+ .debug_str     0x00000881       0x91 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+                                0x196 (size before relaxing)
+ .debug_str     0x00000912       0x22 ./src/Devices/LEDs/leds_buffer.o
+                                0x1eb (size before relaxing)
+ .debug_str     0x00000934      0x167 ./src/cr_startup_lpc176x.o
+                                0x20f (size before relaxing)
+ .debug_str     0x00000a9b       0x13 ./src/funciones.o
+                                 0xd5 (size before relaxing)
+ .debug_str     0x00000aae       0x13 ./src/main.o
+                                 0xc6 (size before relaxing)
+ .debug_str     0x00000ac1      0x1f2 ./src/maquina_de_estados.o
+                                0x3ab (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .comment       0x00000000       0x71 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .comment       0x00000000       0x71 ./src/Devices/Temporizador/temporizador_buffer.o
+ .comment       0x00000000       0x71 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .comment       0x00000000       0x71 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .comment       0x00000000       0x71 ./src/Devices/Teclado/Teclado_buffer.o
+ .comment       0x00000000       0x71 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .comment       0x00000000       0x71 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .comment       0x00000000       0x71 ./src/Devices/Seg7/Seg7_buffer.o
+ .comment       0x00000000       0x71 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .comment       0x00000000       0x71 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .comment       0x00000000       0x71 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .comment       0x00000000       0x71 ./src/Devices/LEDs/leds_buffer.o
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc176x.o
+ .comment       0x00000000       0x71 ./src/funciones.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 ./src/maquina_de_estados.o
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/Devices/Temporizador/temporizador_buffer.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/Devices/Teclado/Teclado_buffer.o
+ .ARM.attributes
+                0x00000165       0x33 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src/Devices/Seg7/Seg7_buffer.o
+ .ARM.attributes
+                0x000001fe       0x33 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .ARM.attributes
+                0x00000231       0x33 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .ARM.attributes
+                0x00000264       0x33 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .ARM.attributes
+                0x00000297       0x33 ./src/Devices/LEDs/leds_buffer.o
+ .ARM.attributes
+                0x000002ca       0x33 ./src/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x000002fd       0x33 ./src/funciones.o
+ .ARM.attributes
+                0x00000330       0x33 ./src/main.o
+ .ARM.attributes
+                0x00000363       0x33 ./src/maquina_de_estados.o
+ .ARM.attributes
+                0x00000396       0x33 c:/nxp/lpcxpresso_6.1.0_164/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x720
+ .debug_frame   0x00000000       0xd4 ./src/Devices/Utiles/Drivers/LPC1769/LPC1769_FW.o
+ .debug_frame   0x000000d4       0x4c ./src/Devices/Temporizador/Primitivas/temporizador_PR.o
+ .debug_frame   0x00000120       0xb8 ./src/Devices/Temporizador/Drivers/LPC1769/temporizador_FW_LPC1769.o
+ .debug_frame   0x000001d8       0x68 ./src/Devices/Teclado/Primitivas/teclado_PR.o
+ .debug_frame   0x00000240       0x50 ./src/Devices/Teclado/Drivers/LPC1769/teclado_FW_LPC1769.o
+ .debug_frame   0x00000290       0x68 ./src/Devices/Seg7/Primitivas/Seg7_PR.o
+ .debug_frame   0x000002f8       0xac ./src/Devices/Seg7/Drivers/LPC1769/Seg7_FW_LPC1769.o
+ .debug_frame   0x000003a4       0x28 ./src/Devices/PLL/Drivers/LPC1769/pll_FW_LPC1769.o
+ .debug_frame   0x000003cc       0x70 ./src/Devices/LEDs/Primitivas/leds_PR.o
+ .debug_frame   0x0000043c       0xc8 ./src/Devices/LEDs/Drivers/LPC1769/leds_FW_LPC1769.o
+ .debug_frame   0x00000504      0x158 ./src/cr_startup_lpc176x.o
+ .debug_frame   0x0000065c       0x2c ./src/funciones.o
+ .debug_frame   0x00000688       0x2c ./src/main.o
+ .debug_frame   0x000006b4       0x6c ./src/maquina_de_estados.o
