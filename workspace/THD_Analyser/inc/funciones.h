@@ -15,12 +15,13 @@
 	#endif
 
 	#include "arm_math.h"
+
 	#include "arm_common_tables.h"
 
 
 	/********* DEFINES DE LA FFT *********/
 		#define WINDOW_LENGTH 	2048
-		#define FFT_LENGTH 		1024
+		#define FFT_LENGTH 		1024	// 32 Hz -> 8192 Hz
 
 		#if FFT_LENGTH != (WINDOW_LENGTH/2)
 			#error FFT_LENGTH Debe ser = WINDOW_LENGTH/2
@@ -31,7 +32,10 @@
 	/********* DEFINES DE LA FFT *********/
 
 
-		void fft(q31_t Output_q31[FFT_LENGTH], q31_t Input_q31[WINDOW_LENGTH]);
+	extern q31_t input_fft[WINDOW_LENGTH];
+	extern q31_t output_fft[FFT_LENGTH];
+
+	void fft(q31_t Output_q31[FFT_LENGTH], q31_t Input_q31[WINDOW_LENGTH]);
 
 
 

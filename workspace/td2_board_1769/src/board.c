@@ -49,8 +49,6 @@
 #define JOYSTICK_RIGHT_GPIO_BIT_NUM             16
 #define JOYSTICK_PRESS_GPIO_PORT_NUM            0
 #define JOYSTICK_PRESS_GPIO_BIT_NUM             17
-#define LED0_GPIO_PORT_NUM                      0
-#define LED0_GPIO_BIT_NUM                       22
 
 /*****************************************************************************
  * Public types/enumerations/variables
@@ -64,30 +62,15 @@ const uint32_t RTCOscRateIn = 32768;
  * Private functions
  ****************************************************************************/
 
-/* Initializes board LED(s) */
-static void Board_LED_Init(void)
-{
-	/* Pin PIO0_22 is configured as GPIO pin during SystemInit */
-	/* Set the PIO_22 as output */
-	Chip_GPIO_WriteDirBit(LPC_GPIO, LED0_GPIO_PORT_NUM, LED0_GPIO_BIT_NUM, true);
-}
 
 /*****************************************************************************
  * Public functions
  ****************************************************************************/
 
-/* Initialize UART pins */
-void Board_UART_Init(LPC_USART_T *pUART)
-{
-	/* Pin Muxing has already been done during SystemInit */
-}
-
 /* Initialize debug output via UART for board */
 void Board_Debug_Init(void)
 {
 #if defined(DEBUG_ENABLE)
-	Board_UART_Init(DEBUG_UART);
-
 	Chip_UART_Init(DEBUG_UART);
 	Chip_UART_SetBaud(DEBUG_UART, 115200);
 	Chip_UART_ConfigData(DEBUG_UART, UART_LCR_WLEN8 | UART_LCR_SBS_1BIT | UART_LCR_PARITY_DIS);
@@ -127,48 +110,30 @@ void Board_UARTPutSTR(char *str)
 #endif
 }
 
-/* Sets the state of a board LED to on or off */
-void Board_LED_Set(uint8_t LEDNumber, bool On)
+
+void InitUART0 (void)
 {
-	/* There is only one LED */
-	if (LEDNumber == 0) {
-		Chip_GPIO_WritePortBit(LPC_GPIO, LED0_GPIO_PORT_NUM, LED0_GPIO_BIT_NUM, On);
-	}
+	//1.- Registro PCONP (0x400FC0C4) - bit 3 en 1 prende la UART:
+	PCONP |= 0x01<<3;
+	//2.- Registro PCLKSEL0 (0x400FC1A8) - bits 6 y 7 en 0 seleccionan que el clk de la UART0 sea 25MHz:
+	PCLKSEL0 &= ~(0x03<<6);
+	//3.- Registro U1LCR (0x4001000C) - transmision de 8 bits, 1 bit de stop, sin paridad, sin break cond, DLAB = 1:
+	U0LCR = 0x00000083;
+	//4.- Registros U1DLL (0x40010000) y U1DLM (0x40010004) - 115200 baudios:
+	U0DLM = 0;
+	U0DLL = 0xA3;//0xD9;
+	//5.- Registros PINSEL0 (0x4002C000) y PINSEL1 (0x4002C004) - habilitan las funciones especiales de los pines:
+	//TX1D : PIN ??	-> 		P0[2]	-> PINSEL0: 04:05
+	SetPINSEL(P0,2,PINSEL_FUNC1);
+	//RX1D : PIN ??	-> 		P0[3]	-> PINSEL1: 06:07
+	SetPINSEL(P0,3,PINSEL_FUNC1);
+	//6.- Registro U1LCR, pongo DLAB en 0:
+	U0LCR = 0x03;
+	//7. Habilito las interrupciones (En la UART -IER- y en el NVIC -ISER)
+	U0IER = 0x03;
+	ISER0 |= (1<<5);
 }
 
-/* Returns the current state of a board LED */
-bool Board_LED_Test(uint8_t LEDNumber)
-{
-	bool state = false;
-
-	if (LEDNumber == 0) {
-		state = Chip_GPIO_ReadPortBit(LPC_GPIO, LED0_GPIO_PORT_NUM, LED0_GPIO_BIT_NUM);
-	}
-
-	return state;
-}
-
-void Board_LED_Toggle(uint8_t LEDNumber)
-{
-	if (LEDNumber == 0) {
-		Board_LED_Set(LEDNumber, !Board_LED_Test(LEDNumber));
-	}
-}
-
-/* Set up and initialize all required blocks and functions related to the
-   board hardware */
-void Board_Init(void)
-{
-	/* Sets up DEBUG UART */
-	DEBUGINIT();
-
-	/* Initializes GPIO */
-	Chip_GPIO_Init(LPC_GPIO);
-	Chip_IOCON_Init(LPC_IOCON);
-
-	/* Initialize LEDs */
-	Board_LED_Init();
-}
 
 /* Returns the MAC address assigned to this board */
 void Board_ENET_GetMacADDR(uint8_t *mcaddr)

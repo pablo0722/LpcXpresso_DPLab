@@ -38,9 +38,8 @@ src/lpc_phy_smsc87x0.o src/lpc_phy_smsc87x0.d: ../src/lpc_phy_smsc87x0.c \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/error.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/lpc_phy.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board_api.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/lpc_types.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/lpc_phy.h
@@ -123,11 +122,9 @@ src/lpc_phy_smsc87x0.o src/lpc_phy_smsc87x0.d: ../src/lpc_phy_smsc87x0.c \
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:
-
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board_api.h:
 

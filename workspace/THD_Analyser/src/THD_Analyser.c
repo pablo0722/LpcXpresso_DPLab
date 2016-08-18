@@ -10,11 +10,7 @@
 
 
 #include <cr_section_macros.h>
-#include "funciones.h"
-
-#include "chip.h"
-#include "board_funcs.h"
-#include "string.h"
+#include "THD_Analyser.h"
 
 
 int main(void)

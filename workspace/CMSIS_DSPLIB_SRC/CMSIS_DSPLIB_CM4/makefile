@@ -51,7 +51,7 @@ clean:
 
 post-build:
 	-@echo 'Performing post-build steps'
-	-arm-none-eabi-size libCMSIS_DSPLIB_CM4.a ;  cp -v libCMSIS_DSPLIB_CM4.a "/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_CM4/lib/";
+	-#arm-none-eabi-size libCMSIS_DSPLIB_CM4.a ; #cp -v libCMSIS_DSPLIB_CM4.a "/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_CM4/lib/"
 	-@echo ' '
 
 .PHONY: all clean dependents

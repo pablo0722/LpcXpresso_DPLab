@@ -33,11 +33,15 @@
 #define __BOARD_H_
 
 #include "chip.h"
-#include "mis_funciones.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+
+#include "RegsLPC1769.h"
+#include "UtilesInfo2.h"
+
 
 /** @defgroup BOARD_NXP_LPCXPRESSO_1769 NXP LPC1769 LPCXpresso board software API functions
  * @ingroup LPCOPEN_17XX_BOARD_LPCXPRESSO_1769
@@ -68,7 +72,7 @@ extern "C" {
     is also the port used for Board_UARTPutChar, Board_UARTGetChar, and
     Board_UARTPutSTR functions.
  */
-#define DEBUG_UART LPC_UART3
+#define DEBUG_UART LPC_UART0
 
 /**
  * @}
@@ -110,19 +114,19 @@ extern "C" {
 #define MCB_17XX_AUDIO_LINE_IN_SELECT   0x00
 
 /**
- * @brief	Initialize pin muxing for a UART
- * @param	pUART	: Pointer to UART register block for UART pins to init
- * @return	Nothing
- */
-void Board_UART_Init(LPC_USART_T *pUART);
-
-/**
  * @brief	Returns the MAC address assigned to this board
  * @param	mcaddr : Pointer to 6-byte character array to populate with MAC address
  * @return	Nothing
  * @note    Returns the MAC address used by Ethernet
  */
 void Board_ENET_GetMacADDR(uint8_t *mcaddr);
+
+
+/**
+ * @brief	Inicializa la UART0
+ * @return	Nothing
+ */
+void InitUART0 ();
 
 /**
  * @brief	Sets up board specific I2S interface and UDA1380 CODEC

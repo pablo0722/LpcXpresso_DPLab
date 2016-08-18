@@ -42,12 +42,12 @@
 								<option id="com.crt.advproject.gcc.hdrlib.874913083" name="Library headers" superClass="com.crt.advproject.gcc.hdrlib" value="com.crt.advproject.gcc.hdrlib.codered" valueType="enumerated"/>
 								<option id="com.crt.advproject.gcc.specs.1493871601" name="Specs" superClass="com.crt.advproject.gcc.specs" value="com.crt.advproject.gcc.specs.codered" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.932628872" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_DSPLIB_SRC/inc_cmsis}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_DSPLIB_SRC/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_175x_6x/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/td2_board_1769/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/td2_board_1769/mis_inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_DSPLIB_SRC/inc_cmsis}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_DSPLIB_SRC/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_DSPLIB_CM3/inc}&quot;"/>
 								</option>
 								<inputType id="com.crt.advproject.compiler.input.422396853" superClass="com.crt.advproject.compiler.input"/>
@@ -87,10 +87,12 @@
 								<option id="gnu.c.link.option.libs.1651452432" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="td2_board_1769"/>
 									<listOptionValue builtIn="false" value="lpc_chip_175x_6x"/>
+									<listOptionValue builtIn="false" value="CMSIS_DSPLIB_CM3"/>
 								</option>
 								<option id="gnu.c.link.option.paths.784019745" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/td2_board_1769/Debug}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_175x_6x/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/CMSIS_DSPLIB_SRC/CMSIS_DSPLIB_CM3}&quot;"/>
 								</option>
 								<option id="com.crt.advproject.link.crpenable.1521390858" name="Enable Code Read Protect" superClass="com.crt.advproject.link.crpenable"/>
 								<option id="com.crt.advproject.link.gcc.multicore.slave.713780443" name="Multicore configuration" superClass="com.crt.advproject.link.gcc.multicore.slave"/>

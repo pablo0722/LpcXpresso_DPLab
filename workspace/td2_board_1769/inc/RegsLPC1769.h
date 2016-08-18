@@ -1,37 +1,36 @@
- /**
+/**
  * Regs.h
  *
  *  Created on: 17/04/2012 -   Author: Mica y Chor
  *  modificado el 12/03/13 -   Author: Marcelo T. y G.
- *  modificado el 25/06/13 -   Author: GOS
  */
 
-#ifndef REGSLPC1769_H_
-#define REGSLPC1769_H_
+#ifndef REGS_H_
+#define REGS_H_
 
+	#define		__R			volatile const
+	#define		__W			volatile
+	#define		__RW			volatile
 
-	#define		__R		volatile const
-	#define		__W		volatile
-	#define		__RW		volatile
-
-	typedef 	unsigned int 	uint32_t;
-	typedef 	unsigned short 	uint16_t;
-	typedef 	unsigned char 	uint8_t;
+	typedef 	unsigned int 		uint32_t;
+	typedef 	unsigned short 		uint16_t;
+	typedef 	unsigned char 		uint8_t;
+	typedef 	__RW uint32_t 		registro;  //!< defino un tipo 'registro' uint32_t volatile.
 
 	//!< ////////////////Registros PINSEL//////////////////////////////
 	//!< 0x4002C000UL : Direccion de inicio de los registros PINSEL
-	#define		PINSEL		( ( __RW uint32_t  * ) 0x4002C000UL )
+	#define		PINSEL		( ( registro  * ) 0x4002C000UL )
 
-	#define		PINSEL0		PINSEL[0]	//!< PINSEL0--->P0[15:0] (0x4002C000)
-	#define		PINSEL1		PINSEL[1]	//!< PINSEL1--->P0[31:16](0x4002C004)
-	#define		PINSEL2		PINSEL[2]	//!< PINSEL2--->P1[15:0] (0x4002C008)
-	#define		PINSEL3		PINSEL[3]	//!< PINSEL3--->P1[31:16](0x4002C00C)
-	#define		PINSEL4		PINSEL[4]	//!< PINSEL4--->P2[15:0] (0x4002C010)
-	#define		PINSEL5		PINSEL[5]	//!< PINSEL5--->P2[31:16] NOT USED
-	#define		PINSEL6		PINSEL[6]	//!< PINSEL6--->P3[15:0] NOT USED
-	#define		PINSEL7		PINSEL[7]	//!< PINSEL7--->P3[31:16] 0x4002C01C)
-	#define		PINSEL8		PINSEL[8]	//!< PINSEL8--->P4[15:0]  NOT USED
-	#define		PINSEL9		PINSEL[9]	//!< PINSEL9--->P4[31:16](0x4002C024)
+	#define		PINSEL0		PINSEL[0]	//!< PINSEL0------>P0[15:0] 		(0x4002C000)
+	#define		PINSEL1		PINSEL[1]	//!< PINSEL1------>P0[31:16] 		(0x4002C004)
+	#define		PINSEL2		PINSEL[2]	//!< PINSEL2------>P1[15:0] 		(0x4002C008)
+	#define		PINSEL3		PINSEL[3]	//!< PINSEL3------>P1[31:16] 		(0x4002C00C)
+	#define		PINSEL4		PINSEL[4]	//!< PINSEL4------>P2[15:0] 		(0x4002C010)
+	#define		PINSEL5		PINSEL[5]	//!< PINSEL5------>P2[31:16] 		NOT USED
+	#define		PINSEL6		PINSEL[6]	//!< PINSEL6------>P3[15:0]			NOT USED
+	#define		PINSEL7		PINSEL[7]	//!< PINSEL7------>P3[31:16] 		(0x4002C01C)
+	#define		PINSEL8		PINSEL[8]	//!< PINSEL8------>P4[15:0]			NOT USED
+	#define		PINSEL9		PINSEL[9]	//!< PINSEL9------>P4[31:16] 		(0x4002C024)
 
 	//!< ----------- Estados de PINSEL:
 	#define		PINSEL_GPIO			0
@@ -41,7 +40,7 @@
 
 	//!< //////////////////Registros PINMODE ///////////////////////////
 	//!< 0x4002C040UL : Direccion de inicio de los registros de modo de los pines del GPIO
-	#define	PINMODE		( ( __RW uint32_t  * ) 0x4002C040UL )
+	#define	PINMODE		( ( registro  * ) 0x4002C040UL )
 
 	#define		PINMODE0	PINMODE[0]		//!< 0x4002C040
 	#define		PINMODE1	PINMODE[1]		//!< 0x4002C044
@@ -63,7 +62,7 @@
 
 	//!< ///////////////// REGISTROS PINMODE_OD ///////////////////////////
 	//!< 0x4002C068UL : Direccion de inicio de los registros de control del modo OPEN DRAIN
-	#define		PINMODE_OD		( ( __RW uint32_t  * ) 0x4002C068UL )
+	#define		PINMODE_OD		( ( registro  * ) 0x4002C068UL )
 
 	#define		PINMODE_OD0		PINMODE_OD[0]
 	#define		PINMODE_OD1		PINMODE_OD[1]
@@ -73,28 +72,34 @@
 
 	//!< ////////////////// REGISTROS GPIOs //////////////////////////////
 	//!< 0x2009C000UL : Direccion de inicio de los registros de GPIOs
-	#define	GPIOs		( ( __RW uint32_t  * ) 0x2009C000UL )
+	#define	GPIOs		( ( registro  * ) 0x2009C000UL )
 
-	/*	*						*
+	#define		PORT0		(GPIOs+0)		//!< 0x2009C000
+	#define		PORT1		(GPIOs+8)		//!< 0x2009C020
+	#define		PORT2		(GPIOs+16)		//!< 0x2009C040
+	#define		PORT3		(GPIOs+24)		//!< 0x2009C060
+	#define		PORT4		(GPIOs+32)		//!< 0x2009C080
+
+	/*	*			*
 		*************************
-		*		FIODIR			*	0x2009C000
+		*	FIODIR		*	0x2009C000
 		*************************
-		*		RESERVED		*	0x2009C004
+		*	RESERVED	*	0x2009C004
 		*************************
-		*		RESERVED		*	0x2009C008
+		*	RESERVED	*	0x2009C008
 		*************************
-		*		RESERVED		*	0x2009C00C
+		*	RESERVED	*	0x2009C00C
 		*************************
-		*		FIOMASK			*	0x2009C010
+		*	FIOMASK		*	0x2009C010
 		*************************
-		*		FIOPIN			*	0x2009C014
+		*	FIOPIN		*	0x2009C014
 		*************************
-		*		FIOSET			*	0x2009C018
+		*	FIOSET		*	0x2009C018
 		*************************
-		*		FIOCLR			*	0x2009C01C
+		*	FIOCLR		*	0x2009C01C
 		*************************
-		*						*
-		*						*
+		*			*
+		*			*
 	*/
 	#define		FIO0DIR		GPIOs[0]	//!< 0x2009C000
 	#define		FIO1DIR		GPIOs[8]	//!< 0x2009C020
@@ -126,139 +131,24 @@
 	#define		FIO3CLR		GPIOs[31]	//!< 0x2009C07C
 	#define		FIO4CLR		GPIOs[39]	//!< 0x2009C09C
 
-	// dirección en FIODIR
-	#define 	ENTRADA			0
-	#define 	SALIDA			1
-
-
-//-----------------------------------------------------------------------------
-// NVIC
-//-----------------------------------------------------------------------------
-
-	#define		ISER 		( ( __RW uint32_t  * ) 0xE000E100UL )
-	#define 	ISER0		ISER[0]
-	#define 	ISER1		ISER[1]
-
-	#define		ICER 		( ( __RW uint32_t  * ) 0xE000E180UL )
-	#define		ICER0		ICER[0]
-	#define		ICER1		ICER[1]
-
-	#define		ISPR 		( ( __RW uint32_t  * ) 0xE000E200UL )
-	#define		ISPR0		ISPR[0]
-	#define		ISPR1		ISPR[1]
-
-	#define		ICPR 		( ( __RW uint32_t  * ) 0xE000E280UL )
-	#define		ICPR0		ICPR[0]
-	#define		ICPR1		ICPR[1]
-
-	#define		IABR 		( ( __RW uint32_t  * ) 0xE000E300UL )
-	#define		IABR0		IABR[0]
-	#define		IABR1		IABR[1]
-
-	#define		IPR 		( ( __RW uint32_t  * ) 0xE000E400UL )
-	#define		IPR0		IPR[0]
-	#define		IPR1		IPR[1]
-	#define		IPR2		IPR[2]
-	#define		IPR3		IPR[3]
-	#define		IPR4		IPR[4]
-	#define		IPR5		IPR[5]
-	#define		IPR6		IPR[6]
-	#define		IPR7		IPR[7]
-	#define		IPR8		IPR[8]
-
-	#define		STIR_ 		( ( __RW uint32_t  * ) 0xE000EF00UL )
-	#define		STIR 		STIR_[0]
-
-
-//-----------------------------------------------------------------------------
-// Interrupciones Externas
-//-----------------------------------------------------------------------------
-	#define		EXTINT_ 	( ( __RW uint32_t  * ) 0x400FC140UL )
-	#define		EXTINT		EXTINT_[0]
-
-	#define		EXTMODE_ 	( ( __RW uint32_t  * ) 0x400FC148UL )
-	#define		EXTMODE		EXTMODE_[0]
-
-	#define		EXTPOLAR_ 	( ( __RW uint32_t  * ) 0x400FC14CUL )
-	#define 	EXTPOLAR	EXTPOLAR_[0]
-
-	#define 	EINT0  	0
-	#define 	EINT1  	1
-	#define 	EINT2  	2
-	#define 	EINT3  	3
-
-
-//-----------------------------------------------------------------------------
-// Interrupciones Externas GPIO
-//-----------------------------------------------------------------------------
-	#define		IOIntStatus_ 		( ( __RW uint32_t  * ) 0x40028080UL )
-	#define		IOIntStatus		IOIntStatus_[0]
-
-	// P0
-	#define		IO0IntStatR_ 		( ( __RW uint32_t  * ) 0x40028084UL )
-	#define		IO0IntStatR		IO0IntStatR_[0]
-
-	#define		IO0IntStatF_ 		( ( __RW uint32_t  * ) 0x40028088UL )
-	#define		IO0IntStatF		IO0IntStatF_[0]
-
-	#define		IO0IntClr_ 		( ( __RW uint32_t  * ) 0x4002808CUL )
-	#define		IO0IntClr		IO0IntClr_[0]
-
-	#define		IO0IntEnR_ 		( ( __RW uint32_t  * ) 0x40028090UL )
-	#define		IO0IntEnR		IO0IntEnR_[0]
-
-	#define		IO0IntEnF_ 		( ( __RW uint32_t  * ) 0x40028094UL )
-	#define		IO0IntEnF		IO0IntEnF_[0]
-
-	// P2
-	#define		IO2IntStatR_ 		( ( __RW uint32_t  * ) 0x400280A4UL )
-	#define		IO2IntStatR			IO2IntStatR_[0]
-
-	#define		IO2IntStatF_ 		( ( __RW uint32_t  * ) 0x400280A8UL )
-	#define		IO2IntStatF			IO2IntStatF_[0]
-
-	#define		IO2IntClr_ 		( ( __RW uint32_t  * ) 0x400280ACUL )
-	#define		IO2IntClr		IO2IntClr_[0]
-
-	#define		IO2IntEnR_ 		( ( __RW uint32_t  * ) 0x400280B0UL )
-	#define		IO2IntEnR		IO2IntEnR_[0]
-
-	#define		IO2IntEnF_ 		( ( __RW uint32_t  * ) 0x400280B4UL )
-	#define		IO2IntEnF		IO2IntEnF_[0]
-
-
-	//!< ///////////////////   PCONP   //////////////////////////
-	//!<  Power Control for Peripherals register (PCONP - 0x400F C0C4) [pag. 62 user manual LPC1769]
-	//!< 0x400FC0C4UL : Direccion de inicio del registro de habilitación de dispositivos:
-	#define 	PCONP	(* ( ( __RW uint32_t  * ) 0x400FC0C4UL ))
-
-
-	//!< ///////////////////   PCLKSEL   //////////////////////////
-	//!< Peripheral Clock Selection registers 0 and 1 (PCLKSEL0 -0x400F C1A8 and PCLKSEL1 - 0x400F C1AC) [pag. 56 user manual]
-	//!< 0x400FC1A8UL : Direccion de inicio de los registros de seleccion de los CLKs de los dispositivos:
-	#define		PCLKSEL		( ( __RW uint32_t  * ) 0x400FC1A8UL )
-	//!< Registros PCLKSEL
-	#define		PCLKSEL0	PCLKSEL[0]
-	#define		PCLKSEL1	PCLKSEL[1]
-
 
 	//!< /////////////		SYSTICK		///////////////////////////
 	//!< Tipo de dato específico para manejar el SYSTICK
 	typedef struct
 	{
 		union{
-			__RW uint32_t _STCTRL;
+			registro _STCTRL;
 			struct{
-				__RW uint32_t _ENABLE:1;
-				__RW uint32_t _TICKINT:1;
-				__RW uint32_t _CLKSOURCE:1;
-				__RW uint32_t _RESERVED0:12;
-				__RW uint32_t _COUNTFLAG:1;
-				__RW uint32_t _RESERVED1:16;
+				registro _ENABLE:1;
+				registro _TICKINT:1;
+				registro _CLKSOURCE:1;
+				registro _RESERVED0:12;
+				registro _COUNTFLAG:1;
+				registro _RESERVED1:16;
 			}bits;
 		};
-		__RW uint32_t _STRELOAD;
-		__RW uint32_t _STCURR;
+		registro _STRELOAD;
+		registro _STCURR;
 		__R uint32_t  _STCALIB;
 	}systick_t;
 
@@ -274,33 +164,259 @@
 	#define		STCURR		DIR_SYSTICK->_STCURR
 	#define		STCALIB		DIR_SYSTICK->_STCALIB
 
-	//#define 	N 		1	//Si N=1, Systick interrumpe cada 10ms.
+
+	//!< ///////////////////   TIMERS   /////////////////////////////
+	//!< 0x40004000UL : Direccion de inicio de los registros del Timer0
+	#define		TIMER0		( ( registro  * ) 0x40004000UL )
+	//!< 0x40008000UL : Direccion de inicio de los registros del Timer1
+	#define		TIMER1		( ( registro  * ) 0x40008000UL )
+	//!< 0x40090000UL : Direccion de inicio de los registros del Timer2
+	#define		TIMER2		( ( registro  * ) 0x40090000UL )
+	//!< 0x40094000UL : Direccion de inicio de los registros del Timer3
+	#define		TIMER3		( ( registro  * ) 0x40094000UL )
+
+	//Registros de timers:
+
+	#define		T0IR		TIMER0[0]
+	#define		T0TCR		TIMER0[1]
+	#define		T0TC		TIMER0[2]
+	#define		T0PR		TIMER0[3]
+	#define		T0PC		TIMER0[4]
+	#define		T0MCR		TIMER0[5]
+	#define		T0MR0		TIMER0[6]
+	#define		T0MR1		TIMER0[7]
+	#define		T0MR2		TIMER0[8]
+	#define		T0MR3		TIMER0[9]
+	#define		T0CCR		TIMER0[10]
+	#define		T0CR0		TIMER0[11]
+	#define		T0CR1		TIMER0[12]
+
+	#define		T1IR		TIMER1[0]
+	#define		T1TCR		TIMER1[1]
+	#define		T1TC		TIMER1[2]
+	#define		T1PR		TIMER1[3]
+	#define		T1PC		TIMER1[4]
+	#define		T1MCR		TIMER1[5]
+	#define		T1MR0		TIMER1[6]
+	#define		T1MR1		TIMER1[7]
+	#define		T1MR2		TIMER1[8]
+	#define		T1MR3		TIMER1[9]
+	#define		T1CCR		TIMER1[10]
+	#define		T1CR0		TIMER1[11]
+	#define		T1CR1		TIMER1[12]
+
+	#define		T2IR		TIMER2[0]
+	#define		T2TCR		TIMER2[1]
+	#define		T2TC		TIMER2[2]
+	#define		T2PR		TIMER2[3]
+	#define		T2PC		TIMER2[4]
+	#define		T2MCR		TIMER2[5]
+	#define		T2MR0		TIMER2[6]
+	#define		T2MR1		TIMER2[7]
+	#define		T2MR2		TIMER2[8]
+	#define		T2MR3		TIMER2[9]
+	#define		T2CCR		TIMER2[10]
+	#define		T2CR0		TIMER2[11]
+	#define		T2CR1		TIMER2[12]
+
+	#define		T3IR		TIMER3[0]
+	#define		T3TCR		TIMER3[1]
+	#define		T3TC		TIMER3[2]
+	#define		T3PR		TIMER3[3]
+	#define		T3PC		TIMER3[4]
+	#define		T3MCR		TIMER3[5]
+	#define		T3MR0		TIMER3[6]
+	#define		T3MR1		TIMER3[7]
+	#define		T3MR2		TIMER3[8]
+	#define		T3MR3		TIMER3[9]
+	#define		T3CCR		TIMER3[10]
+	#define		T3CR0		TIMER3[11]
+	#define		T3CR1		TIMER3[12]
+	//!< EMR y CTCR no han sido definidos. (no están en posiciones contiguas)
 
 
-	//!< /////////////		UARTs		///////////////////////////
-	//0x40010000UL : Registro de recepcion de la UART0:
-	#define		DIR_UART0		( ( __RW uint32_t  * ) 0x4000C000UL )
+	//!< ///////////////////   NVIC   //////////////////////////
+	//!< Nested Vectored Interrupt Controller (NVIC)
+	//!< 0xE000E100UL : Direccion de inicio de los registros de habilitación (set) de interrupciones en el NVIC:
+	#define		ISER		( ( registro  * ) 0xE000E100UL )
+	//!< 0xE000E180UL : Direccion de inicio de los registros de deshabilitacion (clear) de interrupciones en el NVIC:
+	#define		ICER		( ( registro  * ) 0xE000E180UL )
 
-	#define		U0RBR		DIR_UART0[0]
-	#define		U0THR		DIR_UART0[0]
-	#define		U0DLL		DIR_UART0[0]
-	#define		U0IER		DIR_UART0[1]
-	#define		U0DLM		DIR_UART0[1]
-	#define		U0IIR		DIR_UART0[2]
-	#define		U0LCR		DIR_UART0[3]
-	#define		U0LSR		DIR_UART0[5]
+	//!< Registros ISER:
+	#define		ISER0		ISER[0]
+	#define		ISER1		ISER[1]
 
-	//0x40010000UL : Registro de recepcion de la UART1:
-	#define		DIR_UART1		( ( __RW uint32_t  * ) 0x40010000UL )
+	//!< Registros ICER:
+	#define		ICER0		ICER[0]
+	#define		ICER1		ICER[1]
 
-	#define		U1RBR		DIR_UART1[0]
-	#define		U1THR		DIR_UART1[0]
-	#define		U1DLL		DIR_UART1[0]
-	#define		U1IER		DIR_UART1[1]
-	#define		U1DLM		DIR_UART1[1]
-	#define		U1IIR		DIR_UART1[2]
-	#define		U1LCR		DIR_UART1[3]
-	#define		U1LSR		DIR_UART1[5]
 
+	//!< ///////////////////   PCONP   //////////////////////////
+	//!<  Power Control for Peripherals register (PCONP - 0x400F C0C4) [pag. 62 user manual LPC1769]
+	//!< 0x400FC0C4UL : Direccion de inicio del registro de habilitación de dispositivos:
+	#define 	PCONP	(* ( ( registro  * ) 0x400FC0C4UL ))
+
+
+	//!< //////////   INTERRUPCIONES EXTERNAS   /////////////////
+	//!< 0x400FC140UL : Direccion de inicio de los registros de configuracion de las interrupciones externas:
+	#define		EXT		( ( registro  * ) 0x400FC140UL )
+
+	#define		EXTINT		EXT[0]
+	#define		EXTMODE		EXT[1]
+	#define		EXTPOLAR	EXT[2]
+
+
+	//!< ///////////////////   PCLKSEL   //////////////////////////
+	//!< Peripheral Clock Selection registers 0 and 1 (PCLKSEL0 -0x400F C1A8 and PCLKSEL1 - 0x400F C1AC) [pag. 56 user manual]
+	//!< 0x400FC1A8UL : Direccion de inicio de los registros de seleccion de los CLKs de los dispositivos:
+	#define		PCLKSEL		( ( registro  * ) 0x400FC1A8UL )
+
+	//!< Registros PCLKSEL
+	#define		PCLKSEL0	PCLKSEL[0]
+	#define		PCLKSEL1	PCLKSEL[1]
+
+
+	//!< ///////////////////   UART0   //////////////////////////
+	//!< 0x4000C000UL : Registro de control de la UART0:
+	#define		UART0	( ( registro  * ) 0x4000C000UL )
+
+	//!< Registros de la UART0:
+	#define		U0THR		UART0[0]
+	#define		U0RBR		UART0[0]
+	#define		U0DLL		UART0[0]
+
+	#define		U0DLM		UART0[1]
+	#define		U0IER		UART0[1]
+
+	#define		U0IIR		((__R registro *)UART0)[2]
+	#define		U0FCR		((__W registro *)UART0)[2]
+
+	#define		U0LCR		UART0[3]
+	//!< posición 4 no definida [consultar pag. 300 user manual LPC1769]
+	#define		U0LSR		UART0[5]
+	//!< posición 6 no definida [consultar pag. 300 user manual LPC1769]
+	#define		U0SCR		UART0[7]
+
+	//!< ///////////////////   UART1   //////////////////////////
+	//!< 0x40010000UL : Registro de control de la UART1:
+	#define		UART1	( ( registro  * ) 0x40010000UL )
+
+	//!< Registros de la UART1:
+	#define		U1THR		UART1[0]
+	#define		U1RBR		UART1[0]
+	#define		U1DLL		UART1[0]
+
+	#define		U1DLM		UART1[1]
+	#define		U1IER		UART1[1]
+
+	#define		U1IIR		UART1[2]
+	#define		U1FCR		UART1[2]
+
+	#define		U1LCR		UART1[3]
+	#define		U1MCR		UART1[4]
+	#define		U1LSR		UART1[5]
+	#define		U1MSR		UART1[6]
+	#define		U1SCR		UART1[7]
+
+	//!< //////////BITS DE ANALISIS para todas las UARTs   ////////////////////
+	#define 	IER_RBR		0x01
+	#define 	IER_THRE	0x02
+	#define 	IER_RLS		0x04
+
+	#define 	IIR_PEND	0x01
+	#define 	IIR_RLS		0x06
+	#define 	IIR_RDA		0x04
+	#define 	IIR_CTI		0x0C
+	#define 	IIR_THRE	0x02
+
+	#define 	LSR_RDR		0x01
+	#define 	LSR_OE		0x02
+	#define 	LSR_PE		0x04
+	#define 	LSR_FE		0x08
+	#define 	LSR_BI		0x10
+	#define 	LSR_THRE	0x20
+	#define 	LSR_TEMT	0x40
+	#define 	LSR_RXFE	0x80
+
+	//!< macros útiles para UARTs
+	#define		U0RDR		(U0LSR & LSR_RDR)
+	#define		U0THRE		((U0LSR & LSR_THRE) >>5)
+	#define		U1RDR		(U1LSR & LSR_RDR)
+	#define		U1THRE		((U1LSR & LSR_THRE) >>5)
+
+
+	//!< ///////////////////   DAC /////////////////////////////
+	//!< 0x4008C000UL : Registro de conversion del DAC:
+	#define		DACR		(* ( ( registro  * ) 0x4008C000UL ))
+	//!< 0x4008C004UL : Registro de control del DAC:
+	#define		DACCTRL		(* ( ( registro  * ) 0x4008C004UL ))
+	//!< 0x4008C008UL : Registro de contador del DAC:
+	#define		DACCNTVAL 	(* ( ( registro  * ) 0x4008C008UL ))
+
+
+	//!< ///////////////////   ADC   /////////////////////////////
+	//!< 0x40034000UL: Registro de control del ADC:
+	#define		AD0CR		(* ( ( registro  * ) 0x40034000UL ))
+	//!< 0x40034004UL: Registro de estado del ADC:
+	#define		AD0GDR		(* ( ( registro  * ) 0x40034004UL ))
+	//!< 0x4003400CUL: Registro de interrupcion del ADC
+	#define		AD0INTEN 	(* ( ( registro  * ) 0x4003400CUL ))
+
+	//!< 0x40034010UL: Dirección de comienzo de los registros de estado de los ADCx
+	#define		AD0DR			( ( registro  * ) 0x40034010UL )
+
+	//!< Registros de los estados de cada canal del ADC:
+	#define		AD0DR0		AD0DR[0]
+	#define		AD0DR1		AD0DR[1]
+	#define		AD0DR2		AD0DR[2]
+	#define		AD0DR3		AD0DR[3]
+	#define		AD0DR4		AD0DR[4]
+	#define		AD0DR5		AD0DR[5]
+	#define		AD0DR6		AD0DR[6]
+	#define		AD0DR7		AD0DR[7]
+
+
+	//!< ///////////////////   RTC   /////////////////////////////
+	//!< 0x40034000UL: Registro de configuracion y estado del RTC y registros de backup:
+	#define		RTC 			( ( registro  * ) 0x40024000UL )
+
+	//!< Miscellaneous registers
+	#define		ILR			RTC[0]
+	#define		CCR			RTC[2]
+	#define		CIIR		RTC[3]
+	#define		AMR			RTC[4]
+	#define		RTC_AUX		RTC[23]
+	#define		RTC_AUXEN	RTC[22]
+	#define		CTIME0		RTC[5]
+	#define		CTIME1		RTC[6]
+	#define		CTIME2		RTC[7]
+
+	//!< Time counter registers
+	#define		SECON			RTC[8]
+	#define		MINUT			RTC[9]
+	#define		HOUR		RTC[10]
+	#define		DOM			RTC[11]
+	#define		DOW			RTC[12]
+	#define		DOY			RTC[13]
+	#define		MONTH		RTC[14]
+	#define		YEAR		RTC[15]
+	#define		CALIBRATION	RTC[16]
+
+	//!< General purpose registers
+	#define		GPREG0		RTC[17]
+	#define		GPREG1		RTC[18]
+	#define		GPREG2		RTC[19]
+	#define		GPREG3		RTC[20]
+	#define		GPREG4		RTC[21]
+
+	//!< Alarm register group
+	#define		ALSEC		RTC[24]
+	#define		ALMIN		RTC[25]
+	#define		ALHOUR		RTC[26]
+	#define		ALDOM		RTC[27]
+	#define		ALDOW		RTC[28]
+	#define		ALDOY		RTC[29]
+	#define		ALMON		RTC[30]
+	#define		ALYEAR		RTC[31]
 
 #endif /* REGS_H_ */

@@ -37,9 +37,8 @@ src/board.o src/board.d: ../src/board.c \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/romapi_17xx_40xx.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/iap.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/error.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board_api.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/lpc_types.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/lpc_phy.h \
@@ -122,11 +121,9 @@ src/board.o src/board.d: ../src/board.c \
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/error.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:
-
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board_api.h:
 

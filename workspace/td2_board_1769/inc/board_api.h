@@ -81,11 +81,6 @@ void Board_SetupClocking(void);
  */
 void Board_SetupExtMemory(void);
 
-/**
- * @brief	Set up and initialize all required blocks and functions related to the board hardware.
- * @return	None
- */
-void Board_Init(void);
 
 /**
  * @brief	Initializes board UART for output, required for printf redirection

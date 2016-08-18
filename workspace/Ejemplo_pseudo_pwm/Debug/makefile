@@ -29,7 +29,7 @@ all: Ejemplo_pseudo_pwm.axf
 Ejemplo_pseudo_pwm.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"/media/pablo/Disco_Auxiliar/UTN/UTN 2016/Digitales 2/TD II/Ejemplos FreeRTOS/workspace/LPC_BaseBoardBB1769_R02/Debug" -L"/media/pablo/Disco_Auxiliar/UTN/UTN 2016/Digitales 2/TD II/Ejemplos FreeRTOS/workspace/LibFreeRTOS_8.2.3/Debug" -L"/media/pablo/Disco_Auxiliar/UTN/UTN 2016/Digitales 2/TD II/Ejemplos FreeRTOS/workspace/lpc_chip_175x_6x/Debug" -Xlinker -Map="Ejemplo_pseudo_pwm.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "Ejemplo_pseudo_pwm_Debug.ld" -o "Ejemplo_pseudo_pwm.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"/media/pablo/Disco_Auxiliar/UTN/Git/LpcXpresso_DPLab/workspace/LPC_BaseBoardBB1769_R02/Debug" -L"/media/pablo/Disco_Auxiliar/UTN/Git/LpcXpresso_DPLab/workspace/LibFreeRTOS_8.2.3/Debug" -L"/media/pablo/Disco_Auxiliar/UTN/Git/LpcXpresso_DPLab/workspace/lpc_chip_175x_6x/Debug" -Xlinker -Map="Ejemplo_pseudo_pwm.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "Ejemplo_pseudo_pwm_Debug.ld" -o "Ejemplo_pseudo_pwm.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

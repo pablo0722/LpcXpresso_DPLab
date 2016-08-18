@@ -1,4 +1,5 @@
 src/main.o src/main.d: ../src/main.c \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/THD_Analyser.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/funciones.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/mis_inc/board_funcs.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h \
@@ -8,8 +9,8 @@ src/main.o src/main.d: ../src/main.c \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/cmsis.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/cmsis_175x_6x.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cm3.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmInstr.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmFunc.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/chip_lpc175x_6x.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/sysctl_17xx_40xx.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/clock_17xx_40xx.h \
@@ -48,9 +49,12 @@ src/main.o src/main.d: ../src/main.c \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/mis_inc/board_leds.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/mis_inc/board_uart.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cm3.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cm3.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_common_tables.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/main.h
+
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/THD_Analyser.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/funciones.h:
 
@@ -70,9 +74,9 @@ src/main.o src/main.d: ../src/main.c \
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cm3.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmInstr.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmFunc.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/chip_lpc175x_6x.h:
 
@@ -150,8 +154,10 @@ src/main.o src/main.d: ../src/main.c \
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cm3.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cm3.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_common_tables.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc/arm_math.h:
+
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/THD_Analyser/inc/main.h:

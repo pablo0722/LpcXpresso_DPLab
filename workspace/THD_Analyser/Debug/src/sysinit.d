@@ -6,8 +6,8 @@ src/sysinit.o src/sysinit.d: ../src/sysinit.c \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/cmsis.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/cmsis_175x_6x.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cm3.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmInstr.h \
- /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmFunc.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h \
+ /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/chip_lpc175x_6x.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/sysctl_17xx_40xx.h \
  /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/clock_17xx_40xx.h \
@@ -58,9 +58,9 @@ src/sysinit.o src/sysinit.d: ../src/sysinit.c \
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cm3.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmInstr.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmInstr.h:
 
-/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/core_cmFunc.h:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/CMSIS_DSPLIB_SRC/inc_cmsis/core_cmFunc.h:
 
 /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc/chip_lpc175x_6x.h:
 
