@@ -1,0 +1,23 @@
+/*
+ * uart.h
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+#ifndef UART_H_
+#define UART_H_
+
+	#include "header.h"
+
+	/*****************************************************************************
+	 * Private types/enumerations/variables
+	 ****************************************************************************/
+
+	#define UART_SRB_SIZE 32	/* Send */
+	#define UART_RRB_SIZE 32	/* Receive */
+
+
+
+
+#endif /* UART_H_ */

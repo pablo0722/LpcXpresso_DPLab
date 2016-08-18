@@ -1,0 +1,21 @@
+13:06:18 **** Incremental Build of configuration Debug for project periph_timer ****
+make -r all 
+Building file: ../example/src/timer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_LPCOPEN -DCORE_M3 -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"example/src/timer.d" -MT"example/src/timer.o" -MT"example/src/timer.d" -o "example/src/timer.o" "../example/src/timer.c"
+Finished building: ../example/src/timer.c
+ 
+Building target: periph_timer.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\nxp\workspace2\lpc_chip_175x_6x\Debug" -L"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\Debug" -Xlinker -Map="periph_timer.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "periph_timer_Debug.ld" -o "periph_timer.axf"  ./example/src/cr_startup_lpc175x_6x.o ./example/src/sysinit.o ./example/src/timer.o   -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x
+Finished building target: periph_timer.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "periph_timer.axf"; # arm-none-eabi-objcopy -v -O binary "periph_timer.axf" "periph_timer.bin" ; # checksum -p LPC1769 -d "periph_timer.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6516	      0	    340	   6856	   1ac8	periph_timer.axf
+ 
+
+13:06:19 Build Finished (took 839ms)
+

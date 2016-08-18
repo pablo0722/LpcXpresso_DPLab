@@ -1,0 +1,6 @@
+21:43:36 **** Incremental Build of configuration Debug for project Ex_Uart_V2 ****
+make -r all 
+make: No se hace nada para «all».
+
+21:43:36 Build Finished (took 60ms)
+

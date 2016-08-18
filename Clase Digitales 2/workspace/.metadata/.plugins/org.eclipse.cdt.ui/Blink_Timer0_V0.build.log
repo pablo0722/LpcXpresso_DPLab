@@ -1,0 +1,6 @@
+11:48:11 **** Incremental Build of configuration Debug for project Blink_Timer0_V0 ****
+make -r all 
+make: Nothing to be done for `all'.
+
+11:48:11 Build Finished (took 109ms)
+

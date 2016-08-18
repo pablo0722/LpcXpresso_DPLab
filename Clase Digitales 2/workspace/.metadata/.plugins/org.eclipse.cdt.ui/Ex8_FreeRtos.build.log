@@ -1,0 +1,25 @@
+17:33:51 **** Incremental Build of configuration Debug for project Ex8_FreeRtos ****
+make -r all 
+Building file: ../src/Ex8_FreeRtos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Ex8_FreeRtos.d" -MT"src/Ex8_FreeRtos.o" -MT"src/Ex8_FreeRtos.d" -o "src/Ex8_FreeRtos.o" "../src/Ex8_FreeRtos.c"
+../src/Ex8_FreeRtos.c: In function 'vTaskFunction':
+../src/Ex8_FreeRtos.c:83:3: warning: implicit declaration of function 'vPrintString' [-Wimplicit-function-declaration]
+   vPrintString( pcTaskName );
+   ^
+Finished building: ../src/Ex8_FreeRtos.c
+ 
+Building target: Ex8_FreeRtos.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\Debug" -L"C:\nxp\workspace2\LibFreeRTOS_8.2.3\Debug" -L"C:\nxp\workspace2\lpc_chip_175x_6x\Debug" -Xlinker -Map="Ex8_FreeRtos.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Ex1_FreeRtos_Debug.ld" -o "Ex8_FreeRtos.axf"  ./src/Ex8_FreeRtos.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -lLibFreeRTOS_8.2.3 -llpc_chip_175x_6x
+Finished building target: Ex8_FreeRtos.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Ex8_FreeRtos.axf"; # arm-none-eabi-objcopy -v -O binary "Ex8_FreeRtos.axf" "Ex8_FreeRtos.bin" ; # checksum -p LPC1769 -d "Ex8_FreeRtos.bin";
+   text	   data	    bss	    dec	    hex	filename
+  19024	      8	  10960	  29992	   7528	Ex8_FreeRtos.axf
+ 
+
+17:33:52 Build Finished (took 847ms)
+

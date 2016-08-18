@@ -1,0 +1,14 @@
+/*
+ * var_y_const.c
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+#include "header.h"
+
+/* Transmit and receive buffers */
+uint8_t rxbuff[UART_RRB_SIZE], txbuff[UART_SRB_SIZE];
+uint8_t flag_rx=0,ii=0;
+
+xSemaphoreHandle xBinSem_rx;

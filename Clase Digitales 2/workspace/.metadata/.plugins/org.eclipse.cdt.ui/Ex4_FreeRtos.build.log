@@ -1,0 +1,6 @@
+15:55:34 **** Incremental Build of configuration Debug for project Ex4_FreeRtos ****
+make -r all 
+make: Nothing to be done for `all'.
+
+15:55:34 Build Finished (took 132ms)
+

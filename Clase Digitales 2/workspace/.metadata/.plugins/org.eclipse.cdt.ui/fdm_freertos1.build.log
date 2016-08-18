@@ -1,0 +1,16 @@
+11:45:21 **** Incremental Build of configuration Debug for project fdm_freertos1 ****
+make -r all 
+Building target: fdm_freertos1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\Debug" -L"C:\nxp\workspace2\LibFreeRTOS_8.2.3\Debug" -L"C:\nxp\workspace2\lpc_chip_175x_6x\Debug" -Xlinker -Map="fdm_freertos1.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "fdm_freertos1_Debug.ld" -o "fdm_freertos1.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/fdm_freertos1.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -lLibFreeRTOS_8.2.3 -llpc_chip_175x_6x
+Finished building target: fdm_freertos1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "fdm_freertos1.axf"; # arm-none-eabi-objcopy -v -O binary "fdm_freertos1.axf" "fdm_freertos1.bin" ; # checksum -p LPC1769 -d "fdm_freertos1.bin";
+   text	   data	    bss	    dec	    hex	filename
+  18256	      4	  10916	  29176	   71f8	fdm_freertos1.axf
+ 
+
+11:45:22 Build Finished (took 538ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ex4_FreeRtos/src/Ex3_FreeRtos.c&apos; to &apos;Ex4_FreeRtos.c&apos;" description="Rename resource &apos;Ex3_FreeRtos.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Ex3_FreeRtos.c" name="Ex4_FreeRtos.c" stamp="1463078060408" updateReferences="true"/>
+</session>

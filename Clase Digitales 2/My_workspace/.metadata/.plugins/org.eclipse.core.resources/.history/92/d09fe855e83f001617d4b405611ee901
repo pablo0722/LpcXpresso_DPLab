@@ -1,0 +1,26 @@
+/*
+ * header.h
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+#ifndef HEADER_H_
+#define HEADER_H_
+
+
+	#include "FreeRTOS.h"
+	#include "task.h"
+	#include "board.h"
+	#include "chip.h"
+	#include "semphr.h"
+	#include "queue.h"
+	#include <cr_section_macros.h>
+
+	#include "inicializacion.h"
+	#include "uart.h"
+
+	extern xSemaphoreHandle xBinSem_rx;
+
+
+#endif /* HEADER_H_ */

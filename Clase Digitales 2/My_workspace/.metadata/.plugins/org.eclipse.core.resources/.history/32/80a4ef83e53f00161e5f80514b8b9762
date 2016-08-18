@@ -1,0 +1,11 @@
+/*
+ * var_y_const.c
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+#include "header.h"
+
+/* Transmit and receive ring buffers */
+STATIC RINGBUFF_T  rxring;

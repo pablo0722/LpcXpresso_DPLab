@@ -1,0 +1,40 @@
+17:40:51 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+17:40:52 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+17:40:54 **** Incremental Build of configuration Debug for project Ex9_FreeRtos ****
+make -r all 
+Building file: ../src/Ex9_FreeRtos.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__REDLIB__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/Ex9_FreeRtos.d" -MT"src/Ex9_FreeRtos.o" -MT"src/Ex9_FreeRtos.d" -o "src/Ex9_FreeRtos.o" "../src/Ex9_FreeRtos.c"
+../src/Ex9_FreeRtos.c: In function 'vHandlerTask_Timer0':
+../src/Ex9_FreeRtos.c:119:8: warning: implicit declaration of function 'vPrintString' [-Wimplicit-function-declaration]
+        vPrintString( "Handler Task Timer 0\n" );
+        ^
+Finished building: ../src/Ex9_FreeRtos.c
+ 
+Building target: Ex9_FreeRtos.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\Debug" -L"C:\nxp\workspace2\LibFreeRTOS_8.2.3\Debug" -L"C:\nxp\workspace2\lpc_chip_175x_6x\Debug" -Xlinker -Map="Ex9_FreeRtos.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "Ex1_FreeRtos_Debug.ld" -o "Ex9_FreeRtos.axf"  ./src/Ex9_FreeRtos.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1769 -lLibFreeRTOS_8.2.3 -llpc_chip_175x_6x
+Finished building target: Ex9_FreeRtos.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Ex9_FreeRtos.axf"; # arm-none-eabi-objcopy -v -O binary "Ex9_FreeRtos.axf" "Ex9_FreeRtos.bin" ; # checksum -p LPC1769 -d "Ex9_FreeRtos.bin";
+   text	   data	    bss	    dec	    hex	filename
+  20192	      4	  10960	  31156	   79b4	Ex9_FreeRtos.axf
+ 
+17:41:02 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r all 
+make: Nothing to be done for `all'.
+17:41:03 **** Incremental Build of configuration Debug for project lpc_chip_175x_6x ****
+make -r all 
+make: Nothing to be done for `all'.
+17:41:05 **** Incremental Build of configuration Debug for project Ex9_FreeRtos ****
+make -r all 
+make: Nothing to be done for `all'.
+17:41:08 **** Incremental Build of configuration Debug for project Ex9_FreeRtos ****
+make -r all 
+make: Nothing to be done for `all'.

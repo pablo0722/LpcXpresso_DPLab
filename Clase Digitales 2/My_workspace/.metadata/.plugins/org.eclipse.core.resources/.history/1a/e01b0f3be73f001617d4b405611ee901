@@ -1,0 +1,30 @@
+/*
+ * uart.h
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+#ifndef UART_H_
+#define UART_H_
+
+	#include "header.h"
+
+	/*****************************************************************************
+	 * Private types/enumerations/variables
+	 ****************************************************************************/
+
+	/* Transmit and receive ring buffers */
+	STATIC RINGBUFF_T  rxring;
+
+	/* Transmit and receive ring buffer sizes */
+
+	#define UART_RRB_SIZE 32	/* Receive */
+
+
+/* Transmit and receive buffers */
+extern uint8_t rxbuff[UART_RRB_SIZE], txbuff[UART_SRB_SIZE];
+extern uint8_t flag_rx=0,ii=0;
+
+
+#endif /* UART_H_ */

@@ -1,0 +1,40 @@
+/*
+ * irq_s.c
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+
+#include "header.h"
+
+
+/**
+ * @brief	UART 0 interrupt handler using ring buffers
+ * @return	Nothing
+ */
+void UART0_IRQHandler(void)
+{
+
+		if(Chip_UART_ReadLineStatus(LPC_UART0) & UART_LSR_RDR) {
+
+			rxbuff[ii] = Board_UARTGetChar(LPC_UART0);
+			ii++;
+			flag_rx=1;
+		}
+}
+
+/**
+ * @brief	UART 1 interrupt handler using ring buffers
+ * @return	Nothing
+ */
+void UART1_IRQHandler(void)
+{
+	portBASE_TYPE xHigherPriorityTaskWoken = pdFALSE;
+	if(Chip_UART_ReadLineStatus(LPC_UART0) & UART_LSR_RDR) {
+		xSemaphoreGiveFromISR( xBinSem_rx, &xHigherPriorityTaskWoken );
+		Chip_UART_RXIntHandlerRB(LPC_UART0, &rxring);
+	}
+	portEND_SWITCHING_ISR( xHigherPriorityTaskWoken );
+
+}

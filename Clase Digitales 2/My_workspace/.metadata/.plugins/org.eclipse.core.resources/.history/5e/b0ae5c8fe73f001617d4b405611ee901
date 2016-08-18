@@ -1,0 +1,28 @@
+/*
+ * tasks.c
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+
+#include "header.h"
+
+
+/*-----------------------------------------------------------*/
+void vTask_UART0Tx( void *pvParameters )
+{
+	uint8_t data=0;
+	/* Send initial messages */
+	Board_UARTPutSTR(LPC_UART0,inst1);
+
+	 xSemaphoreTake( xBinSem_rx, 0 );
+
+	for( ;; )
+	{
+		 xSemaphoreTake( xBinSem_rx, portMAX_DELAY );
+		 RingBuffer_Pop(&rxring, &data);
+		 Board_UARTPutChar(LPC_UART0,data);
+		}
+
+}

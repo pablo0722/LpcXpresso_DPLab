@@ -1,0 +1,15 @@
+/*
+ * inicializacion.h
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+#ifndef INICIALIZACION_H_
+#define INICIALIZACION_H_
+
+
+	static void prvSetupHardware(void);
+
+
+#endif /* INICIALIZACION_H_ */

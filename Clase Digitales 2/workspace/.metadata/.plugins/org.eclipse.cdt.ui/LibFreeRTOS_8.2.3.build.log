@@ -1,0 +1,101 @@
+16:34:37 **** Incremental Build of configuration Debug for project LibFreeRTOS_8.2.3 ****
+make -r all 
+Building file: ../src/portable/MemMang/heap_1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/portable/MemMang/heap_1.d" -MT"src/portable/MemMang/heap_1.o" -MT"src/portable/MemMang/heap_1.d" -o "src/portable/MemMang/heap_1.o" "../src/portable/MemMang/heap_1.c"
+Finished building: ../src/portable/MemMang/heap_1.c
+ 
+Building file: ../src/portable/MemMang/heap_2.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/portable/MemMang/heap_2.d" -MT"src/portable/MemMang/heap_2.o" -MT"src/portable/MemMang/heap_2.d" -o "src/portable/MemMang/heap_2.o" "../src/portable/MemMang/heap_2.c"
+Finished building: ../src/portable/MemMang/heap_2.c
+ 
+Building file: ../src/portable/MemMang/heap_3.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/portable/MemMang/heap_3.d" -MT"src/portable/MemMang/heap_3.o" -MT"src/portable/MemMang/heap_3.d" -o "src/portable/MemMang/heap_3.o" "../src/portable/MemMang/heap_3.c"
+Finished building: ../src/portable/MemMang/heap_3.c
+ 
+Building file: ../src/portable/MemMang/heap_4.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/portable/MemMang/heap_4.d" -MT"src/portable/MemMang/heap_4.o" -MT"src/portable/MemMang/heap_4.d" -o "src/portable/MemMang/heap_4.o" "../src/portable/MemMang/heap_4.c"
+Finished building: ../src/portable/MemMang/heap_4.c
+ 
+Building file: ../src/portable/MemMang/heap_5.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/portable/MemMang/heap_5.d" -MT"src/portable/MemMang/heap_5.o" -MT"src/portable/MemMang/heap_5.d" -o "src/portable/MemMang/heap_5.o" "../src/portable/MemMang/heap_5.c"
+Finished building: ../src/portable/MemMang/heap_5.c
+ 
+Building file: ../src/portable/GCC/ARM_CM3/port.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/portable/GCC/ARM_CM3/port.d" -MT"src/portable/GCC/ARM_CM3/port.o" -MT"src/portable/GCC/ARM_CM3/port.d" -o "src/portable/GCC/ARM_CM3/port.o" "../src/portable/GCC/ARM_CM3/port.c"
+Finished building: ../src/portable/GCC/ARM_CM3/port.c
+ 
+Building file: ../src/demo_code/basic_io.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/demo_code/basic_io.d" -MT"src/demo_code/basic_io.o" -MT"src/demo_code/basic_io.d" -o "src/demo_code/basic_io.o" "../src/demo_code/basic_io.c"
+Finished building: ../src/demo_code/basic_io.c
+ 
+Building file: ../src/FreeRTOSCommonHooks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/FreeRTOSCommonHooks.d" -MT"src/FreeRTOSCommonHooks.o" -MT"src/FreeRTOSCommonHooks.d" -o "src/FreeRTOSCommonHooks.o" "../src/FreeRTOSCommonHooks.c"
+Finished building: ../src/FreeRTOSCommonHooks.c
+ 
+Building file: ../src/croutine.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/croutine.d" -MT"src/croutine.o" -MT"src/croutine.d" -o "src/croutine.o" "../src/croutine.c"
+Finished building: ../src/croutine.c
+ 
+Building file: ../src/event_groups.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/event_groups.d" -MT"src/event_groups.o" -MT"src/event_groups.d" -o "src/event_groups.o" "../src/event_groups.c"
+Finished building: ../src/event_groups.c
+ 
+Building file: ../src/list.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/list.d" -MT"src/list.o" -MT"src/list.d" -o "src/list.o" "../src/list.c"
+Finished building: ../src/list.c
+ 
+Building file: ../src/queue.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/queue.d" -MT"src/queue.o" -MT"src/queue.d" -o "src/queue.o" "../src/queue.c"
+Finished building: ../src/queue.c
+ 
+Building file: ../src/tasks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/tasks.d" -MT"src/tasks.o" -MT"src/tasks.d" -o "src/tasks.o" "../src/tasks.c"
+Finished building: ../src/tasks.c
+ 
+Building file: ../src/timers.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\inc" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\demo_code" -I"C:\nxp\workspace2\LibFreeRTOS_8.2.3\src\portable\GCC\ARM_CM3" -I"C:\nxp\workspace2\lpc_chip_175x_6x\inc" -I"C:\nxp\workspace2\lpc_board_nxp_lpcxpresso_1769\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/timers.d" -MT"src/timers.o" -MT"src/timers.d" -o "src/timers.o" "../src/timers.c"
+Finished building: ../src/timers.c
+ 
+Building target: libLibFreeRTOS_8.2.3.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libLibFreeRTOS_8.2.3.a"  ./src/portable/MemMang/heap_1.o ./src/portable/MemMang/heap_2.o ./src/portable/MemMang/heap_3.o ./src/portable/MemMang/heap_4.o ./src/portable/MemMang/heap_5.o  ./src/portable/GCC/ARM_CM3/port.o  ./src/demo_code/basic_io.o ./src/demo_code/consoleprint.o  ./src/FreeRTOSCommonHooks.o ./src/croutine.o ./src/event_groups.o ./src/list.o ./src/queue.o ./src/tasks.o ./src/timers.o   
+c:\nxp\LPCXpresso_8.0.0_526\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libLibFreeRTOS_8.2.3.a
+Finished building target: libLibFreeRTOS_8.2.3.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libLibFreeRTOS_8.2.3.a" ; # arm-none-eabi-objdump -h -S "libLibFreeRTOS_8.2.3.a" >"libLibFreeRTOS_8.2.3.lss"
+   text	   data	    bss	    dec	    hex	filename
+    212	      0	  10248	  10460	   28dc	heap_1.o (ex libLibFreeRTOS_8.2.3.a)
+    514	      4	  10260	  10778	   2a1a	heap_2.o (ex libLibFreeRTOS_8.2.3.a)
+     72	      0	      0	     72	     48	heap_3.o (ex libLibFreeRTOS_8.2.3.a)
+    844	      0	  10264	  11108	   2b64	heap_4.o (ex libLibFreeRTOS_8.2.3.a)
+    900	      0	     24	    924	    39c	heap_5.o (ex libLibFreeRTOS_8.2.3.a)
+    528	      4	      0	    532	    214	port.o (ex libLibFreeRTOS_8.2.3.a)
+    112	      0	     50	    162	     a2	basic_io.o (ex libLibFreeRTOS_8.2.3.a)
+     40	      0	      0	     40	     28	consoleprint.o (ex libLibFreeRTOS_8.2.3.a)
+    200	      0	      0	    200	     c8	FreeRTOSCommonHooks.o (ex libLibFreeRTOS_8.2.3.a)
+      0	      0	      0	      0	      0	croutine.o (ex libLibFreeRTOS_8.2.3.a)
+   1068	      0	      0	   1068	    42c	event_groups.o (ex libLibFreeRTOS_8.2.3.a)
+    356	      0	      0	    356	    164	list.o (ex libLibFreeRTOS_8.2.3.a)
+   2748	      0	      0	   2748	    abc	queue.o (ex libLibFreeRTOS_8.2.3.a)
+   7009	      0	    316	   7325	   1c9d	tasks.o (ex libLibFreeRTOS_8.2.3.a)
+      0	      0	      0	      0	      0	timers.o (ex libLibFreeRTOS_8.2.3.a)
+ 
+
+16:34:43 Build Finished (took 5s.999ms)
+

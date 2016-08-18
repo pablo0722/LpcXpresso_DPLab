@@ -1,0 +1,23 @@
+/*
+ * inicializaciones.c
+ *
+ *  Created on: 1 de jul. de 2016
+ *      Author: pablo
+ */
+
+
+static void prvSetupHardware(void)
+{
+
+   /* Generic Initialization */
+	SystemCoreClockUpdate();
+	Board_Init();
+	Board_UART_Init(LPC_UART0,115200);
+	RingBuffer_Init(&rxring, rxbuff, 1, UART_RRB_SIZE);
+	/* Enable receive data and line status interrupt */
+	Chip_UART_IntEnable(LPC_UART0, (UART_IER_RBRINT | UART_IER_RLSINT));
+
+	/* preemption = 1, sub-priority = 1 */
+	NVIC_SetPriority(UART0_IRQn, 1);
+	NVIC_EnableIRQ(UART0_IRQn);
+}
