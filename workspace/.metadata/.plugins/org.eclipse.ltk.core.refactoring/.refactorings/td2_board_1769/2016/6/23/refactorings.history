@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;td2_board_1769/inc/KitInfo2_BaseBoard.h&apos; to &apos;KitInfo2_y_medio.h&apos;" description="Rename resource &apos;KitInfo2_BaseBoard.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/KitInfo2_BaseBoard.h" name="KitInfo2_y_medio.h" stamp="1465241149695" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;td2_board_1769/mis_inc/funciones.h&apos; to &apos;board_funcs.h&apos;" description="Rename resource &apos;funciones.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mis_inc/funciones.h" name="board_funcs.h" stamp="1465329508516" updateReferences="true"/>
+</session>

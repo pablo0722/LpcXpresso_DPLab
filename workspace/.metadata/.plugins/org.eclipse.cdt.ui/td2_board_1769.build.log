@@ -1,6 +1,111 @@
-14:59:12 **** Incremental Build of configuration Debug for project td2_board_1769 ****
+06:11:39 **** Incremental Build of configuration Debug for project td2_board_1769 ****
 make -r all 
-make: No se hace nada para «all».
+Building file: ../src/UART.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__USE_LPCOPEN -DCORE_M3 -I"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_chip_175x_6x/inc" -I"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/mis_inc" -I"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc" -O2 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/UART.d" -MT"src/UART.o" -MT"src/UART.d" -o "src/UART.o" "../src/UART.c"
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:29:0: warning: "PORT0" redefined
+  #define  PORT0   0
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:12:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:77:0: note: this is the location of the previous definition
+  #define  PORT0  (GPIOs+0)  //!< 0x2009C000
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:30:0: warning: "PORT1" redefined
+  #define  PORT1   1
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:12:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:78:0: note: this is the location of the previous definition
+  #define  PORT1  (GPIOs+8)  //!< 0x2009C020
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:31:0: warning: "PORT2" redefined
+  #define  PORT2   2
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:12:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:79:0: note: this is the location of the previous definition
+  #define  PORT2  (GPIOs+16)  //!< 0x2009C040
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:32:0: warning: "PORT3" redefined
+  #define  PORT3   3
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:12:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:80:0: note: this is the location of the previous definition
+  #define  PORT3  (GPIOs+24)  //!< 0x2009C060
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:33:0: warning: "PORT4" redefined
+  #define  PORT4   4
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:12:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/RegsLPC1769.h:81:0: note: this is the location of the previous definition
+  #define  PORT4  (GPIOs+32)  //!< 0x2009C080
+ ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:44:0,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h:15:6: error: conflicting types for 'SetDIR'
+ void SetDIR(registro* puerto,uint8_t pin,uint8_t direccion);
+      ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:36:9: note: previous declaration of 'SetDIR' was here
+  void   SetDIR  ( uint8_t  , uint8_t  , uint8_t  );
+         ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:44:0,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h:16:6: error: conflicting types for 'SetPIN'
+ void SetPIN(registro* puerto,uint8_t pin,uint8_t estado);
+      ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:37:9: note: previous declaration of 'SetPIN' was here
+  void   SetPIN  ( uint8_t  , uint8_t  , uint8_t  );
+         ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:44:0,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/UtilesInfo2.h:17:9: error: conflicting types for 'GetPIN'
+ uint8_t GetPIN(registro* puerto,uint8_t pin);
+         ^
+In file included from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/KitInfo2_BaseBoard.h:11:0,
+                 from /media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/board.h:42,
+                 from ../src/UART.c:9:
+/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/td2_board_1769/inc/mis_funciones.h:38:11: note: previous declaration of 'GetPIN' was here
+  uint8_t  GetPIN  ( uint8_t  , uint8_t  , uint8_t );
+           ^
+../src/UART.c: In function 'UART0_IRQHandler':
+../src/UART.c:52:15: warning: unused variable 'aux' [-Wunused-variable]
+  uint8_t iir, aux;
+               ^
+make: *** [src/UART.o] Error 1
 
-14:59:12 Build Finished (took 60ms)
+06:11:39 Build Finished (took 109ms)
 

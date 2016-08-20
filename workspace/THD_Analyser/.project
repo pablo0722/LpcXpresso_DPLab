@@ -6,7 +6,7 @@
 		<project>CMSIS_DSPLIB_CM3</project>
 		<project>CMSIS_DSPLIB_SRC</project>
 		<project>lpc_chip_175x_6x</project>
-		<project>td2_board_1769</project>
+		<project>lpc_myboard_1769</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

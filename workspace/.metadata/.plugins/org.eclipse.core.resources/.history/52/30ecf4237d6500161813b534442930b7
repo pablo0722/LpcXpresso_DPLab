@@ -1,0 +1,99 @@
+/*
+===============================================================================
+ Name        : THD_Meter.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#include <cr_section_macros.h>
+
+#include "header.h"
+
+
+
+
+/* Transmit and receive ring buffer sizes */
+#define UART_SRB_SIZE 128	/* Send */
+#define UART_RRB_SIZE 128	/* Receive */
+
+/* Transmit and receive buffers */
+static uint8_t rxbuff[UART_RRB_SIZE], txbuff[UART_SRB_SIZE];
+
+/* Transmit and receive ring buffers */
+STATIC RINGBUFF_T txring, rxring;
+
+const char inst1[] = "LPC17xx UART example\r\n";
+const char inst2[] = "Press a key to echo it back or ESC to quit\r\n";
+
+
+
+
+void main_init()
+{
+	SystemCoreClockUpdate();
+
+	Board_Init();
+
+	Board_UART_Init(LPC_UART0,9600);
+
+	/* Before using the ring buffers, initialize them using the ring
+	   buffer init function */
+	RingBuffer_Init(&rxring, rxbuff, 1, UART_RRB_SIZE);
+	RingBuffer_Init(&txring, txbuff, 1, UART_SRB_SIZE);
+
+	/* Enable receive data and line status interrupt */
+	Chip_UART_IntEnable(LPC_UART0, (UART_IER_RBRINT | UART_IER_RLSINT));
+
+	/* preemption = 1, sub-priority = 1 */
+	NVIC_SetPriority(UART0_IRQn, 1);
+	NVIC_EnableIRQ(UART0_IRQn);
+
+	char Uart_init_msg[] = "\r\nHola mundo:\r\n";
+
+	/* Envia mensaje inicial por UART*/
+	Chip_UART_SendRB(LPC_UART0, &txring, inst1, sizeof(inst1) - 1);
+}
+
+void main_uninit()
+{
+	/* DeInitialize UART1 peripheral */
+	NVIC_DisableIRQ(UART0_IRQn);
+	Chip_UART_DeInit(LPC_UART0);
+}
+
+/**
+ * @brief	UART 1 interrupt handler using ring buffers
+ * @return	Nothing
+ */
+void UART0_IRQHandler(void)
+{
+	/* Use default ring buffer handler. Override this with your own
+	   code if you need more capability. */
+	Chip_UART_IRQRBHandler(LPC_UART0, &rxring, &txring);
+}
+
+int main(void)
+{
+	main_init();
+
+	//vF_dspl_fftR4b16N64(short int *psi_Y, short int *psi_x);
+
+	key = 0;
+	while (1) {
+		bytes = Chip_UART_ReadRB(LPC_UART0, &rxring, &key, 1);
+		if (bytes > 0) {
+			/* Wrap value back around */
+			Chip_UART_SendRB(LPC_UART0, &txring, (const uint8_t *) &key, 1);
+
+		}
+	}
+
+	main_uninit();
+
+	while(1);
+
+    return 0 ;
+}

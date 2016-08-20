@@ -1,0 +1,1 @@
+.equ HighpassNumSections,1

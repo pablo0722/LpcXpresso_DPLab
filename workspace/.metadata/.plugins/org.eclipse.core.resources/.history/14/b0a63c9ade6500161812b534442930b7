@@ -1,0 +1,68 @@
+/*
+===============================================================================
+ Name        : THD_Meter.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#include <cr_section_macros.h>
+
+#include "header.h"
+
+
+
+
+/* Transmit and receive ring buffer sizes */
+#define UART_SRB_SIZE 128	/* Send */
+#define UART_RRB_SIZE 128	/* Receive */
+
+/* Transmit and receive buffers */
+static uint8_t rxbuff[UART_RRB_SIZE], txbuff[UART_SRB_SIZE];
+
+/* Transmit and receive ring buffers */
+STATIC RINGBUFF_T txring, rxring;
+
+const char inst1[] = "LPC17xx UART example\r\n";
+const char inst2[] = "Press a key to echo it back or ESC to quit\r\n";
+
+
+
+
+void main_init()
+{
+	SystemCoreClockUpdate();
+
+	Board_Init();
+
+	Board_UART_Init(LPC_UART0);
+
+	char Uart_init_msg[] = "\r\nHola mundo:\r\n";
+
+	/* Envia mensaje inicial por UART*/
+	Chip_UART_SendRB(LPC_UART0, &txring, Uart_init_msg, sizeof(Uart_init_msg) - 1);
+}
+
+/**
+ * @brief	UART 1 interrupt handler using ring buffers
+ * @return	Nothing
+ */
+void UART0_IRQHandler(void)
+{
+	/* Use default ring buffer handler. Override this with your own
+	   code if you need more capability. */
+	Chip_UART_IRQRBHandler(LPC_UART0, &rxring, &txring);
+}
+
+int main(void)
+{
+
+	//vF_dspl_fftR4b16N64(short int *psi_Y, short int *psi_x);
+
+    while(1)
+    {
+    }
+    return 0 ;
+}

@@ -1,0 +1,6 @@
+19:29:21 **** Clean-only build of configuration Default for project uMFactory ****
+make clean 
+make: *** No hay ninguna regla para construir el objetivo «clean».  Alto.
+
+19:29:21 Build Finished (took 59ms)
+

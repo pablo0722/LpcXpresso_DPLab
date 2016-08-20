@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;THD_Analyser/mis_funciones/funciones.c&apos; to &apos;app_funcs.c&apos;" description="Rename resource &apos;funciones.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mis_funciones/funciones.c" name="app_funcs.c" stamp="1465327735616" updateReferences="true"/>
+</session>

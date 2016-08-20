@@ -1,6 +1,7 @@
-15:55:30 **** Build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
-make -r all 
-make: No se hace nada para «all».
+19:29:21 **** Clean-only build of configuration Debug for project lpc_board_nxp_lpcxpresso_1769 ****
+make -r clean 
+rm -rf  ./src/board.o ./src/board_sysinit.o ./src/lpc_phy_smsc87x0.o  ./src/board.d ./src/board_sysinit.d ./src/lpc_phy_smsc87x0.d  liblpc_board_nxp_lpcxpresso_1769.a
+ 
 
-15:55:30 Build Finished (took 59ms)
+19:29:21 Build Finished (took 58ms)
 

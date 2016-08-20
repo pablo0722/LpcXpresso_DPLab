@@ -1,0 +1,88 @@
+19:29:50 **** Build of configuration Debug for project cr_dsplib_cm3 ****
+make -r all 
+Building file: ../cr_dsplib_biquad32.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_biquad32.o" "../cr_dsplib_biquad32.s"
+Finished building: ../cr_dsplib_biquad32.s
+ 
+Building file: ../cr_dsplib_blockfir32.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_blockfir32.o" "../cr_dsplib_blockfir32.s"
+Finished building: ../cr_dsplib_blockfir32.s
+ 
+Building file: ../cr_dsplib_dotproduct.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_dotproduct.o" "../cr_dsplib_dotproduct.s"
+Finished building: ../cr_dsplib_dotproduct.s
+ 
+Building file: ../cr_dsplib_pid.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_pid.o" "../cr_dsplib_pid.s"
+Finished building: ../cr_dsplib_pid.s
+ 
+Building file: ../cr_dsplib_random.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_random.o" "../cr_dsplib_random.s"
+Finished building: ../cr_dsplib_random.s
+ 
+Building file: ../cr_dsplib_resonator.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_resonator.o" "../cr_dsplib_resonator.s"
+Finished building: ../cr_dsplib_resonator.s
+ 
+Building file: ../cr_dsplib_vectoradd.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_vectoradd.o" "../cr_dsplib_vectoradd.s"
+Finished building: ../cr_dsplib_vectoradd.s
+ 
+Building file: ../cr_dsplib_vectoraddconst.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_vectoraddconst.o" "../cr_dsplib_vectoraddconst.s"
+Finished building: ../cr_dsplib_vectoraddconst.s
+ 
+Building file: ../cr_dsplib_vectormulconst.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_vectormulconst.o" "../cr_dsplib_vectormulconst.s"
+Finished building: ../cr_dsplib_vectormulconst.s
+ 
+Building file: ../cr_dsplib_vectormulelement.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_vectormulelement.o" "../cr_dsplib_vectormulelement.s"
+Finished building: ../cr_dsplib_vectormulelement.s
+ 
+Building file: ../cr_dsplib_vectorsub.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_vectorsub.o" "../cr_dsplib_vectorsub.s"
+Finished building: ../cr_dsplib_vectorsub.s
+ 
+Building file: ../cr_dsplib_vectsumofsquares.s
+Invoking: MCU Assembler
+arm-none-eabi-gcc -c -x assembler-with-cpp -DDEBUG -D__CODE_RED -D__REDLIB__ -mcpu=cortex-m3 -mthumb -D__REDLIB__ -specs=redlib.specs -o "cr_dsplib_vectsumofsquares.o" "../cr_dsplib_vectsumofsquares.s"
+Finished building: ../cr_dsplib_vectsumofsquares.s
+ 
+Building target: libcr_dsplib_cm3.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libcr_dsplib_cm3.a"  ./cr_dsplib_biquad32.o ./cr_dsplib_blockfir32.o ./cr_dsplib_dotproduct.o ./cr_dsplib_pid.o ./cr_dsplib_random.o ./cr_dsplib_resonator.o ./cr_dsplib_vectoradd.o ./cr_dsplib_vectoraddconst.o ./cr_dsplib_vectormulconst.o ./cr_dsplib_vectormulelement.o ./cr_dsplib_vectorsub.o ./cr_dsplib_vectsumofsquares.o   
+arm-none-eabi-ar: creating libcr_dsplib_cm3.a
+Finished building target: libcr_dsplib_cm3.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size libcr_dsplib_cm3.a ; # arm-none-eabi-objdump -h -S libcr_dsplib_cm3.a >libcr_dsplib_cm3.lss
+   text	   data	    bss	    dec	    hex	filename
+     86	      0	      0	     86	     56	cr_dsplib_biquad32.o (ex libcr_dsplib_cm3.a)
+    142	      0	      0	    142	     8e	cr_dsplib_blockfir32.o (ex libcr_dsplib_cm3.a)
+     22	      0	      0	     22	     16	cr_dsplib_dotproduct.o (ex libcr_dsplib_cm3.a)
+     50	      0	      0	     50	     32	cr_dsplib_pid.o (ex libcr_dsplib_cm3.a)
+     16	      0	      0	     16	     10	cr_dsplib_random.o (ex libcr_dsplib_cm3.a)
+     42	      0	      0	     42	     2a	cr_dsplib_resonator.o (ex libcr_dsplib_cm3.a)
+     48	      0	      0	     48	     30	cr_dsplib_vectoradd.o (ex libcr_dsplib_cm3.a)
+     40	      0	      0	     40	     28	cr_dsplib_vectoraddconst.o (ex libcr_dsplib_cm3.a)
+     44	      0	      0	     44	     2c	cr_dsplib_vectormulconst.o (ex libcr_dsplib_cm3.a)
+     44	      0	      0	     44	     2c	cr_dsplib_vectormulelement.o (ex libcr_dsplib_cm3.a)
+     52	      0	      0	     52	     34	cr_dsplib_vectorsub.o (ex libcr_dsplib_cm3.a)
+     40	      0	      0	     40	     28	cr_dsplib_vectsumofsquares.o (ex libcr_dsplib_cm3.a)
+ 
+
+19:29:51 Build Finished (took 257ms)
+

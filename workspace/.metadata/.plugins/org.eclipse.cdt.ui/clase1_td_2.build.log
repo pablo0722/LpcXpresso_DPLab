@@ -1,6 +1,7 @@
-21:20:50 **** Incremental Build of configuration Debug for project clase1_td_2 ****
-make -r all 
-make: No se hace nada para «all».
+19:29:20 **** Clean-only build of configuration Debug for project clase1_td_2 ****
+make -r clean 
+rm -rf  ./src/clase1_td_2.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/sysinit.o  ./src/clase1_td_2.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d ./src/sysinit.d  clase1_td_2.axf
+ 
 
-21:20:50 Build Finished (took 61ms)
+19:29:21 Build Finished (took 114ms)
 

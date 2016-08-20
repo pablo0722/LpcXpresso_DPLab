@@ -6,8 +6,6 @@
  */
 
 
-#include "board_funcs.h"
-
 
 void UART0_IRQHandler(void)
 {

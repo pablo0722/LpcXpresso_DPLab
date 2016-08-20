@@ -58,6 +58,29 @@
 						<entry kind="macro" name="__USE_CMSIS_DSPLIB" value="CMSIS_DSPLIB_CM3"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
 					</resource>
+					<resource project-relative-path="src/IRQ_funcs.c">
+						<entry kind="includePath" name="/CMSIS_DSPLIB_SRC/inc_cmsis">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_DSPLIB_SRC/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/lpc_chip_175x_6x/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/inc">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/CMSIS_DSPLIB_CM3/inc">
+							<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+						</entry>
+						<entry kind="macro" name="CORE_M3" value=""/>
+						<entry kind="macro" name="DEBUG" value=""/>
+						<entry kind="macro" name="__LPC17XX__" value=""/>
+						<entry kind="macro" name="__REDLIB__" value=""/>
+						<entry kind="macro" name="__USE_CMSIS_DSPLIB" value="CMSIS_DSPLIB_CM3"/>
+						<entry kind="macro" name="__USE_LPCOPEN" value=""/>
+					</resource>
 					<resource project-relative-path="src/funciones.c">
 						<entry kind="includePath" name="/${ProjName}/inc">
 							<flag value="VALUE_WORKSPACE_PATH"/>

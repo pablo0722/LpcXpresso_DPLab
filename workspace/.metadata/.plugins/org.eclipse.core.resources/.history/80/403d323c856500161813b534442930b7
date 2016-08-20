@@ -1,0 +1,168 @@
+/*
+===============================================================================
+ Name        : THD_Meter.c
+ Author      : $(author)
+ Version     :
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#include <cr_section_macros.h>
+
+#include "header.h"
+
+
+
+#define     LENGTH_SAMPLES             2048					// Tamanio de los vectores de muestras (son complejos, doble tamano)
+#define     FFT_SIZE    	           LENGTH_SAMPLES/2
+
+int16_t spectrum[FFT_SIZE/2];		// Espectro de la senal transformada (solo la mitad, por estar espejado)
+int16_t *mSignalIn,*mFFTOut;     	// Senal  de entrada y salida. Son vectores complejos.
+
+
+
+/* Transmit and receive ring buffer sizes */
+#define UART_SRB_SIZE 128	/* Send */
+#define UART_RRB_SIZE 128	/* Receive */
+
+/* Transmit and receive buffers */
+static uint8_t rxbuff[UART_RRB_SIZE], txbuff[UART_SRB_SIZE];
+
+/* Transmit and receive ring buffers */
+STATIC RINGBUFF_T txring, rxring;
+
+
+
+
+void main_init()
+{
+	SystemCoreClockUpdate();
+
+	Board_Init();
+
+	Board_UART_Init((uint32_t)LPC_UART0, 9600);
+
+	/* Before using the ring buffers, initialize them using the ring
+	   buffer init function */
+	RingBuffer_Init(&rxring, rxbuff, 1, UART_RRB_SIZE);
+	RingBuffer_Init(&txring, txbuff, 1, UART_SRB_SIZE);
+
+	/* Enable receive data and line status interrupt */
+	Chip_UART_IntEnable(LPC_UART0, (UART_IER_RBRINT | UART_IER_RLSINT));
+
+	/* preemption = 1, sub-priority = 1 */
+	NVIC_SetPriority(UART0_IRQn, 1);
+	NVIC_EnableIRQ(UART0_IRQn);
+
+	const char Uart_init_msg[] = "\r\nHola mundo:\r\n";
+
+	/* Envia mensaje inicial por UART*/
+	Chip_UART_SendRB(LPC_UART0, &txring, Uart_init_msg, sizeof(Uart_init_msg));
+
+	FFTInit();
+}
+
+void main_uninit()
+{
+	/* DeInitialize UART1 peripheral */
+	NVIC_DisableIRQ(UART0_IRQn);
+	Chip_UART_DeInit(LPC_UART0);
+}
+
+void FFTInit()
+{
+		short int indice;
+
+		// Asigno la direccion en memoria
+		mSignalIn     = (int16_t *) 0x2007C000;
+		mFFTOut       = (int16_t *)(0x2007C000 + LENGTH_SAMPLES * sizeof(int16_t));
+
+		memset(mSignalIn, 	0, sizeof(int16_t) * LENGTH_SAMPLES );	//Inicializo en 0 la entrada
+		memset(mFFTOut, 	0, sizeof(int16_t) * LENGTH_SAMPLES);		//Inicializo en 0 la salida
+
+//		// Seno -- // Arma el seno de prueba (completa solo la parte real)
+//		for(indice=0; indice < FFT_SIZE ; indice++)
+//			mSignalIn[indice*2] = seno[indice];
+
+}
+
+void fft_function()
+{
+	short int i;
+	short int real,imaginaria;
+	// Segun la cantidad de muestras de la fft (definidas en FFT_SIZE) se llama a la funcion correspondiente
+	#if FFT_SIZE == 64
+		vF_dspl_fftR4b16N64(mFFTOut, mSignalIn);
+	#elif FFT_SIZE == 256
+		vF_dspl_fftR4b16N256(mFFTOut, mSignalIn);
+	#elif FFT_SIZE == 1024
+		vF_dspl_fftR4b16N1024(mFFTOut, mSignalIn);
+	#elif FFT_SIZE == 4096
+		vF_dspl_fftR4b16N4096(mFFTOut, mSignalIn);
+	#else
+	#endif
+
+	// Se arma el espectro en frecuencia, a partir del modulo de la transformada
+	// Se toman solamente la primer mitad de los puntos, ya que el espectro esta espejado
+	for(i = 0; i < FFT_SIZE/2; i++)
+	{
+		// Se toman la parte real e imaginaria de cada punto
+		real 		= mFFTOut[ i*2 ];
+		imaginaria 	= mFFTOut[ i*2 + 1];
+
+		// Se calcula cada punto del espectro obteniendo el modulo
+		spectrum[i] = (short int) sqrt( (real * real) + ( imaginaria * imaginaria) );
+	}
+}
+
+/**
+ * @brief	UART 1 interrupt handler using ring buffers
+ * @return	Nothing
+ */
+void UART0_IRQHandler(void)
+{
+	/* Use default ring buffer handler. Override this with your own
+	   code if you need more capability. */
+	Chip_UART_IRQRBHandler(LPC_UART0, &rxring, &txring);
+}
+
+int main(void)
+{
+	main_init();
+
+	uint16_t i;
+	for(i=0; i<LENGTH_SAMPLES; i++)
+	{
+		mSignalIn[i] = i;
+	}
+	char *spec_p = spectrum;
+	for(i=0; i<LENGTH_SAMPLES/2; i++)
+	{
+		Chip_UART_SendRB(LPC_UART0, &txring, (const uint8_t *) &spec_p[i*4], 1);
+		Chip_UART_SendRB(LPC_UART0, &txring, (const uint8_t *) &spec_p[i*4+1], 1);
+		Chip_UART_SendRB(LPC_UART0, &txring, (const uint8_t *) &spec_p[i*4+2], 1);
+		Chip_UART_SendRB(LPC_UART0, &txring, (const uint8_t *) &spec_p[i*4+3], 1);
+	}
+
+	fft_function();
+
+	uint8_t key = 0;
+	while (key != 27)
+	{
+		int bytes = Chip_UART_ReadRB(LPC_UART0, &rxring, &key, 1);
+		if (bytes > 0)
+		{
+			/* Wrap value back around */
+			Chip_UART_SendRB(LPC_UART0, &txring, (const uint8_t *) &key, 1);
+
+
+		}
+	}
+
+	main_uninit();
+
+	while(1);
+
+    return 0 ;
+}

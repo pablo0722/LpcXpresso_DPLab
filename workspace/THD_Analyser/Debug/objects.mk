@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -ltd2_board_1769 -llpc_chip_175x_6x -lCMSIS_DSPLIB_CM3
+LIBS := -llpc_chip_175x_6x -lCMSIS_DSPLIB_CM3 -l"/media/pablo/Disco_Auxiliar/UTN/LPCXpresso/workspace/lpc_myboard_1769/Debug/liblpc_myboard_1769.a"
 

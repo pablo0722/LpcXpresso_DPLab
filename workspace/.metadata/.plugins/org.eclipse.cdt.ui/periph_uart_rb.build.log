@@ -1,0 +1,7 @@
+19:29:21 **** Clean-only build of configuration Debug for project periph_uart_rb ****
+make -r clean 
+rm -rf  ./example/src/cr_startup_lpc175x_6x.o ./example/src/sysinit.o ./example/src/uart_rb.o  ./example/src/cr_startup_lpc175x_6x.d ./example/src/sysinit.d ./example/src/uart_rb.d  periph_uart_rb.axf
+ 
+
+19:29:21 Build Finished (took 59ms)
+

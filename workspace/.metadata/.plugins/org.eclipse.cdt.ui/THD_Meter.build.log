@@ -1,0 +1,6 @@
+16:44:14 **** Incremental Build of configuration Debug for project THD_Meter ****
+make -r all 
+make: No se hace nada para «all».
+
+16:44:14 Build Finished (took 59ms)
+
